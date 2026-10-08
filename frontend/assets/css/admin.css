@@ -1,0 +1,670 @@
+/* ==========================================================
+   GURU AI JSKM
+   ADMIN DASHBOARD
+   FILE 11.2 - STATISTIK SISTEM
+========================================================== */
+
+
+/* ==========================================================
+   GLOBAL
+========================================================== */
+
+*{
+
+    margin:0;
+
+    padding:0;
+
+    box-sizing:border-box;
+
+    font-family:
+        "Segoe UI",
+        Tahoma,
+        Geneva,
+        Verdana,
+        sans-serif;
+
+}
+
+
+body{
+
+    display:flex;
+
+    background:#f3f6fb;
+
+    color:#1f2937;
+
+    min-height:100vh;
+
+}
+
+
+/* ==========================================================
+   SIDEBAR
+========================================================== */
+
+.sidebar{
+
+    width:260px;
+
+    background:#0f172a;
+
+    color:white;
+
+    display:flex;
+
+    flex-direction:column;
+
+    position:fixed;
+
+    top:0;
+
+    left:0;
+
+    bottom:0;
+
+    box-shadow:
+        3px 0 15px rgba(0,0,0,.15);
+
+}
+
+
+.logo{
+
+    text-align:center;
+
+    padding:30px 20px;
+
+    border-bottom:
+        1px solid rgba(255,255,255,.08);
+
+}
+
+
+.logo h2{
+
+    font-size:28px;
+
+    margin-bottom:8px;
+
+}
+
+
+.logo small{
+
+    color:#94a3b8;
+
+}
+
+
+.sidebar nav{
+
+    margin-top:20px;
+
+    display:flex;
+
+    flex-direction:column;
+
+}
+
+
+.sidebar nav a{
+
+    color:#cbd5e1;
+
+    text-decoration:none;
+
+    padding:16px 28px;
+
+    transition:.25s;
+
+    font-size:15px;
+
+}
+
+
+.sidebar nav a:hover{
+
+    background:#1e293b;
+
+    color:white;
+
+    padding-left:38px;
+
+}
+
+
+.sidebar nav a.active{
+
+    background:#2563eb;
+
+    color:white;
+
+    border-left:
+        5px solid #60a5fa;
+
+}
+
+
+/* ==========================================================
+   CONTENT
+========================================================== */
+
+.content{
+
+    margin-left:260px;
+
+    flex:1;
+
+    padding:30px;
+
+}
+
+
+/* ==========================================================
+   HEADER
+========================================================== */
+
+.header{
+
+    display:flex;
+
+    justify-content:space-between;
+
+    align-items:center;
+
+    margin-bottom:35px;
+
+}
+
+
+.header h1{
+
+    font-size:32px;
+
+    margin-bottom:8px;
+
+}
+
+
+.header p{
+
+    color:#64748b;
+
+}
+
+
+.admin-info{
+
+    display:flex;
+
+    align-items:center;
+
+    background:white;
+
+    padding:12px 18px;
+
+    border-radius:15px;
+
+    box-shadow:
+        0 4px 10px rgba(0,0,0,.08);
+
+}
+
+
+.avatar{
+
+    width:55px;
+
+    height:55px;
+
+    border-radius:50%;
+
+    background:#2563eb;
+
+    color:white;
+
+    display:flex;
+
+    align-items:center;
+
+    justify-content:center;
+
+    font-size:22px;
+
+    font-weight:bold;
+
+    margin-right:15px;
+
+}
+
+
+/* ==========================================================
+   DASHBOARD CARD
+========================================================== */
+
+.cards{
+
+    display:grid;
+
+    grid-template-columns:
+        repeat(4,1fr);
+
+    gap:20px;
+
+    margin-bottom:35px;
+
+}
+
+
+.card{
+
+    background:white;
+
+    border-radius:18px;
+
+    padding:25px;
+
+    box-shadow:
+        0 8px 20px rgba(0,0,0,.08);
+
+    transition:.25s;
+
+}
+
+
+.card:hover{
+
+    transform:
+        translateY(-5px);
+
+}
+
+
+.card h3{
+
+    color:#64748b;
+
+    margin-bottom:15px;
+
+    font-size:16px;
+
+}
+
+
+.card h2{
+
+    font-size:38px;
+
+    color:#2563eb;
+
+}
+
+
+/* ==========================================================
+   PANEL
+========================================================== */
+
+.panel{
+
+    background:white;
+
+    border-radius:18px;
+
+    padding:25px;
+
+    margin-bottom:25px;
+
+    box-shadow:
+        0 8px 20px rgba(0,0,0,.08);
+
+}
+
+
+.panel h2{
+
+    margin-bottom:20px;
+
+}
+
+
+/* ==========================================================
+   TABLE
+========================================================== */
+
+table{
+
+    width:100%;
+
+    border-collapse:collapse;
+
+}
+
+
+thead{
+
+    background:#eff6ff;
+
+}
+
+
+th{
+
+    padding:15px;
+
+    text-align:left;
+
+    color:#1e3a8a;
+
+}
+
+
+td{
+
+    padding:15px;
+
+    border-bottom:
+        1px solid #e5e7eb;
+
+}
+
+
+/* ==========================================================
+   FILE 11.2
+   STATISTIK SISTEM
+========================================================== */
+
+.system-chart{
+
+    width:100%;
+
+    padding:10px 5px 5px 5px;
+
+}
+
+
+/* ==========================================================
+   CHART ITEM
+========================================================== */
+
+.chart-item{
+
+    margin-bottom:25px;
+
+}
+
+
+.chart-item:last-child{
+
+    margin-bottom:0;
+
+}
+
+
+/* ==========================================================
+   LABEL CHART
+========================================================== */
+
+.chart-label{
+
+    display:flex;
+
+    align-items:center;
+
+    justify-content:space-between;
+
+    margin-bottom:10px;
+
+    font-size:16px;
+
+    color:#334155;
+
+}
+
+
+.chart-label span{
+
+    font-weight:500;
+
+}
+
+
+.chart-label strong{
+
+    font-size:18px;
+
+    color:#2563eb;
+
+}
+
+
+/* ==========================================================
+   CHART BAR
+========================================================== */
+
+.chart-bar{
+
+    width:100%;
+
+    height:22px;
+
+    background:#e5e7eb;
+
+    border-radius:50px;
+
+    overflow:hidden;
+
+    position:relative;
+
+}
+
+
+/* ==========================================================
+   CHART FILL
+========================================================== */
+
+.chart-fill{
+
+    height:100%;
+
+    width:0%;
+
+    border-radius:50px;
+
+    transition:
+        width 1s ease;
+
+}
+
+
+/* ==========================================================
+   USER
+========================================================== */
+
+.chart-fill.user{
+
+    background:#2563eb;
+
+}
+
+
+/* ==========================================================
+   GURU
+========================================================== */
+
+.chart-fill.guru{
+
+    background:#16a34a;
+
+}
+
+
+/* ==========================================================
+   CHAT
+========================================================== */
+
+.chart-fill.chat{
+
+    background:#9333ea;
+
+}
+
+
+/* ==========================================================
+   MODUL
+========================================================== */
+
+.chart-fill.modul{
+
+    background:#f59e0b;
+
+}
+
+
+/* ==========================================================
+   CHART ANIMATION
+========================================================== */
+
+@keyframes chartAnimation{
+
+    from{
+
+        width:0;
+
+    }
+
+}
+
+
+.chart-fill{
+
+    animation:
+        chartAnimation 1s ease;
+
+}
+
+
+/* ==========================================================
+   RESPONSIVE
+========================================================== */
+
+@media(max-width:1200px){
+
+    .cards{
+
+        grid-template-columns:
+            repeat(2,1fr);
+
+    }
+
+}
+
+
+/* ==========================================================
+   TABLET
+========================================================== */
+
+@media(max-width:900px){
+
+    .sidebar{
+
+        width:90px;
+
+    }
+
+
+    .logo h2,
+    .logo small{
+
+        display:none;
+
+    }
+
+
+    .sidebar nav a{
+
+        font-size:0;
+
+        text-align:center;
+
+        padding:20px;
+
+    }
+
+
+    .content{
+
+        margin-left:90px;
+
+    }
+
+}
+
+
+/* ==========================================================
+   MOBILE
+========================================================== */
+
+@media(max-width:700px){
+
+    .content{
+
+        padding:20px;
+
+    }
+
+
+    .cards{
+
+        grid-template-columns:1fr;
+
+    }
+
+
+    .header{
+
+        flex-direction:column;
+
+        align-items:flex-start;
+
+        gap:20px;
+
+    }
+
+
+    .admin-info{
+
+        width:100%;
+
+    }
+
+
+    .panel{
+
+        padding:18px;
+
+    }
+
+
+    .chart-label{
+
+        font-size:14px;
+
+    }
+
+
+    .chart-label strong{
+
+        font-size:16px;
+
+    }
+
+
+    .chart-bar{
+
+        height:18px;
+
+    }
+
+}

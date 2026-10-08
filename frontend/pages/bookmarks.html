@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bookmark Materi | GURU AI JSKM</title>
+    <link rel="stylesheet" href="/static/css/admin.css">
+
+    <style>
+        .filter-row {
+            display: flex;
+            gap: 10px;
+            margin-bottom: 22px;
+            align-items: center;
+            flex-wrap: wrap;
+        }
+
+        .filter-btn {
+            padding: 10px 18px;
+            border-radius: 12px;
+            border: 1px solid #cbd5e1;
+            background: #ffffff;
+            color: #475569;
+            font-weight: 700;
+            cursor: pointer;
+            transition: all 0.2s;
+        }
+
+        .filter-btn.active {
+            background: #2563eb;
+            color: #ffffff;
+            border-color: #2563eb;
+        }
+
+        .bookmarks-grid {
+            display: grid;
+            gap: 16px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- =====================================================
+         SIDEBAR
+    ====================================================== -->
+    <aside class="sidebar">
+        <div class="logo">
+            <h2>🎓 GURU AI JSKM</h2>
+            <small>Administrator</small>
+        </div>
+
+        <nav>
+            <a href="/admin">🏠 Dashboard</a>
+            <a href="/admin/students">👨‍🎓 Data Siswa</a>
+            <a href="/admin/teachers">👨‍🏫 Data Guru</a>
+            <a href="/admin/modules">📚 Modul</a>
+            <a href="/admin/guru-ai">🤖 Guru AI</a>
+            <a href="/admin/class-mode">🎥 Mode Kelas</a>
+            <a href="/admin/camera-settings">📷 Setting Kamera</a>
+            <a href="/admin/quiz">📝 Quiz</a>
+            <a href="/admin/evaluation">📊 Nilai Evaluasi</a>
+            <a href="/admin/bookmarks" class="active">⭐ Bookmark</a>
+            <a href="/admin/progress">📈 Progress</a>
+            <a href="/admin/settings">⚙️ Pengaturan</a>
+            <a href="/login">🚪 Logout</a>
+        </nav>
+    </aside>
+
+    <!-- =====================================================
+         CONTENT
+    ====================================================== -->
+    <main class="content">
+
+        <header class="header">
+            <div>
+                <h1>⭐ Bookmark Materi Pembelajaran</h1>
+                <p>Kumpulan materi penting yang telah ditandai untuk referensi cepat pengajaran dan belajar</p>
+            </div>
+        </header>
+
+        <!-- STATISTIK BOOKMARK -->
+        <section class="cards">
+            <div class="card">
+                <h3>Total Bookmark</h3>
+                <h2 id="totalBookmarksCount">0</h2>
+            </div>
+
+            <div class="card">
+                <h3>Materi DKV</h3>
+                <h2 id="dkvBookmarksCount" style="color: #7c3aed;">0</h2>
+            </div>
+
+            <div class="card">
+                <h3>Materi TKJ</h3>
+                <h2 id="tkjBookmarksCount" style="color: #0284c7;">0</h2>
+            </div>
+        </section>
+
+        <!-- FILTER & KONTROL -->
+        <div class="filter-row">
+            <button class="filter-btn active" data-filter="ALL">Semua Jurusan</button>
+            <button class="filter-btn" data-filter="DKV">🎨 DKV (Desain)</button>
+            <button class="filter-btn" data-filter="TKJ">💻 TKJ (Jaringan)</button>
+
+            <div style="margin-left: auto;">
+                <button id="refreshBookmarksBtn" style="padding:10px 18px; border:none; background:#f1f5f9; color:#0f172a; border-radius:12px; font-weight:700; cursor:pointer;">
+                    🔄 Refresh
+                </button>
+            </div>
+        </div>
+
+        <!-- DAFTAR BOOKMARK -->
+        <div id="bookmarksListContainer" class="bookmarks-grid">
+            <div style="background:#ffffff; border-radius:18px; padding:30px; text-align:center; color:#64748b;">
+                Memuat bookmark...
+            </div>
+        </div>
+
+    </main>
+
+    <!-- SCRIPT -->
+    <script src="/static/js/bookmarks.js?v=2"></script>
+</body>
+
+</html>

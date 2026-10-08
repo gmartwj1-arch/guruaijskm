@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pengaturan Sistem | GURU AI JSKM</title>
+    <link rel="stylesheet" href="/static/css/admin.css">
+
+    <style>
+        .settings-container {
+            max-width: 1000px;
+        }
+
+        .settings-card {
+            background: #ffffff;
+            border-radius: 20px;
+            padding: 26px;
+            box-shadow: 0 8px 30px rgba(15, 23, 42, 0.08);
+            margin-bottom: 24px;
+        }
+
+        .settings-card h2 {
+            margin: 0 0 8px 0;
+            color: #0f172a;
+            font-size: 20px;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .settings-card p.subtitle {
+            margin: 0 0 20px 0;
+            color: #64748b;
+            font-size: 14px;
+            line-height: 1.5;
+        }
+
+        .settings-grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 18px;
+        }
+
+        .field-group {
+            display: flex;
+            flex-direction: column;
+            gap: 6px;
+        }
+
+        .field-group.full {
+            grid-column: span 2;
+        }
+
+        .field-group label {
+            font-weight: 700;
+            color: #1e293b;
+            font-size: 14px;
+        }
+
+        .field-group input,
+        .field-group select {
+            padding: 12px 14px;
+            border: 1px solid #cbd5e1;
+            border-radius: 12px;
+            outline: none;
+            font-size: 14px;
+            background: #f8fafc;
+            color: #0f172a;
+            box-sizing: border-box;
+            transition: border-color 0.2s;
+        }
+
+        .field-group input:focus,
+        .field-group select:focus {
+            border-color: #2563eb;
+            background: #ffffff;
+        }
+
+        .field-help {
+            font-size: 12px;
+            color: #94a3b8;
+            margin-top: 2px;
+        }
+
+        .input-with-button {
+            display: flex;
+            gap: 8px;
+        }
+
+        .input-with-button input {
+            flex: 1;
+        }
+
+        .btn-secondary {
+            background: #f1f5f9;
+            color: #334155;
+            border: 1px solid #cbd5e1;
+            border-radius: 10px;
+            padding: 0 16px;
+            font-weight: 700;
+            cursor: pointer;
+            white-space: nowrap;
+        }
+
+        .btn-save-main {
+            background: linear-gradient(135deg, #2563eb, #1d4ed8);
+            color: #ffffff;
+            border: none;
+            border-radius: 14px;
+            padding: 16px 32px;
+            font-size: 16px;
+            font-weight: 800;
+            cursor: pointer;
+            box-shadow: 0 10px 25px rgba(37, 99, 235, 0.3);
+            transition: transform 0.15s;
+        }
+
+        .btn-save-main:hover {
+            transform: translateY(-2px);
+        }
+
+        .status-badge {
+            font-size: 13px;
+            font-weight: 800;
+        }
+
+        @media (max-width: 800px) {
+            .settings-grid {
+                grid-template-columns: 1fr;
+            }
+            .field-group.full {
+                grid-column: span 1;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- =====================================================
+         SIDEBAR
+    ====================================================== -->
+    <aside class="sidebar">
+        <div class="logo">
+            <h2>🎓 GURU AI JSKM</h2>
+            <small>Administrator</small>
+        </div>
+
+        <nav>
+            <a href="/admin">🏠 Dashboard</a>
+            <a href="/admin/students">👨‍🎓 Data Siswa</a>
+            <a href="/admin/teachers">👨‍🏫 Data Guru</a>
+            <a href="/admin/modules">📚 Modul</a>
+            <a href="/admin/guru-ai">🤖 Guru AI</a>
+            <a href="/admin/class-mode">🎥 Mode Kelas</a>
+            <a href="/admin/camera-settings">📷 Setting Kamera</a>
+            <a href="/admin/quiz">📝 Quiz</a>
+            <a href="/admin/evaluation">📊 Nilai Evaluasi</a>
+            <a href="/admin/bookmarks">⭐ Bookmark</a>
+            <a href="/admin/progress">📈 Progress</a>
+            <a href="/admin/settings" class="active">⚙️ Pengaturan</a>
+            <a href="/login">🚪 Logout</a>
+        </nav>
+    </aside>
+
+    <!-- =====================================================
+         CONTENT
+    ====================================================== -->
+    <main class="content">
+
+        <header class="header">
+            <div>
+                <h1>⚙️ Pengaturan Aplikasi & Sistem</h1>
+                <p>Konfigurasi identitas sekolah, engine AI Guru, perangkat kamera, dan cadangan database</p>
+            </div>
+            <div id="settingsStatusNotice" style="font-weight:700; color:#2563eb;">
+                Status: siap
+            </div>
+        </header>
+
+        <div class="settings-container">
+
+            <!-- 1. IDENTITAS SEKOLAH -->
+            <section class="settings-card">
+                <h2>🏫 Identitas Pembelajaran</h2>
+                <p class="subtitle">Pengaturan dasar identitas aplikasi yang ditampilkan kepada siswa dan guru</p>
+
+                <div class="settings-grid">
+                    <div class="field-group">
+                        <label>Nama Aplikasi</label>
+                        <input type="text" id="appNameInput" placeholder="Contoh: GURU AI JSKM">
+                    </div>
+
+                    <div class="field-group">
+                        <label>Nama Sekolah / Lembaga</label>
+                        <input type="text" id="schoolNameInput" placeholder="Contoh: SMK Negeri 1">
+                    </div>
+
+                    <div class="field-group">
+                        <label>Tahun Ajaran</label>
+                        <input type="text" id="academicYearInput" placeholder="Contoh: 2026/2027">
+                    </div>
+
+                    <div class="field-group">
+                        <label>Jurusan Bawaan (Default Major)</label>
+                        <select id="defaultMajorSelect">
+                            <option value="DKV">DKV - Desain Komunikasi Visual</option>
+                            <option value="TKJ">TKJ - Teknik Komputer dan Jaringan</option>
+                        </select>
+                    </div>
+                </div>
+            </section>
+
+            <!-- 2. AI ENGINE & OPENAI -->
+            <section class="settings-card">
+                <h2>🤖 Konfigurasi AI & Suara Guru AI</h2>
+                <p class="subtitle">Integrasi model kecerdasan buatan untuk merespons pertanyaan siswa secara akurat</p>
+
+                <div class="settings-grid">
+                    <div class="field-group">
+                        <label>Model OpenAI</label>
+                        <select id="openaiModelSelect">
+                            <option value="gpt-5.6-luna">gpt-5.6-luna (Direkomendasikan)</option>
+                            <option value="gpt-4o">gpt-4o (Cepat & Cerdas)</option>
+                            <option value="gpt-4o-mini">gpt-4o-mini (Hemat Token)</option>
+                            <option value="gpt-3.5-turbo">gpt-3.5-turbo (Standar)</option>
+                        </select>
+                        <div class="field-help">Status AI: <span id="aiStatusBadge" class="status-badge">Memeriksa...</span></div>
+                    </div>
+
+                    <div class="field-group">
+                        <label>Kecepatan Suara Guru AI (Speech)</label>
+                        <select id="voiceSpeedSelect">
+                            <option value="0.85">0.85x (Lambat / Jelas)</option>
+                            <option value="1.0">1.0x (Normal)</option>
+                            <option value="1.15">1.15x (Cepat)</option>
+                        </select>
+                    </div>
+
+                    <div class="field-group full">
+                        <label>OpenAI API Key</label>
+                        <div class="input-with-button">
+                            <input type="password" id="openaiApiKeyInput" placeholder="sk-proj-...">
+                            <button type="button" id="toggleApiKeyBtn" class="btn-secondary">👁️ Tampilkan</button>
+                        </div>
+                        <div class="field-help">Kunci API disimpan aman di file konfigurasi lokal (.env).</div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- 3. PERANGKAT KAMERA & EZVIZ -->
+            <section class="settings-card">
+                <h2>📷 Integrasi Kamera & Mode Kelas</h2>
+                <p class="subtitle">Koneksi RTSP IP Camera dan Talkback Ezviz untuk monitoring interaksi kelas</p>
+
+                <div class="settings-grid">
+                    <div class="field-group full">
+                        <label>URL RTSP Kamera Kelas</label>
+                        <input type="text" id="rtspUrlInput" placeholder="rtsp://admin:password@ip_kamera:554/ch1/main">
+                        <div class="field-help">Status Kamera: <span id="camStatusBadge" class="status-badge">Memeriksa...</span></div>
+                    </div>
+
+                    <div class="field-group">
+                        <label>Nomor Seri Ezviz (Device Serial)</label>
+                        <input type="text" id="ezvizSerialInput" placeholder="Contoh: BD7424262">
+                    </div>
+
+                    <div class="field-group">
+                        <label>Kode Verifikasi Kamera (Verification Code)</label>
+                        <input type="text" id="ezvizCodeInput" placeholder="Contoh: ebwpac">
+                    </div>
+                </div>
+            </section>
+
+            <!-- 4. PEMELIHARAAN & DATABASE -->
+            <section class="settings-card">
+                <h2>💾 Database & Cadangan Sistem</h2>
+                <p class="subtitle">Status penyimpanan database lokal SQLite dan pembuatan salinan cadangan (backup)</p>
+
+                <div style="background:#f8fafc; border:1px solid #e2e8f0; border-radius:14px; padding:18px; margin-bottom:18px;">
+                    <div style="display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:10px;">
+                        <div>
+                            <strong>Status Database:</strong> <span id="dbStatusBadge" class="status-badge">Memuat...</span>
+                            <div style="font-size:12px; color:#64748b; margin-top:4px;">File: <code>database/eguru.db</code></div>
+                        </div>
+
+                        <button type="button" id="backupDbBtn" style="padding:10px 18px; border:none; background:#0284c7; color:white; border-radius:10px; font-weight:800; cursor:pointer;">
+                            📦 Backup Database Sekarang
+                        </button>
+                    </div>
+
+                    <div id="backupInfoText" style="margin-top:10px; font-size:13px; color:#64748b;">
+                        Salinan file cadangan akan tersimpan di direktori <code>backup/</code>.
+                    </div>
+                </div>
+            </section>
+
+            <!-- TOMBOL SIMPAN -->
+            <div style="display:flex; justify-content:flex-end; gap:14px; margin-bottom:40px;">
+                <button type="button" id="saveSettingsBtn" class="btn-save-main">
+                    💾 Simpan Semua Pengaturan
+                </button>
+            </div>
+
+        </div>
+
+    </main>
+
+    <!-- SCRIPT -->
+    <script src="/static/js/settings.js?v=2"></script>
+</body>
+
+</html>

@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Progress Pembelajaran | GURU AI JSKM</title>
+    <link rel="stylesheet" href="/static/css/admin.css">
+
+    <style>
+        .progress-section {
+            background: #ffffff;
+            border-radius: 20px;
+            padding: 24px;
+            box-shadow: 0 8px 30px rgba(15, 23, 42, 0.08);
+            margin-bottom: 24px;
+        }
+
+        .progress-section h2 {
+            margin: 0 0 8px 0;
+            color: #0f172a;
+            font-size: 20px;
+        }
+
+        .progress-section p.subtitle {
+            margin: 0 0 20px 0;
+            color: #64748b;
+            font-size: 14px;
+        }
+
+        .chapter-matrix-grid {
+            display: grid;
+            grid-template-columns: repeat(6, 1fr);
+            gap: 12px;
+        }
+
+        .filter-row {
+            display: flex;
+            gap: 10px;
+            margin-bottom: 18px;
+            align-items: center;
+            flex-wrap: wrap;
+        }
+
+        .filter-btn {
+            padding: 10px 18px;
+            border-radius: 12px;
+            border: 1px solid #cbd5e1;
+            background: #ffffff;
+            color: #475569;
+            font-weight: 700;
+            cursor: pointer;
+            transition: all 0.2s;
+        }
+
+        .filter-btn.active {
+            background: #2563eb;
+            color: #ffffff;
+            border-color: #2563eb;
+        }
+
+        @media (max-width: 900px) {
+            .chapter-matrix-grid {
+                grid-template-columns: repeat(3, 1fr);
+            }
+        }
+
+        @media (max-width: 600px) {
+            .chapter-matrix-grid {
+                grid-template-columns: repeat(2, 1fr);
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- =====================================================
+         SIDEBAR
+    ====================================================== -->
+    <aside class="sidebar">
+        <div class="logo">
+            <h2>🎓 GURU AI JSKM</h2>
+            <small>Administrator</small>
+        </div>
+
+        <nav>
+            <a href="/admin">🏠 Dashboard</a>
+            <a href="/admin/students">👨‍🎓 Data Siswa</a>
+            <a href="/admin/teachers">👨‍🏫 Data Guru</a>
+            <a href="/admin/modules">📚 Modul</a>
+            <a href="/admin/guru-ai">🤖 Guru AI</a>
+            <a href="/admin/class-mode">🎥 Mode Kelas</a>
+            <a href="/admin/camera-settings">📷 Setting Kamera</a>
+            <a href="/admin/quiz">📝 Quiz</a>
+            <a href="/admin/evaluation">📊 Nilai Evaluasi</a>
+            <a href="/admin/bookmarks">⭐ Bookmark</a>
+            <a href="/admin/progress" class="active">📈 Progress</a>
+            <a href="/admin/settings">⚙️ Pengaturan</a>
+            <a href="/login">🚪 Logout</a>
+        </nav>
+    </aside>
+
+    <!-- =====================================================
+         CONTENT
+    ====================================================== -->
+    <main class="content">
+
+        <header class="header">
+            <div>
+                <h1>📈 Monitoring Perkembangan Belajar Siswa</h1>
+                <p>Analitik ketuntasan materi DKV dan TKJ, pencapaian quiz, dan evaluasi hasil belajar</p>
+            </div>
+            <div id="progressStatusNotice" style="font-weight:700; color:#2563eb;">
+                Memuat analitik...
+            </div>
+        </header>
+
+        <!-- KARTU RINGKASAN PROGRESS -->
+        <section class="cards">
+            <div class="card">
+                <h3>Rata-rata Nilai Quiz</h3>
+                <h2 id="avgScoreCard" style="color: #2563eb;">0/100</h2>
+            </div>
+
+            <div class="card">
+                <h3>Ketuntasan Materi</h3>
+                <h2 id="overallCompletionCard" style="color: #16a34a;">0%</h2>
+            </div>
+
+            <div class="card">
+                <h3>Total Siswa Terdaftar</h3>
+                <h2 id="totalStudentsCard" style="color: #7c3aed;">0</h2>
+            </div>
+
+            <div class="card">
+                <h3>Evaluasi & Quiz Masuk</h3>
+                <h2 id="totalQuizzesCard" style="color: #ea580c;">0</h2>
+            </div>
+        </section>
+
+        <!-- PROGRES BAB DKV -->
+        <section class="progress-section">
+            <h2>🎨 Ketuntasan Pembelajaran DKV (BAB 1 - 12)</h2>
+            <p class="subtitle">Persentase siswa yang telah mempelajari materi dan menyelesaikan latihan tiap bab</p>
+            <div id="dkvChapterProgressGrid" class="chapter-matrix-grid">
+                <!-- Rendered dynamically -->
+            </div>
+        </section>
+
+        <!-- PROGRES BAB TKJ -->
+        <section class="progress-section">
+            <h2>💻 Ketuntasan Pembelajaran TKJ (BAB 1 - 12)</h2>
+            <p class="subtitle">Persentase siswa yang telah mempelajari materi dan menyelesaikan latihan tiap bab</p>
+            <div id="tkjChapterProgressGrid" class="chapter-matrix-grid">
+                <!-- Rendered dynamically -->
+            </div>
+        </section>
+
+        <!-- DAFTAR SISWA & PROGRESS -->
+        <section class="progress-section">
+            <div style="display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:14px; margin-bottom:14px;">
+                <div>
+                    <h2 style="margin:0;">👨‍🎓 Progres Individual Siswa</h2>
+                    <p class="subtitle" style="margin:4px 0 0 0;">Monitoring ketuntasan setiap siswa di kelas</p>
+                </div>
+
+                <div class="filter-row" style="margin-bottom:0;">
+                    <button class="filter-btn active" data-filter="ALL">Semua</button>
+                    <button class="filter-btn" data-filter="DKV">DKV</button>
+                    <button class="filter-btn" data-filter="TKJ">TKJ</button>
+                    <button id="refreshProgressBtn" style="padding:10px 18px; border:none; background:#f1f5f9; color:#0f172a; border-radius:12px; font-weight:700; cursor:pointer;">
+                        🔄 Refresh
+                    </button>
+                </div>
+            </div>
+
+            <div style="overflow-x:auto;">
+                <table style="width:100%; border-collapse:collapse; margin-top:14px;">
+                    <thead>
+                        <tr style="background:#eff6ff; color:#1e3a8a; text-align:left;">
+                            <th style="padding:14px;">No</th>
+                            <th style="padding:14px;">Nama Siswa</th>
+                            <th style="padding:14px;">Kelas</th>
+                            <th style="padding:14px;">Jurusan</th>
+                            <th style="padding:14px;">Quiz & Skor</th>
+                            <th style="padding:14px; min-width:180px;">Ketuntasan</th>
+                            <th style="padding:14px;">Status</th>
+                        </tr>
+                    </thead>
+                    <tbody id="studentsProgressTableBody">
+                        <tr>
+                            <td colspan="7" style="text-align:center; padding:30px; color:#64748b;">
+                                Memuat data siswa...
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- SCRIPT -->
+    <script src="/static/js/progress.js?v=2"></script>
+</body>
+
+</html>

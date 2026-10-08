@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>GURU AI JSKM</title>
+
+    <link rel="stylesheet" href="/static/css/style.css">
+
+</head>
+
+<body>
+
+    <!-- HEADER -->
+
+    <header class="header">
+
+        <div class="logo">
+
+            🎓 GURU AI JSKM
+
+        </div>
+
+        <div style="display:flex; align-items:center; gap:16px;">
+            <div class="status" style="display:flex; align-items:center; gap:6px;">
+                <span style="display:inline-block; width:8px; height:8px; border-radius:50%; background:#4ade80;"></span>
+                Online
+            </div>
+            <a href="/admin/guru-ai" style="color:#93c5fd; text-decoration:none; font-weight:700; font-size:14px; display:inline-flex; align-items:center; gap:4px;">
+                🤖 Guru AI
+            </a>
+            <a href="/admin" style="background:#2563eb; color:white; text-decoration:none; padding:7px 14px; border-radius:8px; font-weight:700; font-size:13px; transition:0.2s;">
+                🏠 Dashboard Admin
+            </a>
+        </div>
+    </header>
+
+
+    <!-- CHAT -->
+
+    <main id="chatBox" class="chat-box">
+
+        <div class="message guru">
+
+            <div class="avatar">
+
+                👨‍🏫
+
+            </div>
+
+            <div class="bubble">
+
+                Halo 👋<br><br>
+
+                Saya adalah Guru AI DKV.<br>
+
+                Silakan tanyakan materi apa saja.
+
+            </div>
+
+        </div>
+
+    </main>
+
+
+    <!-- INPUT -->
+
+    <footer class="chat-input">
+
+        <input
+            id="question"
+            type="text"
+            placeholder="Tulis pertanyaan..."
+            autocomplete="off"
+        >
+
+        <button id="sendButton">
+
+            Kirim
+
+        </button>
+
+    </footer>
+
+
+    <script src="/static/js/app.js"></script>
+
+</body>
+
+</html>

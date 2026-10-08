@@ -1,0 +1,7 @@
+{
+    "camera_name": "Kamera Kelas",
+    "camera_location": "Ruang Kelas",
+    "rtsp_url": "rtsp://admin:EBWPAC@192.168.10.145:554/ch1/main",
+    "speaker_mode": "ipcam",
+    "speaker_api_url": ""
+}

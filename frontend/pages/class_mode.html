@@ -1,0 +1,1192 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+
+    <title>Mode Kelas | GURU AI JSKM</title>
+
+    <link
+        rel="stylesheet"
+        href="/static/css/admin.css"
+    >
+
+    <style>
+        body {
+            background: #0f172a;
+            color: #ffffff;
+        }
+
+        .content {
+            background: #0f172a;
+            min-height: 100vh;
+            color: #ffffff;
+        }
+
+        .class-wrapper {
+            padding: 28px;
+        }
+
+        .hero-class {
+            background: linear-gradient(135deg, #111827, #172554);
+            border: 1px solid #334155;
+            border-radius: 24px;
+            padding: 30px;
+            margin-bottom: 22px;
+        }
+
+        .hero-badge {
+            display: inline-flex;
+            padding: 8px 14px;
+            border-radius: 999px;
+            background: #7c3aed;
+            color: #ffffff;
+            font-weight: 900;
+            margin-bottom: 14px;
+        }
+
+        .hero-class h1 {
+            font-size: 38px;
+            margin: 0 0 10px 0;
+            color: #ffffff;
+        }
+
+        .hero-class p {
+            color: #dbeafe;
+            line-height: 1.7;
+            max-width: 980px;
+            margin: 0;
+        }
+
+        .status-cards {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 14px;
+            margin-bottom: 22px;
+        }
+
+        .status-card {
+            background: #111827;
+            border: 1px solid #334155;
+            border-radius: 18px;
+            padding: 18px;
+        }
+
+        .status-card small {
+            color: #cbd5e1;
+            font-weight: 800;
+        }
+
+        .status-card h3 {
+            color: #bbf7d0;
+            margin: 8px 0 0 0;
+            font-size: 22px;
+        }
+
+        .class-grid {
+            display: grid;
+            grid-template-columns: 1.3fr 0.9fr;
+            gap: 22px;
+        }
+
+        .panel {
+            background: #111827;
+            border: 1px solid #334155;
+            border-radius: 22px;
+            padding: 24px;
+            margin-bottom: 22px;
+        }
+
+        .panel h2,
+        .panel h3 {
+            margin-top: 0;
+            color: #bbf7d0;
+        }
+
+        .form-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 14px;
+            margin-bottom: 18px;
+        }
+
+        .form-group label {
+            display: block;
+            font-weight: 900;
+            color: #bbf7d0;
+            margin-bottom: 8px;
+        }
+
+        .form-group select,
+        .form-group input {
+            width: 100%;
+            padding: 14px 16px;
+            border-radius: 12px;
+            border: 1px solid #475569;
+            background: #020617;
+            color: #ffffff;
+            outline: none;
+            font-weight: 800;
+        }
+
+        .status-box {
+            background: #020617;
+            border: 1px dashed #475569;
+            border-radius: 16px;
+            padding: 16px;
+            color: #e5e7eb;
+            line-height: 1.7;
+            margin-top: 14px;
+            white-space: pre-line;
+        }
+
+        .chapter-card {
+            background: #020617;
+            border: 1px solid #334155;
+            border-left: 6px solid #2563eb;
+            border-radius: 18px;
+            padding: 22px;
+        }
+
+        .chapter-code {
+            display: inline-flex;
+            padding: 7px 12px;
+            border-radius: 999px;
+            background: #2563eb;
+            color: #ffffff;
+            font-weight: 900;
+            margin-bottom: 12px;
+        }
+
+        .chapter-card h2 {
+            font-size: 30px;
+            color: #ffffff;
+            margin: 0 0 12px 0;
+        }
+
+        .chapter-card p {
+            color: #dbeafe;
+            line-height: 1.8;
+        }
+
+        .button-grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 12px;
+            margin-top: 18px;
+        }
+
+        .button-row {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 12px;
+            margin-top: 14px;
+        }
+
+        button {
+            border: none;
+            border-radius: 13px;
+            padding: 14px 18px;
+            font-weight: 900;
+            cursor: pointer;
+        }
+
+        .btn-green {
+            background: #22c55e;
+            color: #052e16;
+        }
+
+        .btn-blue {
+            background: #2563eb;
+            color: #ffffff;
+        }
+
+        .btn-purple {
+            background: #7c3aed;
+            color: #ffffff;
+        }
+
+        .btn-orange {
+            background: #f97316;
+            color: #ffffff;
+        }
+
+        .btn-red {
+            background: #dc2626;
+            color: #ffffff;
+        }
+
+        .btn-gray {
+            background: #475569;
+            color: #ffffff;
+        }
+
+        .btn-yellow {
+            background: #facc15;
+            color: #1e293b;
+        }
+
+        .voice-panel {
+            background: #020617;
+            border: 1px solid #334155;
+            border-radius: 18px;
+            padding: 18px;
+            margin-top: 18px;
+        }
+
+        .voice-panel select {
+            width: 100%;
+            padding: 13px;
+            border-radius: 12px;
+            border: 1px solid #475569;
+            background: #1e293b;
+            color: #ffffff;
+            margin-top: 8px;
+            font-weight: 800;
+        }
+
+        .progress-track {
+            width: 100%;
+            height: 12px;
+            border-radius: 999px;
+            background: #1e293b;
+            overflow: hidden;
+            margin: 14px 0 8px;
+        }
+
+        .progress-bar {
+            height: 100%;
+            width: 0%;
+            background: #22c55e;
+            transition: 0.25s;
+        }
+
+        .question-box {
+            background: #020617;
+            border: 1px solid #334155;
+            border-radius: 18px;
+            padding: 18px;
+            margin-top: 18px;
+        }
+
+        .question-box input {
+            width: 100%;
+            padding: 14px 16px;
+            border-radius: 12px;
+            border: 1px solid #475569;
+            background: #111827;
+            color: #ffffff;
+            outline: none;
+        }
+
+        .discussion-controls {
+            background: #020617;
+            border: 1px solid #334155;
+            border-radius: 18px;
+            padding: 18px;
+            margin-top: 18px;
+        }
+
+        .discussion-controls h3 {
+            margin: 0 0 12px 0;
+            color: #bfdbfe;
+        }
+
+        .discussion-controls p {
+            color: #cbd5e1;
+            line-height: 1.7;
+            margin: 0 0 14px 0;
+        }
+
+        .answer-box {
+            background: #020617;
+            border: 1px solid #334155;
+            border-radius: 18px;
+            padding: 18px;
+            margin-top: 16px;
+            line-height: 1.8;
+            color: #e5e7eb;
+            white-space: pre-line;
+            display: none;
+        }
+
+        .lesson-list {
+            display: grid;
+            gap: 14px;
+            margin-top: 18px;
+            max-height: 620px;
+            overflow: auto;
+            padding-right: 6px;
+        }
+
+        .lesson-item {
+            background: #020617;
+            border: 1px solid #334155;
+            border-radius: 16px;
+            padding: 16px;
+        }
+
+        .lesson-item h4 {
+            margin: 0 0 8px 0;
+            color: #93c5fd;
+        }
+
+        .lesson-item p {
+            color: #e5e7eb;
+            line-height: 1.7;
+            margin: 0;
+        }
+
+        .class-note {
+            background: #172554;
+            border: 1px solid #2563eb;
+            border-radius: 18px;
+            padding: 18px;
+            color: #ffffff;
+            line-height: 1.8;
+        }
+
+        .warning-note {
+            background: #5f0f0f;
+            border: 1px solid #dc2626;
+            border-radius: 18px;
+            padding: 18px;
+            color: #ffffff;
+            line-height: 1.8;
+            margin-top: 14px;
+        }
+
+        .preview-box {
+            background: #020617;
+            border: 1px solid #334155;
+            border-radius: 18px;
+            padding: 12px;
+            margin-top: 16px;
+            min-height: 250px;
+        }
+
+        .preview-box img {
+            width: 100%;
+            max-height: 340px;
+            border-radius: 14px;
+            background: #000000;
+            object-fit: contain;
+            display: none;
+        }
+
+        .preview-placeholder {
+            min-height: 250px;
+            border: 1px dashed #475569;
+            border-radius: 16px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            color: #cbd5e1;
+            line-height: 1.7;
+            padding: 18px;
+        }
+
+        .smart-box {
+            background: #020617;
+            border: 1px solid #334155;
+            border-radius: 18px;
+            padding: 18px;
+            margin-top: 16px;
+        }
+
+        .smart-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 12px;
+            margin-top: 12px;
+        }
+
+        .smart-card {
+            background: #111827;
+            border: 1px solid #334155;
+            border-radius: 14px;
+            padding: 14px;
+        }
+
+        .smart-card strong {
+            color: #bfdbfe;
+        }
+
+        .smart-card div {
+            font-size: 22px;
+            font-weight: 900;
+            margin-top: 8px;
+            color: #ffffff;
+        }
+
+        @media (max-width: 1200px) {
+            .class-grid,
+            .status-cards {
+                grid-template-columns: 1fr;
+            }
+
+            .form-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .button-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .hero-class h1 {
+                font-size: 30px;
+            }
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <aside class="sidebar">
+
+        <div class="logo">
+
+            <h2>🎓 GURU AI JSKM</h2>
+
+            <small>Administrator</small>
+
+        </div>
+
+        <nav>
+
+            <a href="/admin">🏠 Dashboard</a>
+
+            <a href="/admin/students">👨‍🎓 Data Siswa</a>
+
+            <a href="/admin/teachers">👨‍🏫 Data Guru</a>
+
+            <a href="/admin/modules">📚 Modul</a>
+
+            <a href="/admin/guru-ai">🤖 Guru AI</a>
+
+            <a
+                href="/admin/class-mode"
+                class="active"
+            >
+                🎥 Mode Kelas
+            </a>
+
+            <a href="/admin/camera-settings">📷 Setting Kamera</a>
+
+            <a href="/admin/quiz">📝 Quiz</a>
+
+            <a href="/admin/evaluation">📊 Nilai Evaluasi</a>
+            <a href="/admin/bookmarks">⭐ Bookmark</a>
+            <a href="/admin/progress">📈 Progress</a>
+            <a href="/admin/settings">⚙️ Pengaturan</a>
+            <a href="/login">🚪 Logout</a>
+        </nav>
+
+    </aside>
+
+
+    <main class="content">
+
+        <div class="class-wrapper">
+
+            <section class="hero-class">
+
+                <div class="hero-badge">
+                    MODE KELAS FINAL 15.4
+                </div>
+
+                <h1>
+                    Mode Kelas Guru AI + Kamera EZVIZ
+                </h1>
+
+                <p>
+                    Halaman utama pembimbing untuk mengajar, menampilkan kamera EZVIZ,
+                    memantau aktivitas kelas, memberi teguran, dan mengatur jadwal istirahat.
+                </p>
+
+            </section>
+
+
+            <section class="status-cards">
+
+                <div class="status-card">
+                    <small>Status Kamera</small>
+                    <h3 id="cameraMiniStatus">Siap</h3>
+                </div>
+
+                <div class="status-card">
+                    <small>Status Guru AI</small>
+                    <h3>Aktif</h3>
+                </div>
+
+                <div class="status-card">
+                    <small>Smart Camera</small>
+                    <h3 id="smartMiniStatus">Standby</h3>
+                </div>
+
+                <div class="status-card">
+                    <small>Jadwal Istirahat</small>
+                    <h3 id="breakMiniStatus">Aktif</h3>
+                </div>
+
+            </section>
+
+
+            <section class="class-grid">
+
+                <div>
+
+                    <section class="panel">
+
+                        <h2>
+                            Pengaturan Pembelajaran
+                        </h2>
+
+                        <div class="form-grid">
+
+                            <div class="form-group">
+
+                                <label for="classMajorSelect">
+                                    Pilih Jurusan
+                                </label>
+
+                                <select id="classMajorSelect">
+
+                                    <option value="DKV">
+                                        DKV - Desain Komunikasi Visual
+                                    </option>
+
+                                    <option value="TKJ">
+                                        TKJ - Teknik Komputer dan Jaringan
+                                    </option>
+
+                                </select>
+
+                            </div>
+
+                            <div class="form-group">
+
+                                <label for="classChapterSelect">
+                                    Pilih BAB
+                                </label>
+
+                                <select id="classChapterSelect">
+
+                                    <option value="">
+                                        Memuat BAB...
+                                    </option>
+
+                                </select>
+
+                            </div>
+
+                        </div>
+
+
+                        <div class="chapter-card">
+
+                            <div
+                                class="chapter-code"
+                                id="classChapterCode"
+                            >
+                                BAB
+                            </div>
+
+                            <h2 id="classChapterTitle">
+                                Memuat materi...
+                            </h2>
+
+                            <p id="classChapterDescription">
+                                Pilih jurusan dan BAB untuk memulai pembelajaran kelas.
+                            </p>
+
+                        </div>
+
+
+                        <div class="button-grid">
+
+                            <button
+                                class="btn-green"
+                                id="startClassButton"
+                            >
+                                ▶ Mulai Mengajar
+                            </button>
+
+                            <button
+                                class="btn-purple"
+                                id="askSessionButton"
+                            >
+                                🎙 Mulai Tanya Jawab
+                            </button>
+
+                            <button
+                                class="btn-gray"
+                                id="pauseClassButton"
+                            >
+                                ⏸ Jeda / Lanjut
+                            </button>
+
+                            <button
+                                class="btn-orange"
+                                id="repeatClassButton"
+                            >
+                                ↻ Ulangi Materi
+                            </button>
+
+                            <button
+                                class="btn-blue"
+                                id="nextChapterButton"
+                            >
+                                ⏭ BAB Berikutnya
+                            </button>
+
+                            <button
+                                class="btn-red"
+                                id="stopClassButton"
+                            >
+                                ■ Stop Mode Kelas
+                            </button>
+
+                        </div>
+
+
+                        <div class="voice-panel">
+
+                            <strong>
+                                🔊 Suara Guru AI
+                            </strong>
+
+                            <select id="classVoiceSelect">
+
+                                <option value="">
+                                    Memuat suara...
+                                </option>
+
+                            </select>
+
+                            <div class="button-row">
+
+                                <button
+                                    class="btn-purple"
+                                    id="testClassVoiceButton"
+                                >
+                                    Tes Suara
+                                </button>
+
+                                <button
+                                    class="btn-blue"
+                                    id="greetClassButton"
+                                >
+                                    Sapa Kelas
+                                </button>
+
+                                <button
+                                    class="btn-orange"
+                                    id="focusReminderButton"
+                                >
+                                    Ingatkan Fokus
+                                </button>
+
+                            </div>
+
+                            <p id="classVoiceStatus">
+                                Status suara: menyiapkan suara Guru AI.
+                            </p>
+
+                            <div class="progress-track">
+
+                                <div
+                                    class="progress-bar"
+                                    id="classProgressBar"
+                                ></div>
+
+                            </div>
+
+                            <small id="classProgressText">
+                                Bagian 0 dari 0
+                            </small>
+
+                        </div>
+
+                    </section>
+
+
+                    <section class="panel">
+
+                        <h2>
+                            Tanya Jawab dan Diskusi Kelas
+                        </h2>
+
+                        <div class="class-note">
+                            Siswa dapat bertanya lewat mikrofon. Pembimbing juga bisa mengetik pertanyaan.
+                            Jawaban Guru AI dapat dihentikan, diringkas, dibuat lebih mudah, atau diberi contoh.
+                        </div>
+
+                        <div class="question-box">
+
+                            <label for="classQuestionInput">
+                                Pertanyaan siswa / pembimbing
+                            </label>
+
+                            <input
+                                type="text"
+                                id="classQuestionInput"
+                                placeholder="Contoh: Bagaimana cara merakit komputer?"
+                            >
+
+                            <div class="button-row">
+
+                                <button
+                                    class="btn-blue"
+                                    id="sendQuestionButton"
+                                >
+                                    Tanya
+                                </button>
+
+                                <button
+                                    class="btn-green"
+                                    id="startMicClassButton"
+                                >
+                                    🎙 Dengarkan Siswa
+                                </button>
+
+                                <button
+                                    class="btn-red"
+                                    id="stopMicClassButton"
+                                >
+                                    🛑 Stop Mikrofon
+                                </button>
+
+                            </div>
+
+                        </div>
+
+
+                        <div class="discussion-controls">
+
+                            <h3>
+                                Kontrol Diskusi Pembimbing
+                            </h3>
+
+                            <p>
+                                Gunakan saat siswa meminta jawaban lebih singkat, lebih mudah,
+                                diberi contoh, atau ingin menanggapi jawaban Guru AI.
+                            </p>
+
+                            <div class="button-row">
+
+                                <button
+                                    class="btn-red"
+                                    id="stopAnswerButton"
+                                >
+                                    🛑 Stop Jawaban
+                                </button>
+
+                                <button
+                                    class="btn-yellow"
+                                    id="summarizeAnswerButton"
+                                >
+                                    📌 Ringkas Jawaban
+                                </button>
+
+                                <button
+                                    class="btn-green"
+                                    id="easyAnswerButton"
+                                >
+                                    🧒 Jelaskan Lebih Mudah
+                                </button>
+
+                                <button
+                                    class="btn-purple"
+                                    id="exampleAnswerButton"
+                                >
+                                    💡 Beri Contoh
+                                </button>
+
+                                <button
+                                    class="btn-blue"
+                                    id="continueAnswerButton"
+                                >
+                                    ▶ Lanjutkan Jawaban
+                                </button>
+
+                                <button
+                                    class="btn-orange"
+                                    id="studentResponseButton"
+                                >
+                                    🎙 Siswa Menanggapi
+                                </button>
+
+                            </div>
+
+                        </div>
+
+                        <div
+                            class="status-box"
+                            id="classMicStatus"
+                        >
+                            Status mikrofon: belum aktif. Gunakan Google Chrome atau Microsoft Edge.
+                        </div>
+
+                        <div
+                            class="answer-box"
+                            id="classAnswerBox"
+                        ></div>
+
+                    </section>
+
+                </div>
+
+
+                <aside>
+
+                    <section class="panel">
+
+                        <h3>
+                            Kamera Kelas EZVIZ
+                        </h3>
+
+                        <div class="class-note">
+                            Kamera digunakan untuk membantu pembimbing melihat kondisi kelas.
+                            Guru AI dapat menyapa, menegur, dan mengingatkan siswa lewat speaker komputer / TV / proyektor.
+                        </div>
+
+                        <div class="warning-note">
+                            Gunakan kamera hanya untuk pembelajaran.
+                            Beri tahu siswa bahwa kamera aktif saat Mode Kelas digunakan.
+                            Jangan gunakan untuk memantau diam-diam.
+                        </div>
+
+                        <div class="preview-box">
+
+                            <img
+                                id="classIpCameraPreview"
+                                alt="Preview Kamera Kelas"
+                            >
+
+                            <div
+                                class="preview-placeholder"
+                                id="classIpCameraPlaceholder"
+                            >
+                                Kamera kelas belum aktif.
+                                <br>
+                                Klik Mulai Kamera untuk menampilkan IP Camera EZVIZ.
+                            </div>
+
+                        </div>
+
+                        <div class="button-row">
+
+                            <button
+                                class="btn-green"
+                                id="startClassCameraButton"
+                            >
+                                ▶ Mulai Kamera
+                            </button>
+
+                            <button
+                                class="btn-red"
+                                id="stopClassCameraButton"
+                            >
+                                ■ Stop Kamera
+                            </button>
+
+                        </div>
+
+                        <div class="button-row">
+
+                            <button
+                                class="btn-blue"
+                                id="classGreetStudentsButton"
+                            >
+                                👋 Sapa Siswa
+                            </button>
+
+                            <button
+                                class="btn-orange"
+                                id="classWarnStudentsButton"
+                            >
+                                🔊 Tegur Siswa
+                            </button>
+
+                            <button
+                                class="btn-purple"
+                                id="classFocusStudentsButton"
+                            >
+                                👀 Ingatkan Fokus
+                            </button>
+
+                        </div>
+
+                        <div
+                            class="status-box"
+                            id="classCameraStatus"
+                        >
+                            Status kamera kelas: belum aktif.
+                        </div>
+
+                    </section>
+
+
+                    <section class="panel">
+
+                        <h3>
+                            🧠 Smart Camera Activity Detection
+                        </h3>
+
+                        <div class="class-note">
+                            Sistem ini hanya membaca tingkat gerakan umum di kelas.
+                            Tidak mengenali wajah, tidak mengenali nama siswa, dan tidak menyimpan rekaman.
+                        </div>
+
+                        <div class="form-grid">
+
+                            <div class="form-group">
+
+                                <label for="smartCameraIntervalSelect">
+                                    Interval Cek
+                                </label>
+
+                                <select id="smartCameraIntervalSelect">
+
+                                    <option value="15000">
+                                        15 detik
+                                    </option>
+
+                                    <option
+                                        value="30000"
+                                        selected
+                                    >
+                                        30 detik
+                                    </option>
+
+                                    <option value="60000">
+                                        60 detik
+                                    </option>
+
+                                </select>
+
+                            </div>
+
+                            <div class="form-group">
+
+                                <label for="smartCameraWarnModeSelect">
+                                    Teguran Otomatis
+                                </label>
+
+                                <select id="smartCameraWarnModeSelect">
+
+                                    <option
+                                        value="on"
+                                        selected
+                                    >
+                                        Aktif
+                                    </option>
+
+                                    <option value="off">
+                                        Mati
+                                    </option>
+
+                                </select>
+
+                            </div>
+
+                        </div>
+
+                        <div class="button-row">
+
+                            <button
+                                class="btn-green"
+                                id="startSmartCameraButton"
+                            >
+                                ▶ Mulai Smart Monitor
+                            </button>
+
+                            <button
+                                class="btn-red"
+                                id="stopSmartCameraButton"
+                            >
+                                ■ Stop Smart Monitor
+                            </button>
+
+                            <button
+                                class="btn-blue"
+                                id="analyzeSmartCameraButton"
+                            >
+                                🔍 Analisa Sekarang
+                            </button>
+
+                        </div>
+
+                        <div
+                            class="status-box"
+                            id="smartCameraStatus"
+                        >
+                            Smart Camera belum aktif.
+                        </div>
+
+                        <div class="smart-grid">
+
+                            <div class="smart-card">
+
+                                <strong>
+                                    Status Kelas
+                                </strong>
+
+                                <div id="smartCameraLevel">
+                                    -
+                                </div>
+
+                            </div>
+
+                            <div class="smart-card">
+
+                                <strong>
+                                    Gerakan
+                                </strong>
+
+                                <div id="smartCameraMotion">
+                                    0%
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                        <div
+                            class="status-box"
+                            id="smartCameraRecommendation"
+                        >
+                            Rekomendasi akan muncul setelah analisa kamera.
+                        </div>
+
+                    </section>
+
+
+                    <section class="panel">
+
+                        <h3>
+                            Jadwal Istirahat
+                        </h3>
+
+                        <div class="class-note">
+                            Atur jam istirahat kelas. Guru AI akan otomatis mengumumkan saat waktu istirahat
+                            dan mengingatkan siswa saat istirahat selesai.
+                        </div>
+
+                        <div class="form-grid">
+
+                            <div class="form-group">
+
+                                <label for="breakStartInput">
+                                    Mulai Istirahat
+                                </label>
+
+                                <input
+                                    type="time"
+                                    id="breakStartInput"
+                                    value="10:00"
+                                >
+
+                            </div>
+
+                            <div class="form-group">
+
+                                <label for="breakEndInput">
+                                    Selesai Istirahat
+                                </label>
+
+                                <input
+                                    type="time"
+                                    id="breakEndInput"
+                                    value="10:15"
+                                >
+
+                            </div>
+
+                        </div>
+
+                        <div class="button-row">
+
+                            <button
+                                class="btn-green"
+                                id="saveBreakScheduleButton"
+                            >
+                                💾 Simpan Jadwal
+                            </button>
+
+                            <button
+                                class="btn-orange"
+                                id="startBreakNowButton"
+                            >
+                                ☕ Mulai Istirahat
+                            </button>
+
+                            <button
+                                class="btn-blue"
+                                id="endBreakNowButton"
+                            >
+                                🔔 Selesai Istirahat
+                            </button>
+
+                        </div>
+
+                        <div
+                            class="status-box"
+                            id="breakScheduleStatus"
+                        >
+                            Jadwal istirahat belum dicek.
+                        </div>
+
+                    </section>
+
+
+                    <section class="panel">
+
+                        <h3>
+                            Materi yang Dipelajari
+                        </h3>
+
+                        <div
+                            class="lesson-list"
+                            id="classLessonList"
+                        >
+
+                            <div class="lesson-item">
+
+                                <h4>Memuat materi...</h4>
+
+                                <p>
+                                    Daftar submateri akan muncul di sini.
+                                </p>
+
+                            </div>
+
+                        </div>
+
+                    </section>
+
+                </aside>
+
+            </section>
+
+        </div>
+
+    </main>
+
+
+    <script src="/static/js/class_mode.js?v=14.6"></script>
+    <script src="/static/js/class_camera_mode.js?v=15.4"></script>
+    <script src="/static/js/ezviz_talkback.js?v=15.1"></script>
+
+</body>
+
+</html>

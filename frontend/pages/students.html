@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Data Siswa | GURU AI JSKM</title>
+    <link rel="stylesheet" href="/static/css/admin.css">
+
+    <style>
+        .page-title {
+            margin-bottom: 24px;
+        }
+
+        .page-title h1 {
+            margin: 0;
+            color: #0f172a;
+            font-size: 32px;
+        }
+
+        .page-title p {
+            color: #64748b;
+            margin-top: 8px;
+        }
+
+        .form-card,
+        .table-card {
+            background: #ffffff;
+            border-radius: 20px;
+            padding: 24px;
+            box-shadow: 0 8px 30px rgba(15, 23, 42, 0.08);
+            margin-bottom: 24px;
+        }
+
+        .form-card h2,
+        .table-card h2 {
+            margin-top: 0;
+            color: #0f172a;
+        }
+
+        .form-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 14px;
+        }
+
+        .form-group label {
+            display: block;
+            font-weight: 800;
+            color: #0f172a;
+            margin-bottom: 8px;
+        }
+
+        .form-group input,
+        .form-group select {
+            width: 100%;
+            padding: 13px 14px;
+            border-radius: 12px;
+            border: 1px solid #cbd5e1;
+            outline: none;
+            font-weight: 700;
+            box-sizing: border-box;
+        }
+
+        .button-row {
+            display: flex;
+            gap: 12px;
+            flex-wrap: wrap;
+            margin-top: 18px;
+        }
+
+        .btn-primary {
+            background: #2563eb;
+            color: #ffffff;
+            border: none;
+            border-radius: 12px;
+            padding: 13px 18px;
+            font-weight: 900;
+            cursor: pointer;
+        }
+
+        .btn-green {
+            background: #22c55e;
+            color: #052e16;
+            border: none;
+            border-radius: 12px;
+            padding: 13px 18px;
+            font-weight: 900;
+            cursor: pointer;
+        }
+
+        .btn-red {
+            background: #dc2626;
+            color: #ffffff;
+            border: none;
+            border-radius: 12px;
+            padding: 10px 14px;
+            font-weight: 900;
+            cursor: pointer;
+        }
+
+        .status-box {
+            margin-top: 16px;
+            padding: 14px;
+            border-radius: 14px;
+            background: #eff6ff;
+            border: 1px solid #bfdbfe;
+            color: #1e3a8a;
+            line-height: 1.6;
+        }
+
+        .students-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 16px;
+        }
+
+        .students-table th {
+            background: #eff6ff;
+            color: #1e3a8a;
+            padding: 14px;
+            text-align: left;
+        }
+
+        .students-table td {
+            padding: 14px;
+            border-bottom: 1px solid #e5e7eb;
+            color: #0f172a;
+        }
+
+        .empty-row {
+            text-align: center;
+            color: #64748b;
+        }
+
+        @media (max-width: 1000px) {
+            .form-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <aside class="sidebar">
+
+        <div class="logo">
+            <h2>🎓 GURU AI JSKM</h2>
+            <small>Administrator</small>
+        </div>
+
+        <nav>
+            <a href="/admin">🏠 Dashboard</a>
+            <a href="/admin/students" class="active">👨‍🎓 Data Siswa</a>
+            <a href="/admin/teachers">👨‍🏫 Data Guru</a>
+            <a href="/admin/modules">📚 Modul</a>
+            <a href="/admin/guru-ai">🤖 Guru AI</a>
+            <a href="/admin/class-mode">🎥 Mode Kelas</a>
+            <a href="/admin/camera-settings">📷 Setting Kamera</a>
+            <a href="/admin/quiz">📝 Quiz</a>
+            <a href="/admin/evaluation">📊 Nilai Evaluasi</a>
+            <a href="/admin/bookmarks">⭐ Bookmark</a>
+            <a href="/admin/progress">📈 Progress</a>
+            <a href="/admin/settings">⚙️ Pengaturan</a>
+            <a href="/login">🚪 Logout</a>
+        </nav>
+
+    </aside>
+
+
+    <main class="content">
+
+        <div class="page-title">
+            <h1>👨‍🎓 Data Siswa</h1>
+            <p>Kelola data siswa untuk pembelajaran Guru AI DKV dan TKJ.</p>
+        </div>
+
+
+        <section class="form-card">
+
+            <h2>Tambah Siswa</h2>
+
+            <div class="form-grid">
+
+                <div class="form-group">
+                    <label>Nama Siswa</label>
+                    <input type="text" id="studentNameInput" placeholder="Contoh: Budi Santoso">
+                </div>
+
+                <div class="form-group">
+                    <label>Username</label>
+                    <input type="text" id="studentUsernameInput" placeholder="Contoh: budi_santoso">
+                </div>
+
+                <div class="form-group">
+                    <label>Email</label>
+                    <input type="email" id="studentEmailInput" placeholder="Contoh: siswa@email.com">
+                </div>
+
+                <div class="form-group">
+                    <label>Password Awal</label>
+                    <input type="text" id="studentPasswordInput" value="123456">
+                </div>
+
+                <div class="form-group">
+                    <label>Kelas</label>
+                    <input type="text" id="studentClassInput" placeholder="Contoh: XI DKV 1">
+                </div>
+
+                <div class="form-group">
+                    <label>Jurusan</label>
+                    <select id="studentMajorInput">
+                        <option value="DKV">DKV - Desain Komunikasi Visual</option>
+                        <option value="TKJ">TKJ - Teknik Komputer dan Jaringan</option>
+                    </select>
+                </div>
+
+            </div>
+
+            <div class="button-row">
+                <button class="btn-green" id="saveStudentButton">
+                    ✅ Simpan Siswa
+                </button>
+
+                <button class="btn-primary" id="refreshStudentButton">
+                    🔄 Refresh Data
+                </button>
+            </div>
+
+            <div class="status-box" id="studentStatusBox">
+                Status: siap menambah data siswa.
+            </div>
+
+        </section>
+
+
+        <section class="table-card">
+
+            <h2>Daftar Siswa</h2>
+
+            <table class="students-table">
+
+                <thead>
+                    <tr>
+                        <th>No</th>
+                        <th>Nama</th>
+                        <th>Username</th>
+                        <th>Email</th>
+                        <th>Kelas</th>
+                        <th>Jurusan</th>
+                        <th>Aksi</th>
+                    </tr>
+                </thead>
+
+                <tbody id="studentsTableBody">
+                    <tr>
+                        <td colspan="7" class="empty-row">Memuat data siswa...</td>
+                    </tr>
+                </tbody>
+
+            </table>
+
+        </section>
+
+    </main>
+
+
+    <script src="/static/js/students.js?v=17.3"></script>
+
+</body>
+
+</html>

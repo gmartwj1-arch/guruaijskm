@@ -1,0 +1,1190 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+
+    <title>Guru AI | GURU AI JSKM</title>
+
+    <link
+        rel="stylesheet"
+        href="/static/css/admin.css"
+    >
+
+    <style>
+        body {
+            background: #0f172a;
+            color: #ffffff;
+        }
+
+        .content {
+            background: #0f172a;
+            min-height: 100vh;
+            color: #ffffff;
+        }
+
+        .guru-wrapper {
+            padding: 28px;
+        }
+
+        .hero-guru {
+            background: #111827;
+            border: 1px solid #334155;
+            border-radius: 22px;
+            padding: 26px;
+            margin-bottom: 22px;
+            display: grid;
+            grid-template-columns: 1fr 260px;
+            gap: 22px;
+        }
+
+        .hero-badge {
+            display: inline-flex;
+            padding: 8px 16px;
+            border-radius: 999px;
+            background: #4f46e5;
+            color: #ffffff;
+            font-weight: 900;
+            margin-bottom: 14px;
+        }
+
+        .hero-guru h1 {
+            font-size: 34px;
+            margin: 0 0 16px 0;
+            color: #ffffff;
+            line-height: 1.25;
+        }
+
+        .hero-guru p {
+            color: #bfdbfe;
+            line-height: 1.7;
+            max-width: 980px;
+            margin: 0 0 14px 0;
+        }
+
+        .hero-note {
+            background: #172554;
+            border-left: 5px solid #3b82f6;
+            border-radius: 10px;
+            padding: 14px;
+            line-height: 1.7;
+            color: #ffffff;
+            margin-top: 14px;
+        }
+
+        .hero-side {
+            text-align: right;
+            color: #ffffff;
+        }
+
+        .hero-side small {
+            display: block;
+            color: #bfdbfe;
+            margin-bottom: 6px;
+        }
+
+        .hero-side strong {
+            display: block;
+            font-size: 36px;
+            line-height: 1.2;
+            margin-bottom: 18px;
+        }
+
+        .hero-actions {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            margin-top: 14px;
+        }
+
+        .main-grid {
+            display: grid;
+            grid-template-columns: 1.25fr 0.85fr;
+            gap: 22px;
+        }
+
+        .panel {
+            background: #111827;
+            border: 1px solid #334155;
+            border-radius: 22px;
+            padding: 24px;
+            margin-bottom: 22px;
+        }
+
+        .panel h2,
+        .panel h3 {
+            margin-top: 0;
+            color: #ffffff;
+        }
+
+        .form-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 14px;
+            margin-bottom: 18px;
+        }
+
+        .form-group label {
+            display: block;
+            font-weight: 900;
+            color: #bfdbfe;
+            margin-bottom: 8px;
+        }
+
+        .form-group select,
+        .form-group input {
+            width: 100%;
+            padding: 14px 16px;
+            border-radius: 12px;
+            border: 1px solid #475569;
+            background: #020617;
+            color: #ffffff;
+            outline: none;
+            font-weight: 800;
+        }
+
+        .chapter-card {
+            background: #020617;
+            border: 1px solid #334155;
+            border-left: 6px solid #2563eb;
+            border-radius: 18px;
+            padding: 22px;
+            margin-top: 16px;
+        }
+
+        .chapter-code {
+            display: inline-flex;
+            padding: 8px 14px;
+            border-radius: 999px;
+            background: #2563eb;
+            color: #ffffff;
+            font-weight: 900;
+            margin-bottom: 14px;
+        }
+
+        .chapter-card h2 {
+            font-size: 28px;
+            color: #ffffff;
+            margin: 0 0 12px 0;
+        }
+
+        .chapter-card p {
+            color: #dbeafe;
+            line-height: 1.8;
+            margin: 0;
+        }
+
+        .button-grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 12px;
+            margin-top: 18px;
+        }
+
+        .button-row {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 12px;
+            margin-top: 14px;
+        }
+
+        button {
+            border: none;
+            border-radius: 13px;
+            padding: 14px 18px;
+            font-weight: 900;
+            cursor: pointer;
+        }
+
+        .btn-green {
+            background: #22c55e;
+            color: #052e16;
+        }
+
+        .btn-blue {
+            background: #2563eb;
+            color: #ffffff;
+        }
+
+        .btn-purple {
+            background: #7c3aed;
+            color: #ffffff;
+        }
+
+        .btn-orange {
+            background: #f97316;
+            color: #ffffff;
+        }
+
+        .btn-red {
+            background: #dc2626;
+            color: #ffffff;
+        }
+
+        .btn-gray {
+            background: #475569;
+            color: #ffffff;
+        }
+
+        .btn-yellow {
+            background: #facc15;
+            color: #1e293b;
+        }
+
+        .voice-panel {
+            background: #020617;
+            border: 1px solid #334155;
+            border-radius: 18px;
+            padding: 18px;
+            margin-top: 18px;
+        }
+
+        .voice-panel select {
+            width: 100%;
+            padding: 13px;
+            border-radius: 12px;
+            border: 1px solid #475569;
+            background: #1e293b;
+            color: #ffffff;
+            margin-top: 8px;
+            font-weight: 800;
+        }
+
+        .status-text {
+            color: #e5e7eb;
+            line-height: 1.7;
+            margin-top: 12px;
+            white-space: pre-line;
+        }
+
+        .progress-track {
+            width: 100%;
+            height: 12px;
+            border-radius: 999px;
+            background: #1e293b;
+            overflow: hidden;
+            margin: 14px 0 8px;
+        }
+
+        .progress-bar {
+            height: 100%;
+            width: 0%;
+            background: #22c55e;
+            transition: 0.25s;
+        }
+
+        .tab-row {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            margin-bottom: 16px;
+        }
+
+        .tab-btn,
+        .extra-tab-btn {
+            background: #020617;
+            color: #bfdbfe;
+            border: 1px solid #334155;
+        }
+
+        .tab-btn.active,
+        .extra-tab-btn.active {
+            background: #2563eb;
+            color: #ffffff;
+        }
+
+        .material-box,
+        .learning-pack-box {
+            background: #020617;
+            border: 1px solid #334155;
+            border-radius: 18px;
+            padding: 20px;
+            color: #e5e7eb;
+            line-height: 1.8;
+            min-height: 260px;
+            white-space: normal;
+        }
+
+        .material-box h3,
+        .learning-pack-box h3 {
+            color: #bfdbfe;
+            margin-top: 0;
+        }
+
+        .learning-pack-box p,
+        .learning-pack-box li,
+        .material-box p,
+        .material-box li {
+            line-height: 1.8;
+        }
+
+        .cp-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 12px;
+        }
+
+        .cp-item {
+            background: #1e293b;
+            border: 1px solid #334155;
+            border-radius: 14px;
+            padding: 14px;
+            line-height: 1.7;
+        }
+
+        .question-box {
+            background: #020617;
+            border: 1px solid #334155;
+            border-radius: 18px;
+            padding: 18px;
+            margin-top: 18px;
+        }
+
+        .question-box input {
+            width: 100%;
+            padding: 14px 16px;
+            border-radius: 12px;
+            border: 1px solid #475569;
+            background: #111827;
+            color: #ffffff;
+            outline: none;
+        }
+
+        .answer-box {
+            background: #020617;
+            border: 1px solid #334155;
+            border-radius: 18px;
+            padding: 18px;
+            margin-top: 16px;
+            line-height: 1.8;
+            color: #e5e7eb;
+            white-space: pre-line;
+            display: none;
+        }
+
+        .answer-actions {
+            display: none;
+            flex-wrap: wrap;
+            gap: 12px;
+            margin-top: 14px;
+        }
+
+        .quick-list {
+            display: grid;
+            gap: 12px;
+        }
+
+        .quick-question {
+            width: 100%;
+            text-align: left;
+            background: #020617;
+            color: #ffffff;
+            border: 1px solid #334155;
+            border-radius: 16px;
+            padding: 15px;
+            line-height: 1.5;
+        }
+
+        .info-box {
+            background: #172554;
+            border: 1px solid #2563eb;
+            color: #ffffff;
+            border-radius: 18px;
+            padding: 18px;
+            line-height: 1.8;
+            margin-bottom: 16px;
+        }
+
+        .mic-box {
+            background: #020617;
+            border: 1px dashed #475569;
+            border-radius: 18px;
+            padding: 18px;
+            color: #e5e7eb;
+            line-height: 1.8;
+            white-space: pre-line;
+        }
+        .material-nav-card {
+    background: #1e293b;
+    border: 1px solid #334155;
+    border-radius: 14px;
+    padding: 18px;
+    cursor: pointer;
+    transition: 0.18s ease;
+    min-height: 84px;
+}
+
+.material-nav-card:hover {
+    border-color: #3b82f6;
+    transform: translateY(-2px);
+    background: #243247;
+}
+
+.material-nav-card.active {
+    border: 2px solid #3b82f6;
+    background: #172554;
+}
+
+.material-nav-number {
+    color: #ffffff;
+    font-size: 15px;
+    font-weight: 900;
+    margin-bottom: 3px;
+}
+
+.material-nav-title {
+    color: #ffffff;
+    font-size: 15px;
+    font-weight: 900;
+    line-height: 1.3;
+}
+
+.material-nav-time {
+    color: #93c5fd;
+    font-size: 14px;
+    margin-top: 3px;
+}
+
+@media (max-width: 1250px) {
+    #materialNavigationGrid {
+        grid-template-columns: repeat(2, 1fr) !important;
+    }
+}
+
+@media (max-width: 700px) {
+    #materialNavigationGrid {
+        grid-template-columns: 1fr !important;
+    }
+}
+
+
+/* KODE @media LAMA ADA DI BAWAH INI */
+@media (max-width: 1100px) {
+    .hero-guru,
+    .main-grid,
+    .form-grid,
+    .cp-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .button-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .hero-side {
+        text-align: left;
+    }
+
+    .hero-guru h1 {
+        font-size: 28px;
+    }
+}
+
+        @media (max-width: 1100px) {
+            .hero-guru,
+            .main-grid,
+            .form-grid,
+            .cp-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .button-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .hero-side {
+                text-align: left;
+            }
+
+            .hero-guru h1 {
+                font-size: 28px;
+            }
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <aside class="sidebar">
+
+        <div class="logo">
+
+            <h2>🎓 GURU AI JSKM</h2>
+
+            <small>Administrator</small>
+
+        </div>
+
+        <nav>
+
+            <a href="/admin">🏠 Dashboard</a>
+
+            <a href="/admin/students">👨‍🎓 Data Siswa</a>
+
+            <a href="/admin/teachers">👨‍🏫 Data Guru</a>
+
+            <a href="/admin/modules">📚 Modul</a>
+
+            <a
+                href="/admin/guru-ai"
+                class="active"
+            >
+                🤖 Guru AI
+            </a>
+
+            <a href="/admin/class-mode">🎥 Mode Kelas</a>
+
+            <a href="/admin/camera-settings">📷 Setting Kamera</a>
+
+            <a href="/admin/quiz">📝 Quiz</a>
+
+            <a href="/admin/evaluation">📊 Nilai Evaluasi</a>
+
+            <a href="/admin/bookmarks">⭐ Bookmark</a>
+
+            <a href="/admin/progress">📈 Progress</a>
+
+            <a href="/admin/settings">⚙️ Pengaturan</a>
+
+            <a href="/login">🚪 Logout</a>
+
+        </nav>
+
+    </aside>
+
+
+    <main class="content">
+
+        <div class="guru-wrapper">
+
+            <section class="hero-guru">
+
+                <div>
+
+                    <div
+                        class="hero-badge"
+                        id="heroGuruBadge"
+                    >
+                        AI GURU DKV • BAB LENGKAP + PELATIHAN
+                    </div>
+
+                    <h1 id="heroGuruTitle">
+                        Guru AI JSKM
+                    </h1>
+
+                    <p id="heroGuruSubtitle">
+                        Materi dibuat lengkap dengan penjelasan, contoh, latihan praktik,
+                        panduan tools, lembar kerja, shortcut, checklist, dan evaluasi.
+                    </p>
+
+                    <div class="hero-note">
+                        <strong>Catatan:</strong>
+                        bagian materi utama mempertahankan isi modul yang diberikan.
+                        Bagian panduan tools dan pelatihan adalah panduan praktik tambahan
+                        agar siswa lebih mudah memahami materi melalui latihan langsung.
+                    </div>
+
+                    <div class="hero-actions">
+
+                        <button
+                            class="btn-green"
+                            id="heroStartButton"
+                        >
+                            ▶ MULAI MATERI
+                        </button>
+
+                        <button
+                            class="btn-gray"
+                            id="heroPauseButton"
+                        >
+                            ⏸ JEDA SUARA
+                        </button>
+
+                        <button
+                            class="btn-gray"
+                            id="heroRepeatButton"
+                        >
+                            ↻ ULANGI
+                        </button>
+
+                        <button
+                            class="btn-red"
+                            id="heroStopButton"
+                        >
+                            ■ HENTIKAN
+                        </button>
+
+                        <button
+                            class="btn-yellow"
+                            id="bookmarkCurrentChapterBtn"
+                            style="background:#f59e0b; color:#ffffff; font-weight:800;"
+                        >
+                            ⭐ SIMPAN KE BOOKMARK
+                        </button>
+
+                    </div>
+
+                    <div class="hero-actions">
+
+                        <button
+                            class="btn-blue extra-tab-btn active"
+                            data-extra-tab="tools"
+                        >
+                            Panduan Tools
+                        </button>
+
+                        <button
+                            class="btn-blue extra-tab-btn"
+                            data-extra-tab="pelatihan"
+                        >
+                            Pelatihan
+                        </button>
+
+                        <button
+                            class="btn-blue extra-tab-btn"
+                            data-extra-tab="lembar"
+                        >
+                            Lembar Kerja
+                        </button>
+
+                        <button
+                            class="btn-blue extra-tab-btn"
+                            data-extra-tab="shortcut"
+                        >
+                            Shortcut
+                        </button>
+
+                        <button
+                            class="btn-blue extra-tab-btn"
+                            data-extra-tab="rubrik"
+                        >
+                            Rubrik
+                        </button>
+
+                    </div>
+
+                </div>
+
+                <div class="hero-side">
+
+                    <small>Waktu nyata</small>
+
+                    <strong id="realTimeClock">
+                        00:00:00
+                    </strong>
+
+                    <small>Estimasi materi</small>
+
+                    <strong id="materialEstimate">
+                        00:00
+                    </strong>
+
+                </div>
+
+            </section>
+
+
+            <section class="main-grid">
+
+                <div>
+
+                    <section class="panel">
+
+                        <h2>
+                            Pilih Materi Guru AI
+                        </h2>
+
+                        <div class="form-grid">
+
+                            <div class="form-group">
+
+                                <label for="majorSelect">
+                                    Pilih Jurusan
+                                </label>
+
+                                <select id="majorSelect">
+
+                                    <option value="DKV">
+                                        DKV - Desain Komunikasi Visual
+                                    </option>
+
+                                    <option value="TKJ">
+                                        TKJ - Teknik Komputer dan Jaringan
+                                    </option>
+
+                                </select>
+
+                            </div>
+
+                            <div class="form-group">
+
+                                <label for="chapterSelect">
+                                    Pilih BAB
+                                </label>
+
+                                <select id="chapterSelect">
+
+                                    <option value="">
+                                        Memuat BAB...
+                                    </option>
+
+                                </select>
+
+                            </div>
+
+                        </div>
+
+                        <div class="chapter-card">
+
+                            <div
+                                class="chapter-code"
+                                id="chapterLabel"
+                            >
+                                BAB
+                            </div>
+
+                            <h2 id="chapterTitle">
+                                Memuat materi...
+                            </h2>
+
+                            <p id="chapterDescription">
+                                Pilih jurusan dan BAB untuk memulai penjelasan Guru AI.
+                            </p>
+
+                        </div>
+
+
+                        <div class="button-grid">
+
+                            <button
+                                class="btn-green"
+                                id="startVoiceBtn"
+                            >
+                                ▶ Jelaskan Materi
+                            </button>
+
+                            <button
+                                class="btn-gray"
+                                id="pauseVoiceBtn"
+                            >
+                                ⏸ Jeda / Lanjut
+                            </button>
+
+                            <button
+                                class="btn-orange"
+                                id="repeatVoiceBtn"
+                            >
+                                ↻ Ulangi
+                            </button>
+
+                            <button
+                                class="btn-red"
+                                id="stopVoiceBtn"
+                            >
+                                ■ Stop
+                            </button>
+
+                        </div>
+
+
+                        <div class="voice-panel">
+
+                            <strong>
+                                🔊 Pilih Suara Guru AI
+                            </strong>
+
+                            <select id="voiceSelect">
+
+                                <option value="">
+                                    Memuat suara...
+                                </option>
+
+                            </select>
+
+                            <div class="button-row">
+
+                                <button
+                                    class="btn-purple"
+                                    id="testVoiceBtn"
+                                >
+                                    Tes Suara
+                                </button>
+
+                            </div>
+
+                            <div
+                                class="status-text"
+                                id="voiceStatus"
+                            >
+                                Status suara: menyiapkan suara Guru AI.
+                            </div>
+
+                            <div class="progress-track">
+
+                                <div
+                                    class="progress-bar"
+                                    id="voiceProgress"
+                                ></div>
+
+                            </div>
+
+                            <small id="voiceCounter">
+                                Bagian 0 dari 0
+                            </small>
+
+                        </div>
+
+                    </section>
+
+
+                    <section class="panel">
+
+                        <h2>
+                            Capaian Pembelajaran
+                        </h2>
+
+                        <div
+                            class="cp-grid"
+                            id="learningOutcomesBox"
+                        >
+
+                            <div class="cp-item">
+                                ✓ Memahami materi utama sesuai BAB yang dipilih.
+                            </div>
+
+                            <div class="cp-item">
+                                ✓ Mampu menjelaskan konsep dengan bahasa sendiri.
+                            </div>
+
+                            <div class="cp-item">
+                                ✓ Mampu menerapkan materi dalam tugas praktik.
+                            </div>
+
+                            <div class="cp-item">
+                                ✓ Mampu mengevaluasi kesalahan dan memperbaiki hasil kerja.
+                            </div>
+
+                        </div>
+
+                    </section>
+
+
+                    <section class="panel">
+
+                        <h2>
+                            Panduan Tools, Pelatihan, Lembar Kerja, Shortcut, dan Rubrik
+                        </h2>
+
+                        <section class="panel">
+
+    <h2 id="materialNavigationTitle">
+        Navigasi Materi
+    </h2>
+
+    <p
+        style="
+            color:#cbd5e1;
+            line-height:1.7;
+            margin-bottom:18px;
+        "
+    >
+        Pilih submateri untuk langsung membuka penjelasan Guru AI.
+    </p>
+
+    <div
+        id="materialNavigationGrid"
+        style="
+            display:grid;
+            grid-template-columns:repeat(3,1fr);
+            gap:12px;
+        "
+    >
+        <div
+            style="
+                background:#1e293b;
+                border:1px solid #334155;
+                border-radius:14px;
+                padding:16px;
+                color:#cbd5e1;
+            "
+        >
+            Memuat navigasi materi...
+        </div>
+    </div>
+
+</section>
+
+                        <div
+                            class="learning-pack-box"
+                            id="learningPackBox"
+                        >
+                            Memuat panduan lengkap...
+                        </div>
+
+                    </section>
+
+
+                    <section class="panel">
+
+                        <h2>
+                            Materi Guru AI
+                        </h2>
+
+                        <div class="tab-row">
+
+                            <button
+                                class="tab-btn active"
+                                data-tab="detail"
+                            >
+                                Penjelasan Detail
+                            </button>
+
+                            <button
+                                class="tab-btn"
+                                data-tab="contoh"
+                            >
+                                Contoh
+                            </button>
+
+                            <button
+                                class="tab-btn"
+                                data-tab="ringkasan"
+                            >
+                                Ringkasan
+                            </button>
+
+                            <button
+                                class="tab-btn"
+                                data-tab="kesalahan"
+                            >
+                                Kesalahan Umum
+                            </button>
+
+                            <button
+                                class="tab-btn"
+                                data-tab="rekomendasi"
+                            >
+                                Rekomendasi
+                            </button>
+
+                        </div>
+
+                        <div
+                            class="material-box"
+                            id="materialBox"
+                        >
+                            Memuat materi Guru AI...
+                        </div>
+
+                    </section>
+
+
+                    <section class="panel">
+
+                        <h2>
+                            Tanya Guru AI
+                        </h2>
+
+                        <div class="question-box">
+
+                            <input
+                                type="text"
+                                id="questionInput"
+                                placeholder="Tulis pertanyaan untuk Guru AI..."
+                            >
+
+                            <div class="button-row">
+
+                                <button
+                                    class="btn-blue"
+                                    id="askButton"
+                                >
+                                    Tanya Guru AI
+                                </button>
+
+                                <button
+                                    class="btn-green"
+                                    id="startMicButton"
+                                >
+                                    🎙 Mulai Mikrofon
+                                </button>
+
+                                <button
+                                    class="btn-red"
+                                    id="stopMicButton"
+                                >
+                                    🛑 Stop Mikrofon
+                                </button>
+
+                            </div>
+
+                        </div>
+
+                        <div
+                            class="mic-box"
+                            id="micStatus"
+                        >
+                            Status mikrofon: belum aktif. Gunakan Google Chrome atau Microsoft Edge.
+                        </div>
+
+                        <div
+                            class="answer-box"
+                            id="answerBox"
+                        ></div>
+
+                        <div
+                            class="answer-actions"
+                            id="answerActions"
+                        >
+
+                            <button
+                                class="btn-purple"
+                                id="speakAnswerButton"
+                            >
+                                🔊 Bacakan Jawaban
+                            </button>
+
+                            <button
+                                class="btn-orange"
+                                id="stopAnswerVoiceButton"
+                            >
+                                ■ Stop Jawaban
+                            </button>
+
+                            <button
+                                class="btn-green"
+                                id="askAnotherButton"
+                            >
+                                Tanya Lagi
+                            </button>
+
+                        </div>
+
+                    </section>
+
+                </div>
+
+
+                <aside>
+
+                    <section class="panel">
+
+                        <h3>
+                            Cara Menggunakan
+                        </h3>
+
+                        <div class="info-box">
+                            1. Pilih jurusan DKV atau TKJ.
+                            <br>
+                            2. Pilih BAB yang ingin dipelajari.
+                            <br>
+                            3. Klik Jelaskan Materi.
+                            <br>
+                            4. Gunakan mikrofon atau ketik pertanyaan.
+                        </div>
+
+                    </section>
+
+
+                    <section class="panel">
+
+                        <h3>
+                            Pertanyaan Cepat
+                        </h3>
+
+                        <div class="quick-list">
+
+                            <button
+                                class="quick-question"
+                                data-question="Jelaskan materi ini dengan bahasa yang mudah dipahami siswa."
+                            >
+                                Jelaskan dengan bahasa sederhana
+                            </button>
+
+                            <button
+                                class="quick-question"
+                                data-question="Berikan contoh penerapan materi ini dalam kehidupan nyata."
+                            >
+                                Berikan contoh nyata
+                            </button>
+
+                            <button
+                                class="quick-question"
+                                data-question="Buatkan ringkasan materi ini."
+                            >
+                                Buat ringkasan
+                            </button>
+
+                            <button
+                                class="quick-question"
+                                data-question="Apa kesalahan umum yang sering terjadi pada materi ini?"
+                            >
+                                Kesalahan umum
+                            </button>
+
+                            <button
+                                class="quick-question"
+                                data-question="Buatkan latihan atau pertanyaan dari materi ini."
+                            >
+                                Buat latihan
+                            </button>
+
+                        </div>
+
+                    </section>
+
+
+                    <section class="panel">
+
+                        <h3>
+                            Status Guru AI
+                        </h3>
+
+                        <div class="info-box">
+                            Guru AI aktif untuk menjelaskan modul DKV dan TKJ.
+                            Gunakan Mode Kelas jika ingin memakai kamera dan jadwal istirahat.
+                        </div>
+
+                        <div class="button-row">
+
+                            <a href="/admin/class-mode">
+                                <button class="btn-purple">
+                                    Buka Mode Kelas
+                                </button>
+                            </a>
+
+                            <a href="/admin/camera-settings">
+                                <button class="btn-blue">
+                                    Setting Kamera
+                                </button>
+                            </a>
+
+                        </div>
+
+                    </section>
+
+                </aside>
+
+            </section>
+
+        </div>
+
+    </main>
+
+
+    <script src="/static/js/guru_ai.js?v=13.9"></script>
+    <script src="/static/js/guru_ai_full_explanation.js?v=15.5"></script>
+    <script src="/static/js/guru_ai_layout_plus.js?v=15.6"></script>
+    <script src="/static/js/guru_ai_navigation.js?v=15.7"></script>
+    <script src="/static/js/guru_ai_export_pdf.js?v=15.9"></script>
+
+</body>
+
+</html>

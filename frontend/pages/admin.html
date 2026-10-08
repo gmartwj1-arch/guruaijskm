@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Dashboard Admin | GURU AI JSKM</title>
+    <link rel="stylesheet" href="/static/css/admin.css">
+
+    <style>
+        .dashboard-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            gap: 20px;
+            margin-bottom: 26px;
+        }
+
+        .dashboard-header h1 {
+            margin: 0;
+            font-size: 32px;
+            color: #0f172a;
+        }
+
+        .dashboard-header p {
+            margin: 8px 0 0 0;
+            color: #64748b;
+        }
+
+        .admin-profile {
+            display: flex;
+            align-items: center;
+            gap: 14px;
+            background: #ffffff;
+            border-radius: 18px;
+            padding: 14px 22px;
+            box-shadow: 0 8px 30px rgba(15, 23, 42, 0.08);
+        }
+
+        .admin-avatar {
+            width: 58px;
+            height: 58px;
+            border-radius: 50%;
+            background: #2563eb;
+            color: #ffffff;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 26px;
+            font-weight: 900;
+        }
+
+        .admin-profile strong {
+            display: block;
+            color: #0f172a;
+        }
+
+        .admin-profile small {
+            color: #16a34a;
+        }
+
+        .stat-grid {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 20px;
+            margin-bottom: 26px;
+        }
+
+        .stat-card {
+            background: #ffffff;
+            border-radius: 20px;
+            padding: 26px;
+            box-shadow: 0 8px 30px rgba(15, 23, 42, 0.08);
+        }
+
+        .stat-card span {
+            display: block;
+            color: #64748b;
+            font-weight: 800;
+            margin-bottom: 18px;
+        }
+
+        .stat-card strong {
+            display: block;
+            color: #2563eb;
+            font-size: 38px;
+            line-height: 1;
+        }
+
+        .section-card {
+            background: #ffffff;
+            border-radius: 20px;
+            padding: 26px;
+            box-shadow: 0 8px 30px rgba(15, 23, 42, 0.08);
+            margin-bottom: 26px;
+        }
+
+        .section-card h2 {
+            margin-top: 0;
+            color: #0f172a;
+        }
+
+        .activity-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 18px;
+        }
+
+        .activity-table th {
+            background: #eff6ff;
+            color: #1e3a8a;
+            text-align: left;
+            padding: 14px;
+        }
+
+        .activity-table td {
+            border-bottom: 1px solid #e5e7eb;
+            padding: 14px;
+            color: #0f172a;
+        }
+
+        .system-list {
+            display: grid;
+            gap: 18px;
+        }
+
+        .system-item {
+            display: grid;
+            grid-template-columns: 180px 1fr 60px;
+            gap: 12px;
+            align-items: center;
+        }
+
+        .system-name {
+            font-weight: 800;
+            color: #0f172a;
+        }
+
+        .bar-track {
+            height: 18px;
+            border-radius: 999px;
+            background: #e5e7eb;
+            overflow: hidden;
+        }
+
+        .bar-fill {
+            height: 100%;
+            border-radius: 999px;
+            background: #2563eb;
+            width: 0%;
+            transition: 0.3s;
+        }
+
+        .system-value {
+            color: #2563eb;
+            font-weight: 900;
+            text-align: right;
+        }
+
+        .quick-grid {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 14px;
+        }
+
+        .quick-card {
+            display: block;
+            background: #0f172a;
+            color: #ffffff;
+            text-decoration: none;
+            border-radius: 18px;
+            padding: 18px;
+            font-weight: 900;
+            transition: 0.2s;
+        }
+
+        .quick-card:hover {
+            background: #2563eb;
+            transform: translateY(-2px);
+        }
+
+        @media (max-width: 1100px) {
+            .stat-grid,
+            .quick-grid {
+                grid-template-columns: repeat(2, 1fr);
+            }
+
+            .dashboard-header {
+                flex-direction: column;
+                align-items: flex-start;
+            }
+        }
+
+        @media (max-width: 700px) {
+            .stat-grid,
+            .quick-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .system-item {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <aside class="sidebar">
+
+        <div class="logo">
+            <h2>🎓 GURU AI JSKM</h2>
+            <small>Administrator</small>
+        </div>
+
+        <nav>
+            <a href="/admin" class="active">🏠 Dashboard</a>
+            <a href="/admin/students">👨‍🎓 Data Siswa</a>
+            <a href="/admin/teachers">👨‍🏫 Data Guru</a>
+            <a href="/admin/modules">📚 Modul</a>
+            <a href="/admin/guru-ai">🤖 Guru AI</a>
+            <a href="/admin/class-mode">🎥 Mode Kelas</a>
+            <a href="/admin/camera-settings">📷 Setting Kamera</a>
+            <a href="/admin/quiz">📝 Quiz</a>
+            <a href="/admin/evaluation">📊 Nilai Evaluasi</a>
+            <a href="/admin/bookmarks">⭐ Bookmark</a>
+            <a href="/admin/progress">📈 Progress</a>
+            <a href="/admin/settings">⚙️ Pengaturan</a>
+            <a href="/login">🚪 Logout</a>
+        </nav>
+
+    </aside>
+
+
+    <main class="content">
+
+        <div class="dashboard-header">
+
+            <div>
+                <h1>Dashboard Administrator</h1>
+                <p>Selamat datang di Sistem GURU AI JSKM</p>
+            </div>
+
+            <div class="admin-profile">
+                <div class="admin-avatar">A</div>
+                <div>
+                    <strong>Administrator</strong>
+                    <small>Online</small>
+                </div>
+            </div>
+
+        </div>
+
+
+        <section class="stat-grid">
+
+            <div class="stat-card">
+                <span>Total Siswa</span>
+                <strong id="totalStudents">0</strong>
+            </div>
+
+            <div class="stat-card">
+                <span>Total Guru</span>
+                <strong id="totalTeachers">0</strong>
+            </div>
+
+            <div class="stat-card">
+                <span>Total BAB</span>
+                <strong id="totalChapters">0</strong>
+            </div>
+
+            <div class="stat-card">
+                <span>Hasil Quiz</span>
+                <strong id="totalQuizResults">0</strong>
+            </div>
+
+        </section>
+
+
+        <section class="section-card">
+
+            <h2>Akses Cepat</h2>
+
+            <div class="quick-grid">
+
+                <a class="quick-card" href="/admin/guru-ai">
+                    🤖 Buka Guru AI
+                </a>
+
+                <a class="quick-card" href="/admin/class-mode">
+                    🎥 Mode Kelas
+                </a>
+
+                <a class="quick-card" href="/admin/modules">
+                    📚 Modul DKV / TKJ
+                </a>
+
+                <a class="quick-card" href="/admin/evaluation">
+                    📊 Nilai Evaluasi
+                </a>
+
+                <a class="quick-card" href="/admin/camera-settings">
+                    📷 Setting Kamera
+                </a>
+
+                <a class="quick-card" href="/admin/quiz">
+                    📝 Quiz
+                </a>
+
+                <a class="quick-card" href="/admin/bookmarks">
+                    ⭐ Bookmark
+                </a>
+
+                <a class="quick-card" href="/admin/settings">
+                    ⚙️ Pengaturan
+                </a>
+
+            </div>
+
+        </section>
+
+
+        <section class="section-card">
+
+            <h2>Aktivitas Terbaru</h2>
+
+            <table class="activity-table">
+
+                <thead>
+                    <tr>
+                        <th>Waktu</th>
+                        <th>Aktivitas</th>
+                        <th>Status</th>
+                    </tr>
+                </thead>
+
+                <tbody id="activitiesTableBody">
+                    <tr>
+                        <td colspan="3">Memuat aktivitas...</td>
+                    </tr>
+                </tbody>
+
+            </table>
+
+        </section>
+
+
+        <section class="section-card">
+
+            <h2>Statistik Sistem</h2>
+
+            <div class="system-list">
+
+                <div class="system-item">
+                    <div class="system-name">📚 Total BAB</div>
+                    <div class="bar-track">
+                        <div class="bar-fill" id="barChapters"></div>
+                    </div>
+                    <div class="system-value" id="valueChapters">0</div>
+                </div>
+
+                <div class="system-item">
+                    <div class="system-name">📖 Total Submateri</div>
+                    <div class="bar-track">
+                        <div class="bar-fill" id="barSections"></div>
+                    </div>
+                    <div class="system-value" id="valueSections">0</div>
+                </div>
+
+                <div class="system-item">
+                    <div class="system-name">🎨 BAB DKV</div>
+                    <div class="bar-track">
+                        <div class="bar-fill" id="barDkv"></div>
+                    </div>
+                    <div class="system-value" id="valueDkv">0</div>
+                </div>
+
+                <div class="system-item">
+                    <div class="system-name">💻 BAB TKJ</div>
+                    <div class="bar-track">
+                        <div class="bar-fill" id="barTkj"></div>
+                    </div>
+                    <div class="system-value" id="valueTkj">0</div>
+                </div>
+
+            </div>
+
+        </section>
+
+    </main>
+
+    <script src="/static/js/admin.js?v=17.2"></script>
+
+</body>
+
+</html>

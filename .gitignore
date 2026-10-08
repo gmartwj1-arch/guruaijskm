@@ -1,0 +1,31 @@
+# Virtual Environment
+venv/
+.venv/
+env/
+
+# Environment Variables & Secrets
+.env
+*.env.local
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.bak*
+
+# Database & Backups
+database/*.db
+database/eguru.db
+database/eguru_ai.db
+backup/*.db
+*.sqlite3
+
+# Temporary & Logs
+temp/
+logs/*.log
+exports/
+uploads/
+
+# IDE
+.vscode/
+.idea/

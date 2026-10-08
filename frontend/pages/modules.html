@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+
+    <title>Data Modul | GURU AI JSKM</title>
+
+    <link
+        rel="stylesheet"
+        href="/static/css/admin.css"
+    >
+
+    <style>
+        .major-panel {
+            background: #ffffff;
+            border-radius: 18px;
+            padding: 22px;
+            margin-bottom: 24px;
+            box-shadow: 0 10px 30px rgba(15, 23, 42, 0.08);
+        }
+
+        .major-grid {
+            display: grid;
+            grid-template-columns: 1fr auto;
+            gap: 16px;
+            align-items: end;
+        }
+
+        .major-info h3 {
+            margin: 0 0 8px 0;
+            color: #0f172a;
+            font-size: 22px;
+        }
+
+        .major-info p {
+            margin: 0;
+            color: #64748b;
+            line-height: 1.6;
+        }
+
+        .major-control label {
+            display: block;
+            font-weight: 800;
+            color: #0f172a;
+            margin-bottom: 8px;
+        }
+
+        .major-control select {
+            min-width: 260px;
+            padding: 14px 16px;
+            border-radius: 12px;
+            border: 1px solid #cbd5e1;
+            background: #f8fafc;
+            color: #0f172a;
+            font-weight: 800;
+            outline: none;
+        }
+
+        .module-status-badge {
+            display: inline-flex;
+            padding: 7px 12px;
+            border-radius: 999px;
+            font-size: 12px;
+            font-weight: 900;
+            background: #dcfce7;
+            color: #15803d;
+        }
+
+        .module-action {
+            border: none;
+            background: #2563eb;
+            color: #ffffff;
+            padding: 10px 14px;
+            border-radius: 10px;
+            font-weight: 800;
+            cursor: pointer;
+        }
+
+        .module-action:hover {
+            opacity: 0.9;
+        }
+
+        .empty-row {
+            text-align: center;
+            color: #64748b;
+            padding: 24px !important;
+        }
+
+        @media (max-width: 900px) {
+            .major-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .major-control select {
+                width: 100%;
+            }
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <aside class="sidebar">
+
+        <div class="logo">
+
+            <h2>🎓 GURU AI JSKM</h2>
+
+            <small>Administrator</small>
+
+        </div>
+
+        <nav>
+
+            <a href="/admin">
+                🏠 Dashboard
+            </a>
+
+            <a href="/admin/students">
+                👨‍🎓 Data Siswa
+            </a>
+
+            <a href="/admin/teachers">
+                👨‍🏫 Data Guru
+            </a>
+
+            <a
+                href="/admin/modules"
+                class="active"
+            >
+                📚 Modul
+            </a>
+
+            <a href="/admin/guru-ai">
+                🤖 Guru AI
+            </a>
+
+            <a href="/admin/class-mode">
+                🎥 Mode Kelas
+            </a>
+
+            <a href="/admin/camera-settings">
+                📷 Setting Kamera
+            </a>
+
+            <a href="/admin/quiz">
+                📝 Quiz
+            </a>
+
+            <a href="/admin/evaluation">
+                📊 Nilai Evaluasi
+            </a>
+
+            <a href="/admin/bookmarks">
+                ⭐ Bookmark
+            </a>
+
+            <a href="/admin/progress">
+                📈 Progress
+            </a>
+
+            <a href="/admin/settings">
+                ⚙️ Pengaturan
+            </a>
+
+            <a href="/login">
+                🚪 Logout
+            </a>
+
+        </nav>
+
+    </aside>
+
+
+    <main class="content">
+
+        <header class="topbar">
+
+            <div>
+
+                <h1>Data Modul</h1>
+
+                <p>
+                    Kelola materi pembelajaran GURU AI JSKM berdasarkan jurusan.
+                </p>
+
+            </div>
+
+            <div class="admin-profile">
+
+                <div class="avatar">
+                    A
+                </div>
+
+                <div>
+
+                    <strong>Administrator</strong>
+
+                    <small>Online</small>
+
+                </div>
+
+            </div>
+
+        </header>
+
+
+        <section class="major-panel">
+
+            <div class="major-grid">
+
+                <div class="major-info">
+
+                    <h3 id="selectedMajorTitle">
+                        Jurusan DKV
+                    </h3>
+
+                    <p id="selectedMajorDescription">
+                        Modul pembelajaran akan ditampilkan sesuai jurusan yang dipilih.
+                    </p>
+
+                </div>
+
+                <div class="major-control">
+
+                    <label for="majorSelect">
+                        Pilih Jurusan
+                    </label>
+
+                    <select id="majorSelect">
+
+                        <option value="DKV">
+                            DKV - Desain Komunikasi Visual
+                        </option>
+
+                        <option value="TKJ">
+                            TKJ - Teknik Komputer dan Jaringan
+                        </option>
+
+                    </select>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <section class="cards">
+
+            <div class="card">
+
+                <h3>Total BAB</h3>
+
+                <h2 id="totalBab">
+                    0
+                </h2>
+
+            </div>
+
+            <div class="card">
+
+                <h3>Total Materi</h3>
+
+                <h2 id="totalMateri">
+                    0
+                </h2>
+
+            </div>
+
+            <div class="card">
+
+                <h3>Total Quiz</h3>
+
+                <h2 id="totalQuiz">
+                    0
+                </h2>
+
+            </div>
+
+            <div class="card">
+
+                <h3>Total Video</h3>
+
+                <h2 id="totalVideo">
+                    0
+                </h2>
+
+            </div>
+
+        </section>
+
+
+        <section class="table-section">
+
+            <div class="section-header">
+
+                <div>
+
+                    <h2>Daftar Modul</h2>
+
+                    <small id="moduleSubtitle">
+                        Menampilkan modul berdasarkan jurusan.
+                    </small>
+
+                </div>
+
+                <div class="table-actions">
+
+                    <input
+                        type="text"
+                        id="moduleSearch"
+                        placeholder="Cari modul..."
+                    >
+
+                    <button id="refreshModulesBtn">
+                        🔄 Refresh
+                    </button>
+
+                </div>
+
+            </div>
+
+            <div class="table-wrapper">
+
+                <table>
+
+                    <thead>
+
+                        <tr>
+
+                            <th>No</th>
+
+                            <th>BAB</th>
+
+                            <th>Judul Modul</th>
+
+                            <th>Jumlah Materi</th>
+
+                            <th>Status</th>
+
+                            <th>Aksi</th>
+
+                        </tr>
+
+                    </thead>
+
+                    <tbody id="modulesTableBody">
+
+                        <tr>
+
+                            <td
+                                colspan="6"
+                                class="empty-row"
+                            >
+                                Memuat data modul...
+                            </td>
+
+                        </tr>
+
+                    </tbody>
+
+                </table>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <script src="/static/js/modules.js?v=13.7"></script>
+
+</body>
+
+</html>

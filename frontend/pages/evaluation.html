@@ -1,0 +1,916 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+
+    <title>Nilai Evaluasi | GURU AI JSKM</title>
+
+    <link
+        rel="stylesheet"
+        href="/static/css/admin.css"
+    >
+
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            background: #0f172a;
+            color: #ffffff;
+        }
+
+        .content {
+            background: #0f172a;
+            color: #ffffff;
+            min-height: 100vh;
+        }
+
+        .evaluation-container {
+            padding: 24px;
+        }
+
+        .evaluation-hero {
+            background: #111827;
+            border: 1px solid #334155;
+            border-radius: 18px;
+            padding: 26px;
+            margin-bottom: 20px;
+        }
+
+        .evaluation-badge {
+            display: inline-block;
+            background: linear-gradient(135deg, #7c3aed, #2563eb);
+            color: #ffffff;
+            padding: 8px 14px;
+            border-radius: 999px;
+            font-weight: 800;
+            font-size: 14px;
+            margin-bottom: 12px;
+        }
+
+        .evaluation-title {
+            font-size: 34px;
+            margin: 0 0 10px 0;
+            color: #ffffff;
+        }
+
+        .evaluation-description {
+            color: #bfdbfe;
+            line-height: 1.7;
+            max-width: 950px;
+            margin: 0;
+        }
+
+        .summary-grid {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 14px;
+            margin-bottom: 20px;
+        }
+
+        .summary-card {
+            background: #111827;
+            border: 1px solid #334155;
+            border-radius: 16px;
+            padding: 18px;
+        }
+
+        .summary-card small {
+            color: #94a3b8;
+            display: block;
+            margin-bottom: 8px;
+            font-weight: 700;
+        }
+
+        .summary-card strong {
+            font-size: 30px;
+            color: #ffffff;
+        }
+
+        .filter-panel {
+            background: #111827;
+            border: 1px solid #334155;
+            border-radius: 18px;
+            padding: 20px;
+            margin-bottom: 20px;
+        }
+
+        .filter-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr auto;
+            gap: 12px;
+            align-items: end;
+        }
+
+        .form-group label {
+            display: block;
+            color: #bfdbfe;
+            font-weight: 700;
+            margin-bottom: 8px;
+        }
+
+        .form-group input,
+        .form-group select {
+            width: 100%;
+            background: #1e293b;
+            color: #ffffff;
+            border: 1px solid #475569;
+            border-radius: 12px;
+            padding: 13px 14px;
+            outline: none;
+        }
+
+        .btn {
+            border: none;
+            border-radius: 12px;
+            padding: 13px 18px;
+            font-weight: 800;
+            cursor: pointer;
+            transition: 0.2s;
+        }
+
+        .btn:hover {
+            opacity: 0.95;
+            transform: translateY(-1px);
+        }
+
+        .btn-blue {
+            background: #2563eb;
+            color: #ffffff;
+        }
+
+        .btn-green {
+            background: #22c55e;
+            color: #052e16;
+        }
+
+        .btn-gray {
+            background: #334155;
+            color: #cbd5e1;
+        }
+
+        .btn-red {
+            background: #ef4444;
+            color: #ffffff;
+        }
+
+        .btn-small {
+            padding: 8px 12px;
+            font-size: 13px;
+            border-radius: 10px;
+        }
+
+        .btn-print {
+            background: #f59e0b;
+            color: #111827;
+        }
+
+        .evaluation-panel {
+            background: #111827;
+            border: 1px solid #334155;
+            border-radius: 18px;
+            padding: 22px;
+            margin-bottom: 20px;
+        }
+
+        .panel-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            gap: 14px;
+            flex-wrap: wrap;
+            margin-bottom: 18px;
+        }
+
+        .panel-header h2 {
+            margin: 0;
+            color: #ffffff;
+        }
+
+        .table-wrapper {
+            width: 100%;
+            overflow-x: auto;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            min-width: 980px;
+        }
+
+        thead {
+            background: #0b1220;
+        }
+
+        th {
+            color: #bfdbfe;
+            text-align: left;
+            padding: 14px;
+            font-size: 14px;
+            border-bottom: 1px solid #334155;
+            white-space: nowrap;
+        }
+
+        td {
+            color: #e5e7eb;
+            padding: 14px;
+            border-bottom: 1px solid #1f2937;
+            vertical-align: top;
+        }
+
+        tr:hover td {
+            background: #0b1220;
+        }
+
+        .score-badge {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            min-width: 56px;
+            padding: 8px 12px;
+            border-radius: 999px;
+            font-weight: 900;
+        }
+
+        .score-good {
+            background: #064e3b;
+            color: #bbf7d0;
+        }
+
+        .score-mid {
+            background: #78350f;
+            color: #fde68a;
+        }
+
+        .score-low {
+            background: #7f1d1d;
+            color: #fecaca;
+        }
+
+        .mode-badge {
+            display: inline-block;
+            padding: 7px 10px;
+            border-radius: 999px;
+            font-size: 12px;
+            font-weight: 800;
+            background: #172554;
+            color: #bfdbfe;
+            text-transform: uppercase;
+        }
+
+        .empty-state {
+            background: #0b1220;
+            border: 1px dashed #475569;
+            border-radius: 16px;
+            padding: 32px;
+            text-align: center;
+            color: #cbd5e1;
+            line-height: 1.8;
+        }
+
+        .detail-panel {
+            display: none;
+            background: #111827;
+            border: 1px solid #334155;
+            border-radius: 18px;
+            padding: 22px;
+        }
+
+        .detail-panel.active {
+            display: block;
+        }
+
+        .detail-grid {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 14px;
+            margin-bottom: 20px;
+        }
+
+        .detail-card {
+            background: #0b1220;
+            border: 1px solid #334155;
+            border-radius: 14px;
+            padding: 16px;
+        }
+
+        .detail-card small {
+            display: block;
+            color: #94a3b8;
+            margin-bottom: 8px;
+            font-weight: 700;
+        }
+
+        .detail-card strong {
+            color: #ffffff;
+            font-size: 22px;
+        }
+
+        .answer-review-wrapper {
+            margin-top: 24px;
+            text-align: left;
+        }
+
+        .answer-review-title {
+            margin: 0 0 16px 0;
+            color: #ffffff;
+            font-size: 24px;
+        }
+
+        .answer-card {
+            background: #0b1220;
+            border: 1px solid #334155;
+            border-radius: 18px;
+            padding: 18px;
+            margin-bottom: 16px;
+        }
+
+        .answer-card.correct {
+            border-left: 6px solid #22c55e;
+        }
+
+        .answer-card.wrong {
+            border-left: 6px solid #ef4444;
+        }
+
+        .answer-card.neutral {
+            border-left: 6px solid #64748b;
+        }
+
+        .answer-header {
+            display: flex;
+            justify-content: space-between;
+            gap: 12px;
+            align-items: center;
+            flex-wrap: wrap;
+            margin-bottom: 12px;
+        }
+
+        .answer-number {
+            color: #ffffff;
+            font-size: 18px;
+            font-weight: 900;
+        }
+
+        .answer-status {
+            padding: 7px 12px;
+            border-radius: 999px;
+            font-size: 12px;
+            font-weight: 900;
+            color: #ffffff;
+        }
+
+        .answer-status.correct {
+            background: #16a34a;
+        }
+
+        .answer-status.wrong {
+            background: #dc2626;
+        }
+
+        .answer-status.neutral {
+            background: #64748b;
+        }
+
+        .question-text {
+            background: #111827;
+            border: 1px solid #334155;
+            border-radius: 14px;
+            padding: 14px;
+            color: #e5e7eb;
+            line-height: 1.7;
+            margin-bottom: 14px;
+        }
+
+        .option-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 10px;
+            margin-bottom: 14px;
+        }
+
+        .option-item {
+            background: #111827;
+            border: 1px solid #334155;
+            border-radius: 12px;
+            padding: 12px;
+            color: #cbd5e1;
+            font-size: 14px;
+            line-height: 1.5;
+        }
+
+        .option-item strong {
+            color: #93c5fd;
+        }
+
+        .answer-compare-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 12px;
+            margin-top: 12px;
+        }
+
+        .answer-box {
+            background: #111827;
+            border: 1px solid #334155;
+            border-radius: 14px;
+            padding: 14px;
+        }
+
+        .answer-box small {
+            color: #94a3b8;
+            font-weight: 800;
+        }
+
+        .answer-box strong {
+            color: #ffffff;
+            display: block;
+            margin-top: 8px;
+            line-height: 1.5;
+        }
+
+        .answer-box.student {
+            border-left: 4px solid #3b82f6;
+        }
+
+        .answer-box.correct-answer {
+            border-left: 4px solid #22c55e;
+        }
+
+        .explanation-box {
+            background: #172554;
+            border: 1px solid #2563eb;
+            border-radius: 14px;
+            padding: 14px;
+            color: #dbeafe;
+            line-height: 1.7;
+            margin-top: 12px;
+        }
+
+        @media (max-width: 1000px) {
+            .summary-grid,
+            .detail-grid {
+                grid-template-columns: repeat(2, 1fr);
+            }
+
+            .filter-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+
+        @media (max-width: 700px) {
+            .option-grid,
+            .answer-compare-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+
+        @media (max-width: 640px) {
+            .summary-grid,
+            .detail-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .evaluation-title {
+                font-size: 28px;
+            }
+        }
+
+        @media print {
+            .sidebar,
+            .filter-panel,
+            .evaluation-panel,
+            #closeDetailButton,
+            .btn-print {
+                display: none !important;
+            }
+
+            .content {
+                margin: 0 !important;
+                padding: 0 !important;
+            }
+
+            body {
+                background: #ffffff;
+                color: #000000;
+            }
+
+            .detail-panel {
+                display: block !important;
+                background: #ffffff;
+                color: #000000;
+                border: none;
+            }
+
+            .detail-card,
+            .answer-card,
+            .question-text,
+            .option-item,
+            .answer-box,
+            .explanation-box {
+                background: #ffffff !important;
+                color: #000000 !important;
+                border-color: #999999 !important;
+            }
+
+            .detail-card small,
+            .detail-card strong,
+            .answer-review-title,
+            .answer-number,
+            .question-text,
+            .option-item,
+            .answer-box small,
+            .answer-box strong {
+                color: #000000 !important;
+            }
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <aside class="sidebar">
+
+        <div class="logo">
+
+            <h2>🎓 GURU AI JSKM</h2>
+
+            <small>Administrator</small>
+
+        </div>
+
+        <nav>
+
+            <a href="/admin">
+                🏠 Dashboard
+            </a>
+
+            <a href="/admin/students">
+                👨‍🎓 Data Siswa
+            </a>
+
+            <a href="/admin/teachers">
+                👨‍🏫 Data Guru
+            </a>
+
+            <a href="/admin/modules">
+                📚 Modul
+            </a>
+
+            <a href="/admin/guru-ai">
+                🤖 Guru AI
+            </a>
+
+            <a href="/admin/class-mode">
+                🎥 Mode Kelas
+            </a>
+
+            <a href="/admin/camera-settings">
+                📷 Setting Kamera
+            </a>
+
+            <a href="/admin/quiz">
+                📝 Quiz
+            </a>
+
+            <a
+                href="/admin/evaluation"
+                class="active"
+            >
+                📊 Nilai Evaluasi
+            </a>
+
+            <a href="/admin/bookmarks">
+                ⭐ Bookmark
+            </a>
+
+            <a href="/admin/progress">
+                📈 Progress
+            </a>
+
+            <a href="/admin/settings">
+                ⚙️ Pengaturan
+            </a>
+
+            <a href="/login">
+                🚪 Logout
+            </a>
+
+        </nav>
+
+    </aside>
+
+
+    <main class="content">
+
+        <div class="evaluation-container">
+
+            <section class="evaluation-hero">
+
+                <span class="evaluation-badge">
+                    REKAP NILAI SISWA
+                </span>
+
+                <h1 class="evaluation-title">
+                    Nilai Evaluasi Siswa
+                </h1>
+
+                <p class="evaluation-description">
+                    Halaman ini menampilkan hasil quiz latihan dan ujian siswa berdasarkan materi DKV.
+                    Admin atau guru dapat melihat skor, jumlah benar, jumlah salah, BAB yang dikerjakan,
+                    mode quiz, serta waktu pengerjaan sebagai dasar pembuatan raport digital.
+                </p>
+
+            </section>
+
+
+            <section class="summary-grid">
+
+                <div class="summary-card">
+
+                    <small>Total Pengerjaan</small>
+
+                    <strong id="totalResults">
+                        0
+                    </strong>
+
+                </div>
+
+                <div class="summary-card">
+
+                    <small>Rata-rata Nilai</small>
+
+                    <strong id="averageScore">
+                        0
+                    </strong>
+
+                </div>
+
+                <div class="summary-card">
+
+                    <small>Nilai Tertinggi</small>
+
+                    <strong id="highestScore">
+                        0
+                    </strong>
+
+                </div>
+
+                <div class="summary-card">
+
+                    <small>Nilai Terendah</small>
+
+                    <strong id="lowestScore">
+                        0
+                    </strong>
+
+                </div>
+
+            </section>
+
+
+            <section class="filter-panel">
+
+                <div class="filter-grid">
+
+                    <div class="form-group">
+
+                        <label for="searchInput">
+                            Cari Siswa / BAB
+                        </label>
+
+                        <input
+                            type="text"
+                            id="searchInput"
+                            placeholder="Contoh: Siswa, BAB VII, After Effects..."
+                        >
+
+                    </div>
+
+                    <div class="form-group">
+
+                        <label for="modeFilter">
+                            Mode Quiz
+                        </label>
+
+                        <select id="modeFilter">
+
+                            <option value="all">
+                                Semua Mode
+                            </option>
+
+                            <option value="practice">
+                                Latihan
+                            </option>
+
+                            <option value="exam">
+                                Ujian
+                            </option>
+
+                        </select>
+
+                    </div>
+
+                    <div class="form-group">
+
+                        <label for="scoreFilter">
+                            Filter Nilai
+                        </label>
+
+                        <select id="scoreFilter">
+
+                            <option value="all">
+                                Semua Nilai
+                            </option>
+
+                            <option value="good">
+                                Baik 80 - 100
+                            </option>
+
+                            <option value="mid">
+                                Cukup 60 - 79
+                            </option>
+
+                            <option value="low">
+                                Perlu Perbaikan 0 - 59
+                            </option>
+
+                        </select>
+
+                    </div>
+
+                    <button
+                        class="btn btn-blue"
+                        id="refreshButton"
+                    >
+                        Muat Ulang
+                    </button>
+
+                </div>
+
+            </section>
+
+
+            <section class="evaluation-panel">
+
+                <div class="panel-header">
+
+                    <h2>
+                        Daftar Nilai
+                    </h2>
+
+                    <button
+                        class="btn btn-green"
+                        id="exportButton"
+                    >
+                        Export Data
+                    </button>
+
+                </div>
+
+                <div
+                    class="empty-state"
+                    id="emptyState"
+                >
+                    Memuat data nilai evaluasi...
+                </div>
+
+                <div
+                    class="table-wrapper"
+                    id="tableWrapper"
+                    style="display:none;"
+                >
+
+                    <table>
+
+                        <thead>
+
+                            <tr>
+
+                                <th>No</th>
+
+                                <th>Nama Siswa</th>
+
+                                <th>BAB</th>
+
+                                <th>Mode</th>
+
+                                <th>Total Soal</th>
+
+                                <th>Benar</th>
+
+                                <th>Salah</th>
+
+                                <th>Skor</th>
+
+                                <th>Tanggal</th>
+
+                                <th>Aksi</th>
+
+                            </tr>
+
+                        </thead>
+
+                        <tbody id="evaluationTable">
+
+                        </tbody>
+
+                    </table>
+
+                </div>
+
+            </section>
+
+
+            <section
+                class="detail-panel"
+                id="detailPanel"
+            >
+
+                <div class="panel-header">
+
+                    <h2>
+                        Ringkasan Evaluasi
+                    </h2>
+
+                    <button
+                        class="btn btn-gray"
+                        id="closeDetailButton"
+                    >
+                        Tutup
+                    </button>
+
+                </div>
+
+                <div class="detail-grid">
+
+                    <div class="detail-card">
+
+                        <small>Siswa</small>
+
+                        <strong id="detailStudent">
+                            -
+                        </strong>
+
+                    </div>
+
+                    <div class="detail-card">
+
+                        <small>BAB</small>
+
+                        <strong id="detailChapter">
+                            -
+                        </strong>
+
+                    </div>
+
+                    <div class="detail-card">
+
+                        <small>Mode</small>
+
+                        <strong id="detailMode">
+                            -
+                        </strong>
+
+                    </div>
+
+                    <div class="detail-card">
+
+                        <small>Skor</small>
+
+                        <strong id="detailScore">
+                            0
+                        </strong>
+
+                    </div>
+
+                </div>
+
+                <div
+                    class="empty-state"
+                    id="detailNote"
+                >
+                    Klik tombol Detail untuk melihat jawaban siswa.
+                </div>
+
+            </section>
+
+        </div>
+
+    </main>
+
+
+    <script src="/static/js/evaluation.js"></script>
+
+</body>
+
+</html>

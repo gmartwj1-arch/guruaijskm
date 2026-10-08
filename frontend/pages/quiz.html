@@ -1,0 +1,708 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+
+    <title>Quiz | GURU AI JSKM</title>
+
+    <link
+        rel="stylesheet"
+        href="/static/css/admin.css"
+    >
+
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            background: #0f172a;
+            color: #ffffff;
+        }
+
+        .content {
+            background: #0f172a;
+            color: #ffffff;
+            min-height: 100vh;
+        }
+
+        .quiz-container {
+            padding: 24px;
+        }
+
+        .quiz-hero {
+            background: #111827;
+            border: 1px solid #334155;
+            border-radius: 18px;
+            padding: 26px;
+            margin-bottom: 20px;
+        }
+
+        .quiz-badge {
+            display: inline-block;
+            background: linear-gradient(135deg, #7c3aed, #2563eb);
+            color: #ffffff;
+            padding: 8px 14px;
+            border-radius: 999px;
+            font-weight: 800;
+            font-size: 14px;
+            margin-bottom: 12px;
+        }
+
+        .quiz-title {
+            font-size: 34px;
+            margin: 0 0 10px 0;
+            color: #ffffff;
+        }
+
+        .quiz-description {
+            color: #bfdbfe;
+            line-height: 1.7;
+            max-width: 900px;
+            margin: 0;
+        }
+
+        .quiz-control {
+            background: #111827;
+            border: 1px solid #334155;
+            border-radius: 18px;
+            padding: 22px;
+            margin-bottom: 20px;
+        }
+
+        .quiz-control-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr auto auto;
+            gap: 12px;
+            align-items: end;
+        }
+
+        .form-group label {
+            display: block;
+            color: #bfdbfe;
+            margin-bottom: 8px;
+            font-weight: 700;
+        }
+
+        .form-group select {
+            width: 100%;
+            background: #1e293b;
+            color: #ffffff;
+            border: 1px solid #475569;
+            border-radius: 12px;
+            padding: 13px 14px;
+            outline: none;
+        }
+
+        .btn {
+            border: none;
+            border-radius: 12px;
+            padding: 13px 18px;
+            font-weight: 800;
+            cursor: pointer;
+            transition: 0.2s;
+        }
+
+        .btn:hover {
+            transform: translateY(-1px);
+            opacity: 0.95;
+        }
+
+        .btn-green {
+            background: #22c55e;
+            color: #052e16;
+        }
+
+        .btn-red {
+            background: #7f1d1d;
+            color: #fecaca;
+        }
+
+        .btn-blue {
+            background: #2563eb;
+            color: #ffffff;
+        }
+
+        .btn-gray {
+            background: #334155;
+            color: #cbd5e1;
+        }
+
+        .btn-purple {
+            background: #7c3aed;
+            color: #ffffff;
+        }
+
+        .quiz-info-grid {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 14px;
+            margin-top: 18px;
+        }
+
+        .quiz-info-card {
+            background: #0b1220;
+            border: 1px solid #334155;
+            border-radius: 14px;
+            padding: 16px;
+        }
+
+        .quiz-info-card small {
+            color: #94a3b8;
+            display: block;
+            margin-bottom: 8px;
+        }
+
+        .quiz-info-card strong {
+            color: #ffffff;
+            font-size: 24px;
+        }
+
+        .quiz-panel {
+            background: #111827;
+            border: 1px solid #334155;
+            border-radius: 18px;
+            padding: 24px;
+            margin-bottom: 20px;
+        }
+
+        .quiz-panel h2 {
+            margin: 0 0 18px 0;
+            color: #ffffff;
+        }
+
+        .question-header {
+            display: flex;
+            justify-content: space-between;
+            gap: 16px;
+            flex-wrap: wrap;
+            align-items: center;
+            margin-bottom: 18px;
+        }
+
+        .question-counter {
+            background: #172554;
+            border: 1px solid #2563eb;
+            color: #bfdbfe;
+            padding: 8px 14px;
+            border-radius: 999px;
+            font-weight: 800;
+        }
+
+        .question-box {
+            background: #0b1220;
+            border: 1px solid #334155;
+            border-radius: 16px;
+            padding: 22px;
+            margin-bottom: 16px;
+        }
+
+        .question-text {
+            color: #ffffff;
+            font-size: 22px;
+            line-height: 1.6;
+            margin: 0;
+        }
+
+        .option-list {
+            display: grid;
+            grid-template-columns: 1fr;
+            gap: 12px;
+            margin-top: 18px;
+        }
+
+        .option-item {
+            background: #1e293b;
+            border: 1px solid #334155;
+            color: #ffffff;
+            border-radius: 14px;
+            padding: 15px;
+            cursor: pointer;
+            line-height: 1.6;
+            transition: 0.2s;
+        }
+
+        .option-item:hover {
+            background: #243449;
+            border-color: #60a5fa;
+        }
+
+        .option-item.active {
+            background: #172554;
+            border-color: #60a5fa;
+        }
+
+        .option-letter {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            width: 32px;
+            height: 32px;
+            background: #7c3aed;
+            border-radius: 10px;
+            margin-right: 10px;
+            font-weight: 900;
+        }
+
+        .quiz-navigation {
+            display: flex;
+            justify-content: space-between;
+            gap: 12px;
+            flex-wrap: wrap;
+            margin-top: 18px;
+        }
+
+        .result-panel {
+            display: none;
+            background: #111827;
+            border: 1px solid #334155;
+            border-radius: 18px;
+            padding: 24px;
+            margin-bottom: 20px;
+        }
+
+        .result-panel.active {
+            display: block;
+        }
+
+        .result-score-box {
+            background: linear-gradient(135deg, #064e3b, #172554);
+            border: 1px solid #22c55e;
+            border-radius: 18px;
+            padding: 24px;
+            text-align: center;
+            margin-bottom: 18px;
+        }
+
+        .result-score-box h2 {
+            margin: 0 0 10px 0;
+            font-size: 28px;
+        }
+
+        .result-score {
+            font-size: 52px;
+            font-weight: 900;
+            color: #ffffff;
+        }
+
+        .review-list {
+            display: grid;
+            gap: 12px;
+        }
+
+        .review-item {
+            background: #0b1220;
+            border: 1px solid #334155;
+            border-radius: 14px;
+            padding: 16px;
+            line-height: 1.7;
+        }
+
+        .review-item.correct {
+            border-left: 5px solid #22c55e;
+        }
+
+        .review-item.wrong {
+            border-left: 5px solid #ef4444;
+        }
+
+        .empty-state {
+            background: #0b1220;
+            border: 1px dashed #475569;
+            border-radius: 16px;
+            padding: 30px;
+            text-align: center;
+            color: #cbd5e1;
+            line-height: 1.8;
+        }
+
+        @media (max-width: 1000px) {
+            .quiz-control-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .quiz-info-grid {
+                grid-template-columns: repeat(2, 1fr);
+            }
+        }
+
+        @media (max-width: 640px) {
+            .quiz-info-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .quiz-title {
+                font-size: 28px;
+            }
+
+            .question-text {
+                font-size: 18px;
+            }
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <aside class="sidebar">
+
+        <div class="logo">
+
+            <h2>🎓 GURU AI JSKM</h2>
+
+            <small>Administrator</small>
+
+        </div>
+
+        <nav>
+
+            <a href="/admin">
+                🏠 Dashboard
+            </a>
+
+            <a href="/admin/students">
+                👨‍🎓 Data Siswa
+            </a>
+
+            <a href="/admin/teachers">
+                👨‍🏫 Data Guru
+            </a>
+
+            <a href="/admin/modules">
+                📚 Modul
+            </a>
+
+            <a href="/admin/guru-ai">
+                🤖 Guru AI
+            </a>
+
+            <a href="/admin/class-mode">
+                🎥 Mode Kelas
+            </a>
+
+            <a href="/admin/camera-settings">
+                📷 Setting Kamera
+            </a>
+
+            <a
+                href="/admin/quiz"
+                class="active"
+            >
+                📝 Quiz
+            </a>
+
+            <a href="/admin/evaluation">
+                📊 Nilai Evaluasi
+            </a>
+
+            <a href="/admin/bookmarks">
+                ⭐ Bookmark
+            </a>
+
+            <a href="/admin/progress">
+                📈 Progress
+            </a>
+
+            <a href="/admin/settings">
+                ⚙️ Pengaturan
+            </a>
+
+            <a href="/login">
+                🚪 Logout
+            </a>
+
+        </nav>
+
+    </aside>
+
+
+    <main class="content">
+
+        <div class="quiz-container">
+
+            <section class="quiz-hero">
+
+                <span class="quiz-badge">
+                    QUIZ INTERAKTIF DKV
+                </span>
+
+                <h1 class="quiz-title">
+                    Latihan Quiz Materi DKV
+                </h1>
+
+                <p class="quiz-description">
+                    Halaman ini digunakan untuk latihan soal berdasarkan materi pembelajaran DKV.
+                    Siswa dapat memilih BAB, mengerjakan soal pilihan ganda, melihat skor,
+                    dan mengevaluasi jawaban yang benar atau salah.
+                </p>
+
+            </section>
+
+
+            <section class="quiz-control">
+
+                <div class="quiz-control-grid">
+
+                    <div class="form-group">
+
+                        <label for="quizChapterSelect">
+                            Pilih BAB
+                        </label>
+
+                        <select id="quizChapterSelect">
+
+                            <option value="1">BAB I</option>
+
+                            <option value="2">BAB II</option>
+
+                            <option value="3">BAB III</option>
+
+                            <option value="4">BAB IV</option>
+
+                            <option value="5">BAB V</option>
+
+                            <option value="6">BAB VI</option>
+
+                            <option value="7" selected>BAB VII</option>
+
+                            <option value="8">BAB VIII</option>
+
+                            <option value="9">BAB IX</option>
+
+                            <option value="10">BAB X</option>
+
+                            <option value="11">BAB XI</option>
+
+                            <option value="12">BAB XII</option>
+
+                        </select>
+
+                    </div>
+
+
+                    <div class="form-group">
+
+                        <label for="quizModeSelect">
+                            Mode Quiz
+                        </label>
+
+                        <select id="quizModeSelect">
+
+                            <option value="practice" selected>
+                                Latihan
+                            </option>
+
+                            <option value="exam">
+                                Ujian
+                            </option>
+
+                        </select>
+
+                    </div>
+
+
+                    <button
+                        class="btn btn-green"
+                        id="startQuizBtn"
+                    >
+                        ▶ Mulai Quiz
+                    </button>
+
+
+                    <button
+                        class="btn btn-red"
+                        id="resetQuizBtn"
+                    >
+                        ↻ Reset
+                    </button>
+
+                </div>
+
+
+                <div class="quiz-info-grid">
+
+                    <div class="quiz-info-card">
+
+                        <small>Total Soal</small>
+
+                        <strong id="totalQuestionInfo">
+                            0
+                        </strong>
+
+                    </div>
+
+                    <div class="quiz-info-card">
+
+                        <small>Soal Aktif</small>
+
+                        <strong id="activeQuestionInfo">
+                            0
+                        </strong>
+
+                    </div>
+
+                    <div class="quiz-info-card">
+
+                        <small>Terjawab</small>
+
+                        <strong id="answeredInfo">
+                            0
+                        </strong>
+
+                    </div>
+
+                    <div class="quiz-info-card">
+
+                        <small>Status</small>
+
+                        <strong id="quizStatusInfo">
+                            Siap
+                        </strong>
+
+                    </div>
+
+                </div>
+
+            </section>
+
+
+            <section
+                class="quiz-panel"
+                id="quizPanel"
+            >
+
+                <div class="question-header">
+
+                    <h2 id="quizPanelTitle">
+                        Quiz Belum Dimulai
+                    </h2>
+
+                    <span
+                        class="question-counter"
+                        id="questionCounter"
+                    >
+                        Soal 0 / 0
+                    </span>
+
+                </div>
+
+                <div
+                    class="empty-state"
+                    id="emptyQuizState"
+                >
+                    Pilih BAB terlebih dahulu, lalu klik tombol
+                    <strong>Mulai Quiz</strong>.
+                    <br>
+                    Soal akan dibuat berdasarkan materi BAB yang dipilih.
+                </div>
+
+                <div
+                    class="question-box"
+                    id="questionBox"
+                    style="display:none;"
+                >
+
+                    <p
+                        class="question-text"
+                        id="questionText"
+                    >
+                        Pertanyaan akan tampil di sini.
+                    </p>
+
+                    <div
+                        class="option-list"
+                        id="optionList"
+                    ></div>
+
+                </div>
+
+                <div
+                    class="quiz-navigation"
+                    id="quizNavigation"
+                    style="display:none;"
+                >
+
+                    <button
+                        class="btn btn-gray"
+                        id="prevQuestionBtn"
+                    >
+                        ← Sebelumnya
+                    </button>
+
+                    <div>
+
+                        <button
+                            class="btn btn-blue"
+                            id="nextQuestionBtn"
+                        >
+                            Selanjutnya →
+                        </button>
+
+                        <button
+                            class="btn btn-purple"
+                            id="submitQuizBtn"
+                            style="display:none;"
+                        >
+                            Selesai & Lihat Nilai
+                        </button>
+
+                    </div>
+
+                </div>
+
+            </section>
+
+
+            <section
+                class="result-panel"
+                id="resultPanel"
+            >
+
+                <div class="result-score-box">
+
+                    <h2>
+                        Hasil Quiz
+                    </h2>
+
+                    <div
+                        class="result-score"
+                        id="resultScore"
+                    >
+                        0
+                    </div>
+
+                    <p id="resultSummary">
+                        Belum ada hasil.
+                    </p>
+
+                </div>
+
+                <h2>
+                    Pembahasan Jawaban
+                </h2>
+
+                <div
+                    class="review-list"
+                    id="reviewList"
+                ></div>
+
+            </section>
+
+        </div>
+
+    </main>
+
+
+    <script src="/static/js/quiz.js"></script>
+
+</body>
+
+</html>

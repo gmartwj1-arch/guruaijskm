@@ -1,0 +1,1750 @@
+{
+  "module": {
+    "title": "Keterampilan Esensial di Era Digital",
+    "subtitle": "Modul Praktik Kerja Lapangan (PKL) untuk Siswa SMK Desain Komunikasi Visual (DKV)",
+    "year": 2026,
+    "author": "Mart Wanjaya Zebua",
+    "institution": "PT. Jasa Service Komputer Mart",
+    "source_file": "Materi Modul PKL DKV 2026.pdf",
+    "chapter_count": 12,
+    "section_count": 205
+  },
+  "chapters": [
+    {
+      "chapter": 1,
+      "code": "BAB I",
+      "title": "KETERAMPILAN ESENSIAL DI ERA DIGITAL",
+      "intro": "",
+      "sections": [
+        {
+          "id": "1.1",
+          "title": "Pengertian Era Digital",
+          "printed_page": 1,
+          "pdf_page_start": 24,
+          "pdf_page_end": 25,
+          "content": "A. Pengertian Era Digital\nEra digital adalah masa di mana teknologi informasi berkembang sangat pesat dan\nmemengaruhi hampir seluruh aspek kehidupan manusia. Pada era ini, hampir semua aktivitas\nmenggunakan perangkat digital seperti komputer, smartphone, dan internet.\nDalam dunia Desain Komunikasi Visual (DKV), era digital memberikan pengaruh besar\nterhadap cara kerja desainer. Proses desain tidak lagi dilakukan secara manual, tetapi\nmenggunakan software desain seperti Adobe Photoshop, Illustrator, CorelDRAW, serta\nberbagai aplikasi berbasis digital lainnya. Hal ini membuat proses desain menjadi lebih cepat,\nefisien, dan mudah disesuaikan dengan kebutuhan klien.\nSelain itu, era digital juga membuka peluang besar dalam bidang industri kreatif, terutama\ndalam pembuatan konten visual untuk media sosial, branding perusahaan, dan digital\nmarketing.\nB. Latar Belakang PKL\nPraktik Kerja Lapangan (PKL) merupakan kegiatan wajib bagi siswa Sekolah Menengah\nKejuruan (SMK) sebagai bagian dari pembelajaran berbasis industri. Kegiatan ini bertujuan\nuntuk memberikan pengalaman kerja nyata kepada siswa sesuai dengan bidang keahlian yang\ndipelajari di sekolah.\nDalam bidang DKV, PKL menjadi sarana penting untuk mengembangkan kemampuan siswa\ndalam dunia desain profesional. Siswa tidak hanya belajar teori, tetapi juga terlibat langsung\ndalam proses produksi desain seperti pembuatan logo, banner, poster, konten media sosial,\nhingga kebutuhan branding perusahaan.\nDengan adanya PKL, siswa diharapkan mampu memahami alur kerja industri kreatif,\nmeningkatkan keterampilan teknis, serta membentuk sikap disiplin, tanggung jawab, dan\nprofesionalisme dalam bekerja.\nC. Tujuan PKL\n1. Tujuan Umum\nTujuan umum pelaksanaan PKL adalah untuk memberikan pengalaman kerja nyata kepada\nsiswa di dunia industri sehingga mampu mengembangkan kompetensi sesuai bidang keahlian\nDesain Komunikasi Visual.\n2. Tujuan Khusus\n•\nMenambah pengalaman kerja di dunia industri kreatif\n•\nMeningkatkan kemampuan penggunaan software desain grafis\n•\nMelatih kedisiplinan, tanggung jawab, dan etika kerja\n•\nMemahami alur kerja desain profesional di perusahaan\n•\nMengembangkan kreativitas dalam pembuatan karya visual\n•\nMempersiapkan siswa agar siap memasuki dunia kerja setelah lulus"
+        },
+        {
+          "id": "1.2",
+          "title": "Perkembangan Teknologi Informasi",
+          "printed_page": 3,
+          "pdf_page_start": 25,
+          "pdf_page_end": 26,
+          "content": "Perkembangan Teknologi Informasi adalah proses kemajuan sistem, perangkat, dan\nmetode untuk mengelola, menyimpan, memproses, dan menyebarkan informasi dengan lebih\ncepat, akurat, dan luas.\nBentuk perkembangan utama\n•\nKecerdasan buatan (AI) dan generative AI semakin banyak dipakai untuk otomatisasi\nkerja, analisis data, chatbot, pembuatan konten, dan pengambilan keputusan.\n•\nKeamanan siber berkembang dari sistem pertahanan pasif menjadi deteksi ancaman\nyang lebih proaktif karena serangan digital juga makin canggih.\n•\nEdge computing dan 5G memungkinkan pemrosesan data lebih dekat ke sumbernya,\nsehingga respons menjadi lebih cepat dan latensi lebih rendah.\n•\nKomputasi awan (cloud computing) terus menjadi fondasi infrastruktur digital karena\nfleksibel, mudah diskalakan, dan mendukung kolaborasi.\n•\nQuantum computing mulai banyak dibahas karena potensinya dalam simulasi,\noptimasi, dan kriptografi, meski masih berkembang.\n•\nGreen IT atau teknologi ramah lingkungan makin penting karena pusat data dan beban\nAI membutuhkan energi besar.\nDampak perkembangan teknologi informasi\n•\nDi bidang pendidikan: pembelajaran daring, platform digital, dan akses materi lebih\nluas.\n•\nDi bidang bisnis: transaksi lebih cepat, otomatisasi operasional, dan analisis pasar\nlebih akurat.\n•\nDi bidang kesehatan: rekam medis digital, telemedicine, dan analisis diagnosis\nberbasis data.\n•\nDi bidang komunikasi: pertukaran informasi menjadi instan lewat internet, media\nsosial, dan aplikasi pesan.\n•\nDi bidang pemerintahan: layanan publik menjadi lebih efisien melalui sistem digital.\nDampak positif\n•\nMempercepat akses informasi.\n•\nMeningkatkan efisiensi kerja.\n•\nMempermudah komunikasi jarak jauh.\n•\nMembuka peluang inovasi dan pekerjaan baru.\n•\nMendukung pengambilan keputusan berbasis data.\nDampak negatif\n•\nRisiko kebocoran data dan serangan siber.\n•\nPenyebaran hoaks/disinformasi semakin cepat.\n•\nKetergantungan tinggi pada teknologi.\n•\nBerkurangnya beberapa jenis pekerjaan akibat otomatisasi.\n•\nKesenjangan digital antara daerah maju dan tertinggal."
+        },
+        {
+          "id": "1.3",
+          "title": "Revolusi Industri 4.0",
+          "printed_page": 5,
+          "pdf_page_start": 26,
+          "pdf_page_end": 27,
+          "content": "Revolusi Industri 4.0 adalah era perkembangan industri yang ditandai oleh integrasi\nteknologi digital, internet, dan sistem otomatis ke dalam berbagai aspek kehidupan dan\nproses produksi.\nCiri-ciri Revolusi Industri 4.0\n1. Internet of Things (IoT) – perangkat saling terhubung melalui internet.\n2. Artificial Intelligence (AI) – mesin mampu belajar dan mengambil keputusan.\n3. Big Data – pengolahan data dalam jumlah besar untuk menghasilkan informasi yang\nberguna.\n4. Cloud Computing – penyimpanan dan pengolahan data melalui internet.\n5. Robotika dan Otomasi – penggunaan robot untuk meningkatkan efisiensi kerja.\n6. Cyber-Physical System – integrasi antara sistem fisik dan digital.\nDampak Revolusi Industri 4.0\nDampak Positif\n•\nMeningkatkan produktivitas dan efisiensi.\n•\nMempermudah komunikasi dan akses informasi.\n•\nMenciptakan inovasi produk dan layanan baru.\n•\nMembuka peluang pekerjaan di bidang teknologi.\nDampak Negatif\n•\nBerkurangnya pekerjaan yang dapat digantikan oleh mesin.\n•\nKetergantungan yang tinggi pada teknologi.\n•\nRisiko keamanan siber dan penyalahgunaan data.\n•\nKesenjangan keterampilan tenaga kerja.\nContoh Penerapan\n•\nBelanja online melalui platform e-commerce.\n•\nPembayaran digital dan mobile banking.\n•\nMobil tanpa pengemudi (autonomous vehicle).\n•\nSmart home dan smart city.\n•\nPembelajaran daring (e-learning)."
+        },
+        {
+          "id": "1.4",
+          "title": "Society 5.0",
+          "printed_page": 8,
+          "pdf_page_start": 28,
+          "pdf_page_end": 29,
+          "content": "Pengertian Society 5.0\nSociety 5.0 adalah konsep masyarakat masa depan yang dikembangkan oleh Jepang, di mana\nteknologi digital seperti Artificial Intelligence (AI), Internet of Things (IoT), dan Big Data\ndigunakan untuk menyelesaikan masalah sosial dan meningkatkan kualitas hidup manusia.\nBerbeda dengan Revolusi Industri 4.0 yang berfokus pada industri dan otomatisasi, Society\n5.0 berfokus pada manusia sebagai pusat (human-centered society).\nTujuan Society 5.0\n•\nMenciptakan masyarakat yang lebih cerdas dan efisien.\n•\nMengurangi kesenjangan sosial melalui teknologi.\n•\nMenyelesaikan masalah sosial seperti kesehatan, pendidikan, dan lingkungan.\n•\nMeningkatkan kualitas hidup manusia.\nCiri-ciri Society 5.0\n1. Integrasi dunia fisik dan digital (cyber and physical system)\n2. Pemanfaatan AI dan IoT secara luas\n3. Layanan berbasis kebutuhan individu\n4. Data digunakan untuk pengambilan keputusan\n5. Teknologi membantu manusia, bukan menggantikan sepenuhnya\nContoh Penerapan Society 5.0\n•\nSistem kesehatan pintar (smart healthcare) yang memantau pasien secara real-time\n•\nSmart city dengan pengelolaan lalu lintas otomatis\n•\nPendidikan berbasis digital dan personalisasi belajar\n•\nPertanian cerdas (smart farming) menggunakan sensor dan data cuaca\n•\nLayanan publik berbasis aplikasi digital\nDampak Society 5.0\nDampak Positif:\n•\nHidup lebih mudah dan efisien\n•\nPelayanan publik lebih cepat\n•\nKualitas pendidikan dan kesehatan meningkat\n•\nPengambilan keputusan lebih akurat\nDampak Tantangan:\n•\nKetergantungan pada teknologi\n•\nIsu privasi data\n•\nKesenjangan digital\n•\nPerlunya SDM yang melek teknologi"
+        },
+        {
+          "id": "1.5",
+          "title": "Transformasi Dunia Kerja",
+          "printed_page": 11,
+          "pdf_page_start": 29,
+          "pdf_page_end": 30,
+          "content": "Transformasi dunia kerja adalah perubahan besar dan menyeluruh dalam cara manusia\nbekerja, berinteraksi di tempat kerja, serta menyelesaikan tugas, yang dipicu oleh\nperkembangan teknologi digital, otomatisasi, dan globalisasi. Perubahan ini tidak hanya terjadi\npada alat yang digunakan, tetapi juga pada sistem kerja, struktur pekerjaan, hingga jenis profesi\nyang dibutuhkan di era modern.\nPerkembangan teknologi seperti Artificial Intelligence (AI), Internet of Things (IoT), big\ndata, dan cloud computing membuat banyak pekerjaan menjadi lebih cepat dan efisien. Tugas-\ntugas yang sebelumnya dilakukan secara manual kini mulai digantikan oleh sistem otomatis\ndan mesin. Misalnya dalam industri, proses produksi yang dahulu membutuhkan banyak\ntenaga manusia sekarang banyak digantikan oleh robot dan mesin otomatis yang bekerja lebih\ncepat, presisi, dan konsisten.\nSelain itu, transformasi dunia kerja juga ditandai dengan munculnya sistem kerja\nfleksibel seperti remote working (kerja jarak jauh) dan hybrid working (gabungan kerja di\nkantor dan dari rumah). Hal ini memungkinkan seseorang untuk bekerja dari mana saja dengan\nbantuan internet dan perangkat digital. Aplikasi seperti Zoom, Google Meet, Slack, dan\nplatform cloud menjadi alat utama dalam mendukung komunikasi dan kolaborasi antarpekerja.\nPerubahan ini juga mendorong lahirnya banyak profesi baru yang sebelumnya tidak ada.\nContohnya seperti content creator, data analyst, digital marketer, UI/UX designer, dan AI\nspecialist. Di sisi lain, beberapa pekerjaan tradisional mulai berkurang karena digantikan oleh\nsistem otomatis, seperti kasir manual yang mulai digantikan oleh self-checkout, atau pekerjaan\nadministrasi sederhana yang kini dapat dilakukan oleh software.\nNamun, transformasi ini tidak hanya membawa dampak positif, tetapi juga tantangan.\nSalah satu tantangan terbesar adalah kebutuhan akan keterampilan baru (skill gap). Banyak\npekerja harus belajar ulang atau meningkatkan kemampuan digital agar tetap relevan. Selain\nitu, persaingan kerja menjadi lebih ketat karena perusahaan dapat merekrut tenaga kerja dari\nberbagai wilayah bahkan secara global.\nDari sisi positif, transformasi dunia kerja memberikan banyak keuntungan seperti\nefisiensi waktu, peningkatan produktivitas, fleksibilitas kerja, serta peluang kerja yang lebih\nluas. Perusahaan juga dapat menghemat biaya operasional karena banyak proses yang sudah\nterdigitalisasi."
+        },
+        {
+          "id": "1.6",
+          "title": "Kompetensi Abad 21",
+          "printed_page": 14,
+          "pdf_page_start": 30,
+          "pdf_page_end": 31,
+          "content": "Kompetensi Abad 21 adalah kumpulan keterampilan yang harus dimiliki seseorang\nuntuk dapat bertahan dan berhasil di era modern yang penuh dengan perkembangan teknologi,\ninformasi yang cepat, dan perubahan dunia kerja yang dinamis. Kompetensi ini tidak hanya\nberfokus pada pengetahuan, tetapi juga pada kemampuan berpikir, bersikap, dan keterampilan\nmenggunakan teknologi.\nPada abad 21, manusia tidak cukup hanya mengandalkan kemampuan akademik saja, tetapi\njuga harus mampu beradaptasi dengan perubahan, bekerja sama dengan orang lain, serta\nmampu menyelesaikan masalah yang kompleks. Hal ini disebabkan oleh perkembangan\nteknologi seperti Artificial Intelligence (AI), Internet of Things (IoT), dan digitalisasi yang\nmengubah hampir seluruh aspek kehidupan.\nKompetensi Abad 21 biasanya dibagi menjadi beberapa kelompok utama. Yang pertama adalah\nketerampilan berpikir kritis (critical thinking), yaitu kemampuan untuk menganalisis informasi,\nmembedakan mana yang benar dan salah, serta mengambil keputusan yang tepat. Kedua\nadalah kreativitas (creativity), yaitu kemampuan untuk menghasilkan ide-ide baru dan inovatif\ndalam menyelesaikan masalah.\nSelanjutnya adalah komunikasi (communication), yaitu kemampuan menyampaikan ide\ndengan jelas baik secara lisan maupun tulisan. Selain itu ada juga kolaborasi (collaboration),\nyaitu kemampuan bekerja sama dengan orang lain dalam tim, baik secara langsung maupun\nmelalui platform digital.\nSelain empat kompetensi utama tersebut, terdapat juga literasi digital, yaitu kemampuan\nmenggunakan teknologi secara efektif dan bertanggung jawab. Literasi ini sangat penting\nkarena hampir semua aktivitas saat ini sudah berbasis digital, mulai dari belajar, bekerja, hingga\nbertransaksi.\nKompetensi lainnya adalah kemampuan adaptasi dan fleksibilitas, yaitu kemampuan untuk\nmenyesuaikan diri dengan perubahan yang cepat. Di era modern, pekerjaan dan teknologi terus\nberubah, sehingga seseorang harus siap belajar hal baru kapan saja.\nContoh penerapan Kompetensi Abad 21 dapat dilihat dalam dunia pendidikan dan pekerjaan,\nseperti siswa yang mampu mengerjakan proyek kelompok secara online, menggunakan aplikasi\ndigital untuk belajar, atau pekerja yang mampu berkolaborasi dengan tim internasional melalui\ninternet.\nKesimpulannya, Kompetensi Abad 21 sangat penting untuk menghadapi tantangan era digital.\nDengan menguasai keterampilan ini, seseorang dapat lebih siap menghadapi perubahan,\nbersaing di dunia kerja, dan berkontribusi secara positif dalam masyarakat modern."
+        },
+        {
+          "id": "1.7",
+          "title": "Hard Skill dan Soft Skill",
+          "printed_page": 17,
+          "pdf_page_start": 31,
+          "pdf_page_end": 33,
+          "content": "Dalam dunia kerja khususnya pada jurusan Desain Komunikasi Visual (DKV), setiap\nsiswa tidak hanya dituntut mampu menguasai keterampilan teknis, tetapi juga harus memiliki\nkemampuan sikap dan cara berinteraksi yang baik. Dua hal penting yang harus dimiliki adalah\nhard skill dan soft skill.\nPengertian Hard Skill\nHard skill adalah kemampuan teknis yang dapat dipelajari, diukur, dan dipraktikkan secara\nlangsung. Hard skill biasanya diperoleh melalui sekolah, pelatihan, dan pengalaman kerja.\nDalam konteks PKL DKV, hard skill berkaitan dengan kemampuan menggunakan software dan\nteknik desain.\nContoh Hard Skill di DKV:\n•\nMenggunakan aplikasi desain seperti Adobe Photoshop, Illustrator, CorelDRAW\n•\nMendesain logo, poster, brosur, dan media promosi\n•\nMengedit foto dan video\n•\nMemahami prinsip desain (layout, warna, tipografi, komposisi)\n•\nMengoperasikan alat digital seperti tablet drawing\n•\nMenyiapkan file siap cetak (print-ready file)\nHard skill sangat penting karena menjadi dasar utama dalam menghasilkan karya desain yang\nprofesional dan sesuai kebutuhan industri.\nPengertian Soft Skill\nSoft skill adalah kemampuan non-teknis yang berkaitan dengan cara seseorang bersikap,\nberkomunikasi, bekerja sama, dan menyelesaikan masalah.\nSoft skill tidak berbentuk alat atau software, tetapi sangat menentukan keberhasilan seseorang\ndi dunia kerja.\nContoh Soft Skill di PKL DKV:\n•\nDisiplin waktu dan tanggung jawab\n•\nKomunikasi yang baik dengan pembimbing atau klien\n•\nKemampuan bekerja dalam tim\n•\nKreativitas dan ide-ide baru\n•\nMenerima kritik dan revisi desain\n•\nKemampuan adaptasi di lingkungan kerja\n•\nEtika kerja profesional\nPerbedaan Hard Skill dan Soft Skill\n•\nHard skill = kemampuan teknis (menggunakan software, membuat desain)\n•\nSoft skill = kemampuan sikap dan perilaku (komunikasi, disiplin, kerja sama)\nKeduanya tidak bisa dipisahkan. Seorang desainer yang hebat tidak hanya jago menggunakan\naplikasi, tetapi juga harus mampu memahami kebutuhan klien dan bekerja secara profesional.\nPenerapan di Dunia PKL DKV\nSaat PKL, siswa akan menghadapi situasi nyata seperti:\n•\nMenerima brief dari klien atau pembimbing\n•\nMembuat desain sesuai permintaan\n•\nMelakukan revisi berdasarkan masukan\n•\nBekerja dalam deadline yang ketat\n•\nBerkolaborasi dengan tim desain lain\nDi sini, hard skill digunakan untuk membuat karya, sedangkan soft skill digunakan untuk\nmenjalankan proses kerja dengan baik."
+        },
+        {
+          "id": "1.8",
+          "title": "Digital Mindset",
+          "printed_page": 21,
+          "pdf_page_start": 33,
+          "pdf_page_end": 34,
+          "content": "Pengertian Digital Mindset\nDigital mindset adalah pola pikir atau cara berpikir seseorang yang terbuka terhadap\nperkembangan teknologi digital dan mampu memanfaatkan teknologi tersebut untuk belajar,\nbekerja, dan menyelesaikan masalah. Digital mindset bukan hanya tentang bisa menggunakan\nteknologi, tetapi juga tentang bagaimana seseorang berpikir cepat, adaptif, dan inovatif di era\ndigital.\nDalam dunia PKL khususnya Desain Komunikasi Visual (DKV), digital mindset sangat penting\nkarena hampir seluruh proses kerja sudah berbasis teknologi, mulai dari desain, revisi,\nkomunikasi, hingga publikasi karya.\nCiri-ciri Digital Mindset\n1. Terbuka terhadap teknologi baru\nTidak takut mencoba aplikasi atau tools baru dalam desain dan pekerjaan.\n2. Cepat beradaptasi\nMudah menyesuaikan diri dengan perubahan software, sistem kerja, atau tren desain.\n3. Berpikir berbasis solusi (problem solving)\nMenggunakan teknologi untuk mencari solusi, bukan menghindari masalah.\n4. Selalu ingin belajar (lifelong learning)\nMau terus meningkatkan kemampuan, terutama dalam bidang digital.\n5. Kreatif dan inovatif\nMampu menghasilkan ide baru dengan memanfaatkan teknologi digital.\nContoh Digital Mindset di DKV\n•\nMenggunakan AI seperti ChatGPT atau tools desain untuk membantu ide awal konsep\ndesain\n•\nBelajar tutorial desain dari YouTube atau platform online\n•\nMenggunakan cloud storage untuk menyimpan dan berbagi file desain\n•\nMenerima revisi desain secara online dan memperbaikinya dengan cepat\n•\nMengikuti tren desain terbaru melalui media sosial seperti Behance atau Pinterest\nManfaat Digital Mindset\n•\nPekerjaan menjadi lebih cepat dan efisien\n•\nLebih mudah beradaptasi di dunia kerja modern\n•\nMeningkatkan kreativitas dalam desain\n•\nMembuka peluang kerja yang lebih luas\n•\nMempermudah kolaborasi dengan tim atau klien secara online\nTantangan Digital Mindset\n•\nKetergantungan pada teknologi jika tidak dikontrol\n•\nInformasi yang terlalu banyak (overload informasi)\n•\nPerlu kemampuan untuk memilah informasi yang benar dan relevan\n•\nHarus terus belajar mengikuti perkembangan teknologi yang cepat"
+        },
+        {
+          "id": "1.9",
+          "title": "Adaptasi terhadap Perubahan Teknologi",
+          "printed_page": 25,
+          "pdf_page_start": 35,
+          "pdf_page_end": 36,
+          "content": "Pengertian Adaptasi terhadap Perubahan Teknologi Adaptasi terhadap perubahan\nteknologi adalah kemampuan seseorang untuk menyesuaikan diri dengan perkembangan\nteknologi yang terus berubah dengan cepat. Adaptasi ini mencakup cara belajar, bekerja, dan\nmenggunakan teknologi baru agar tetap relevan di dunia kerja dan kehidupan sehari-hari.\nDalam konteks PKL DKV (Desain Komunikasi Visual), adaptasi sangat penting karena software,\ntools desain, dan tren industri terus berkembang dari waktu ke waktu.\nPentingnya Adaptasi Teknologi\nPerkembangan teknologi seperti AI, aplikasi desain baru, dan sistem kerja digital membuat\nsetiap individu harus mampu beradaptasi. Tanpa kemampuan ini, seseorang akan tertinggal\ndan kesulitan bersaing di dunia kerja modern.\nBentuk Adaptasi terhadap Teknologi\n1. Mau belajar teknologi baru\nContohnya belajar aplikasi desain terbaru seperti Canva, Figma, atau AI design tools.\n2. Mengikuti perkembangan software\nSelalu update versi terbaru Adobe Photoshop, Illustrator, atau CorelDRAW.\n3. Mengubah cara kerja tradisional ke digital\nMisalnya dari menggambar manual menjadi digital illustration.\n4. Menggunakan platform online\nSeperti cloud storage (Google Drive), komunikasi online (WhatsApp, Zoom), dan\nplatform kolaborasi.\n5. Belajar mandiri (self-learning)\nMengikuti tutorial online, kursus digital, atau belajar dari pengalaman PKL.\nContoh Adaptasi di Dunia DKV\n•\nMenggunakan AI untuk membantu membuat konsep desain awal\n•\nBerpindah dari desain manual ke digital menggunakan tablet atau laptop\n•\nMengirim hasil desain melalui cloud, bukan flashdisk\n•\nMengikuti tren desain modern seperti minimalis, flat design, atau UI/UX terbaru\n•\nMenerima revisi dari klien secara online dan memperbaikinya dengan cepat\nManfaat Adaptasi Teknologi\n•\nLebih cepat dalam menyelesaikan pekerjaan\n•\nTidak tertinggal perkembangan industri\n•\nMeningkatkan peluang kerja di masa depan\n•\nLebih fleksibel dalam menghadapi perubahan sistem kerja\n•\nMeningkatkan kemampuan profesional di bidang desain\nTantangan dalam Adaptasi Teknologi\n•\nPerubahan teknologi yang sangat cepat\n•\nPerlu waktu untuk belajar tools baru\n•\nRasa takut atau malas mencoba hal baru\n•\nKeterbatasan perangkat atau fasilitas\n•\nPerlu konsistensi dalam belajar"
+        },
+        {
+          "id": "1.10",
+          "title": "Komunikasi Profesional",
+          "printed_page": 29,
+          "pdf_page_start": 36,
+          "pdf_page_end": 38,
+          "content": "Pengertian Komunikasi Profesional\nKomunikasi profesional adalah cara berkomunikasi yang dilakukan secara sopan, jelas, efektif,\ndan sesuai etika kerja di lingkungan dunia industri atau perusahaan. Dalam dunia kerja,\nkhususnya saat PKL DKV (Desain Komunikasi Visual), komunikasi profesional sangat penting\nkarena berhubungan langsung dengan pembimbing, rekan kerja, maupun klien.\nKomunikasi profesional tidak hanya tentang berbicara, tetapi juga mencakup cara menulis\npesan, menyampaikan ide, menerima instruksi, dan memberikan tanggapan secara tepat.\nTujuan Komunikasi Profesional\n•\nMenyampaikan informasi dengan jelas dan tidak menimbulkan kesalahpahaman\n•\nMembangun hubungan kerja yang baik dengan tim dan atasan\n•\nMempermudah proses kerja dan koordinasi\n•\nMeningkatkan citra diri sebagai pekerja yang profesional\n•\nMendukung hasil kerja yang lebih efektif dan efisien\nCiri-ciri Komunikasi Profesional\n1. Bahasa sopan dan formal\nMenggunakan bahasa yang sesuai dengan lingkungan kerja.\n2. Jelas dan tidak bertele-tele\nInformasi disampaikan langsung ke inti pembahasan.\n3. Menghargai lawan bicara\nTidak menggunakan bahasa kasar atau menyinggung.\n4. Tepat waktu dalam merespons\nTidak menunda-nunda balasan pesan atau instruksi kerja.\n5. Menggunakan media komunikasi yang tepat\nSeperti email, WhatsApp kerja, atau aplikasi komunikasi kantor.\nContoh Komunikasi Profesional di PKL DKV\n•\nMengirim pesan kepada pembimbing:\n“Selamat pagi, Pak/Bu. Saya izin mengirimkan hasil desain poster untuk revisi.”\n•\nMenerima revisi desain dengan sikap terbuka dan tidak emosional\n•\nBertanya dengan sopan jika ada instruksi yang belum dipahami\n•\nMelaporkan progres pekerjaan secara berkala\n•\nMenggunakan email untuk pengiriman file resmi\nHal yang Harus Dihindari\n•\nMenggunakan bahasa singkat tidak sopan (alay atau singkatan berlebihan)\n•\nMembalas pesan dengan emosi atau tidak menghargai\n•\nMengabaikan instruksi dari pembimbing\n•\nMenunda komunikasi penting\n•\nTidak jelas dalam menyampaikan informasi\nManfaat Komunikasi Profesional\n•\nMeningkatkan kepercayaan dari atasan atau klien\n•\nMengurangi kesalahan dalam pekerjaan\n•\nMempercepat proses kerja dan revisi\n•\nMembangun reputasi yang baik di dunia kerja\n•\nMeningkatkan kerja sama tim yang solid"
+        },
+        {
+          "id": "1.11",
+          "title": "Creative Problem Solving",
+          "printed_page": 33,
+          "pdf_page_start": 38,
+          "pdf_page_end": 40,
+          "content": "Pengertian Creative Problem Solving\nCreative Problem Solving adalah kemampuan untuk menyelesaikan masalah dengan cara yang\nkreatif, inovatif, dan tidak hanya bergantung pada cara-cara biasa. Dalam proses ini, seseorang\ntidak hanya mencari jawaban yang benar, tetapi juga mencari solusi yang paling efektif, efisien,\ndan sesuai dengan situasi.\nDalam dunia PKL DKV (Desain Komunikasi Visual), kemampuan ini sangat penting karena sering\nmuncul masalah seperti revisi desain, keterbatasan waktu, permintaan klien yang berubah,\natau kendala teknis pada software.\nTujuan Creative Problem Solving\n•\nMenemukan solusi yang lebih cepat dan efektif\n•\nMenghasilkan ide-ide baru dalam menyelesaikan masalah desain\n•\nMeningkatkan kualitas hasil kerja\n•\nMengurangi stres saat menghadapi kendala kerja\n•\nMembantu siswa lebih fleksibel dalam menghadapi perubahan\nTahapan Creative Problem Solving\n1. Mengenali masalah (Identify problem)\nMemahami apa yang menjadi kendala secara jelas.\n2. Mengumpulkan informasi (Gather information)\nMencari data atau referensi yang berkaitan dengan masalah.\n3. Mencari ide solusi (Idea generation)\nMembuat banyak alternatif solusi tanpa langsung menilai.\n4. Memilih solusi terbaik (Evaluate solution)\nMenentukan solusi yang paling efektif dan realistis.\n5. Menerapkan solusi (Implementation)\nMencoba dan menjalankan solusi yang dipilih.\n6. Evaluasi hasil (Evaluation)\nMenilai apakah solusi berhasil atau perlu perbaikan.\nContoh Creative Problem Solving di DKV\n•\nSaat file desain rusak, siswa mencari cara recovery atau membuat ulang dengan lebih\nefisien\n•\nKetika revisi terlalu banyak, siswa mencari konsep desain yang lebih sederhana namun\ntetap sesuai brief\n•\nMenggunakan AI atau template sebagai bantuan ide awal desain\n•\nMenyesuaikan desain agar tetap bagus meskipun waktu pengerjaan terbatas\n•\nMenggabungkan beberapa referensi menjadi ide desain baru yang lebih kreatif\nManfaat Creative Problem Solving\n•\nMembantu menyelesaikan masalah dengan cepat\n•\nMeningkatkan kreativitas dalam bekerja\n•\nMembuat siswa lebih percaya diri menghadapi tantangan\n•\nMengurangi ketergantungan pada satu cara saja\n•\nMeningkatkan kualitas hasil desain\nSikap yang Dibutuhkan\n•\nTidak mudah menyerah\n•\nTerbuka terhadap ide baru\n•\nMau mencoba dan bereksperimen\n•\nBerpikir logis dan kreatif\n•\nTenang saat menghadapi masalah"
+        },
+        {
+          "id": "1.12",
+          "title": "Critical Thinking",
+          "printed_page": 37,
+          "pdf_page_start": 40,
+          "pdf_page_end": 42,
+          "content": "Pengertian Critical Thinking\nCritical thinking atau berpikir kritis adalah kemampuan untuk menganalisis informasi secara\nlogis, objektif, dan mendalam sebelum mengambil keputusan atau menyimpulkan sesuatu.\nSeseorang yang berpikir kritis tidak langsung menerima informasi begitu saja, tetapi\nmengevaluasi apakah informasi tersebut benar, relevan, dan dapat dipercaya.\nDalam dunia PKL DKV (Desain Komunikasi Visual), critical thinking sangat penting karena siswa\nsering menerima brief, referensi, atau revisi dari klien yang harus dianalisis terlebih dahulu\nsebelum dibuat menjadi karya desain.\nTujuan Critical Thinking\n•\nMenghindari kesalahan dalam mengambil keputusan\n•\nMembantu memahami masalah secara lebih mendalam\n•\nMenghasilkan solusi yang lebih tepat dan logis\n•\nMeningkatkan kualitas hasil kerja\n•\nMelatih kemampuan analisis dalam dunia kerja\nCiri-ciri Critical Thinking\n1. Tidak mudah percaya tanpa bukti\nSelalu mengecek kebenaran informasi.\n2. Bertanya untuk memperjelas\nMengajukan pertanyaan jika ada hal yang belum jelas.\n3. Menganalisis sebelum bertindak\nTidak langsung mengerjakan tanpa memahami brief.\n4. Logis dan objektif\nMenggunakan fakta, bukan emosi dalam mengambil keputusan.\n5. Terbuka terhadap sudut pandang lain\nMau menerima masukan dan kritik.\nContoh Critical Thinking di DKV\n•\nMenganalisis brief klien sebelum membuat desain agar tidak salah konsep\n•\nMemilih warna, font, dan layout berdasarkan tujuan komunikasi, bukan sekadar\nestetika\n•\nMembandingkan beberapa referensi desain sebelum menentukan ide final\n•\nMengevaluasi hasil desain apakah sudah sesuai target audiens\n•\nMenolak atau memperbaiki ide yang tidak sesuai dengan kebutuhan proyek\nManfaat Critical Thinking\n•\nMengurangi kesalahan dalam pekerjaan desain\n•\nMeningkatkan kualitas hasil karya\n•\nMembantu pengambilan keputusan yang lebih tepat\n•\nMembuat desainer lebih profesional\n•\nMeningkatkan kemampuan analisis dalam dunia kerja\nSikap yang Mendukung Critical Thinking\n•\nRasa ingin tahu yang tinggi\n•\nMau belajar dan mencari informasi\n•\nTidak terburu-buru dalam mengambil keputusan\n•\nBerani bertanya dan berdiskusi\n•\nMampu menerima kritik dengan baik"
+        },
+        {
+          "id": "1.13",
+          "title": "Time Management",
+          "printed_page": 41,
+          "pdf_page_start": 42,
+          "pdf_page_end": 44,
+          "content": "Pengertian Time Management\nTime management atau manajemen waktu adalah kemampuan seseorang untuk mengatur,\nmerencanakan, dan menggunakan waktu secara efektif dan efisien agar semua tugas dapat\ndiselesaikan tepat waktu.\nDalam dunia PKL DKV (Desain Komunikasi Visual), manajemen waktu sangat penting karena\npekerjaan desain biasanya memiliki deadline (batas waktu) yang ketat dan harus diselesaikan\nsesuai permintaan klien atau pembimbing.\nTujuan Time Management\n•\nMenyelesaikan pekerjaan tepat waktu\n•\nMeningkatkan produktivitas kerja\n•\nMengurangi stres karena pekerjaan menumpuk\n•\nMembantu mengatur prioritas tugas\n•\nMeningkatkan kualitas hasil kerja\nPrinsip Time Management\n1. Prioritas tugas\nMengerjakan tugas yang paling penting terlebih dahulu.\n2. Perencanaan kerja\nMembuat jadwal atau timeline pekerjaan.\n3. Disiplin waktu\nMengerjakan tugas sesuai waktu yang sudah ditentukan.\n4. Menghindari penundaan (procrastination)\nTidak menunda pekerjaan yang sudah diberikan.\n5. Efisiensi kerja\nMencari cara tercepat dan terbaik untuk menyelesaikan tugas.\nContoh Time Management di PKL DKV\n•\nMembagi waktu antara brainstorming, desain, dan revisi\n•\nMenyelesaikan desain poster sebelum deadline yang ditentukan\n•\nMengatur jadwal revisi agar tidak menumpuk\n•\nMenggunakan checklist tugas harian\n•\nMengatur waktu istirahat agar tetap produktif\nAlat Bantu Time Management\n•\nKalender digital (Google Calendar)\n•\nTo-do list (catatan tugas harian)\n•\nReminder / alarm\n•\nAplikasi manajemen tugas seperti Trello atau Notion\n•\nTimer untuk fokus kerja (Pomodoro Technique)\nDampak Jika Tidak Mengatur Waktu\n•\nPekerjaan menumpuk dan tidak selesai tepat waktu\n•\nHasil kerja kurang maksimal\n•\nSering tergesa-gesa saat mengerjakan desain\n•\nMenurunnya kualitas pekerjaan\n•\nMenimbulkan stres dan tekanan kerja\nManfaat Time Management yang Baik\n•\nPekerjaan lebih teratur dan rapi\n•\nLebih produktif dalam bekerja\n•\nMeningkatkan kepercayaan dari pembimbing atau klien\n•\nMengurangi kesalahan dalam pekerjaan\n•\nMembantu mencapai target kerja dengan lebih mudah"
+        },
+        {
+          "id": "1.14",
+          "title": "Etika Profesional",
+          "printed_page": 45,
+          "pdf_page_start": 44,
+          "pdf_page_end": 45,
+          "content": "Etika profesional adalah aturan tidak tertulis maupun tertulis yang mengatur sikap dan\nperilaku seseorang dalam dunia kerja agar tetap sopan, bertanggung jawab, jujur, dan sesuai\nstandar industri. Dalam kegiatan PKL (Praktik Kerja Lapangan) khususnya jurusan DKV, etika\nprofesional menjadi hal yang sangat penting karena siswa tidak hanya belajar membuat desain,\ntetapi juga belajar bagaimana bersikap seperti seorang pekerja profesional di perusahaan.\nDi dunia kerja, kemampuan teknis saja tidak cukup. Seorang desainer yang mahir menggunakan\nsoftware seperti Photoshop atau Illustrator tetap bisa dianggap kurang profesional jika tidak\nmemiliki sikap kerja yang baik. Oleh karena itu, etika profesional menjadi bagian penting dalam\nmembentuk karakter siswa PKL agar siap menghadapi dunia industri.\nDalam pelaksanaan PKL, etika profesional dimulai dari hal sederhana seperti kedatangan tepat\nwaktu. Siswa yang profesional akan datang sesuai jam kerja yang ditentukan, tidak terlambat,\ndan tidak pulang sebelum waktunya tanpa izin. Kedisiplinan ini menunjukkan rasa tanggung\njawab terhadap pekerjaan yang diberikan.\nSelain itu, etika profesional juga terlihat dari cara berkomunikasi. Di lingkungan kerja, siswa\nharus menggunakan bahasa yang sopan, jelas, dan tidak berlebihan, baik saat berbicara\nlangsung maupun melalui pesan digital. Misalnya saat meminta arahan atau mengirim hasil\ndesain, siswa harus menggunakan kalimat yang sopan dan menghargai pembimbing atau rekan\nkerja.\nHal penting lainnya adalah tanggung jawab dalam pekerjaan. Setiap tugas yang diberikan,\nseperti membuat desain poster, logo, atau konten media sosial, harus diselesaikan dengan\nsungguh-sungguh sesuai deadline. Jika mengalami kesulitan, siswa tidak boleh diam saja, tetapi\nharus bertanya atau berdiskusi dengan pembimbing.\nEtika profesional juga mencakup kejujuran dalam bekerja. Siswa tidak boleh mengakui karya\norang lain sebagai hasil sendiri (plagiarisme). Dalam dunia desain, kejujuran sangat penting\nkarena berkaitan dengan hak cipta dan kepercayaan klien. Mengambil atau menyalin desain\ntanpa izin merupakan pelanggaran etika yang serius.\nSelain itu, siswa juga harus menjaga kerahasiaan data perusahaan atau klien. File desain, data\nproyek, atau informasi internal tidak boleh disebarkan tanpa izin, baik di media sosial maupun\nkepada pihak lain.\nDalam situasi revisi, etika profesional terlihat dari sikap menerima kritik dengan baik. Di dunia\nkerja, revisi adalah hal yang biasa. Siswa harus mampu menerima masukan tanpa marah atau\ntersinggung, kemudian memperbaiki desain sesuai arahan.\nJika semua sikap ini diterapkan, maka siswa PKL akan mendapatkan banyak manfaat, seperti\ndipercaya oleh pembimbing, lebih mudah bekerja sama dalam tim, serta memiliki pengalaman\nkerja yang positif. Etika profesional juga membantu membentuk karakter yang kuat sehingga\nsiswa siap memasuki dunia kerja setelah lulus.\nKesimpulan\nEtika profesional dalam PKL DKV bukan hanya aturan, tetapi juga kebiasaan kerja yang\nmembentuk karakter seseorang menjadi lebih disiplin, jujur, bertanggung jawab, dan sopan.\nDengan menerapkan etika ini, siswa tidak hanya berkembang dalam kemampuan desain, tetapi\njuga siap menjadi tenaga kerja yang profesional di industri kreatif."
+        },
+        {
+          "id": "1.15",
+          "title": "Studi Kasus Dunia Industri",
+          "printed_page": 49,
+          "pdf_page_start": 45,
+          "pdf_page_end": 48,
+          "content": "Pengertian Studi Kasus Dunia Industri\nStudi kasus dunia industri adalah pembelajaran yang menggunakan contoh nyata dari\nkejadian atau permasalahan yang terjadi di perusahaan atau dunia kerja untuk dianalisis dan\ndicari solusinya.\nDalam konteks PKL DKV (Desain Komunikasi Visual), studi kasus membantu siswa memahami\nbagaimana proses kerja di industri kreatif benar-benar terjadi, termasuk tantangan, alur kerja,\nrevisi, deadline, dan komunikasi dengan klien.\nTujuan Studi Kasus Dunia Industri\n•\nMemberikan gambaran nyata tentang dunia kerja\n•\nMelatih kemampuan analisis masalah di perusahaan\n•\nMembantu siswa memahami alur kerja industri kreatif\n•\nMelatih kemampuan berpikir kritis dan solusi\n•\nMenyiapkan siswa menghadapi situasi kerja sebenarnya\nCiri-ciri Studi Kasus di Dunia Industri\n•\nBerdasarkan kejadian nyata di perusahaan\n•\nMemiliki masalah yang harus diselesaikan\n•\nMelibatkan proses kerja profesional\n•\nAda banyak faktor seperti waktu, klien, dan kualitas\n•\nMembutuhkan solusi yang realistis dan efektif\nContoh Studi Kasus di Dunia DKV\nKasus 1: Revisi Desain Berulang\nSeorang siswa PKL membuat desain poster untuk promosi produk. Namun, klien meminta\nrevisi berulang kali karena konsep belum sesuai dengan target pasar.\nMasalah:\n•\nKurangnya pemahaman brief dari awal\n•\nKomunikasi dengan klien kurang jelas\n•\nWaktu pengerjaan menjadi lebih lama\nSolusi:\n•\nMemperjelas brief sebelum mulai desain\n•\nMembuat beberapa konsep awal (draft)\n•\nBerkomunikasi lebih aktif dengan pembimbing/klien\nKasus 2: Deadline yang Sangat Ketat\nSiswa diminta membuat 5 desain media sosial dalam waktu singkat.\nMasalah:\n•\nWaktu terbatas\n•\nKualitas desain harus tetap baik\nSolusi:\n•\nMembuat prioritas tugas\n•\nMenggunakan template sebagai dasar\n•\nMembagi waktu dengan teknik time management\nKasus 3: File Desain Tidak Sesuai Permintaan Cetak\nHasil desain sudah bagus di layar, tetapi saat dicetak warna berubah.\nMasalah:\n•\nTidak menggunakan mode warna CMYK\n•\nResolusi gambar kurang sesuai standar cetak\nSolusi:\n•\nMengatur warna CMYK sejak awal\n•\nMengecek spesifikasi cetak sebelum finalisasi\n•\nMelakukan test print\nAlur Penyelesaian Studi Kasus Industri\n1. Identifikasi masalah – memahami apa yang terjadi\n2. Analisis penyebab – mencari akar masalah\n3. Mengumpulkan informasi – data, brief, atau kondisi kerja\n4. Mencari solusi – beberapa alternatif penyelesaian\n5. Implementasi solusi – menerapkan solusi terbaik\n6. Evaluasi hasil – melihat apakah masalah selesai atau belum\nManfaat Studi Kasus bagi Siswa PKL\n•\nLebih siap menghadapi dunia kerja nyata\n•\nMeningkatkan kemampuan problem solving\n•\nMelatih komunikasi dalam tim kerja\n•\nMemahami standar industri kreatif\n•\nMenambah pengalaman berpikir profesional"
+        },
+        {
+          "id": "1.16",
+          "title": "Praktik dan Pelatihan",
+          "printed_page": 53,
+          "pdf_page_start": 48,
+          "pdf_page_end": 50,
+          "content": "Pengertian Praktik dan Pelatihan\nPraktik dan pelatihan adalah kegiatan belajar langsung dengan cara melakukan pekerjaan\nnyata di dunia industri atau lingkungan kerja. Dalam konteks PKL (Praktik Kerja Lapangan)\njurusan DKV, praktik dan pelatihan bertujuan untuk mengasah keterampilan siswa agar\nmampu menerapkan ilmu yang sudah dipelajari di sekolah ke dalam dunia kerja sebenarnya.\nPraktik lebih berfokus pada penerapan langsung, sedangkan pelatihan lebih menekankan\npada proses belajar dan peningkatan kemampuan melalui bimbingan, arahan, dan latihan\nsecara bertahap.\nTujuan Praktik dan Pelatihan\n•\nMengasah kemampuan teknis (hard skill) siswa DKV\n•\nMembiasakan siswa dengan lingkungan kerja industri\n•\nMeningkatkan keterampilan menggunakan software desain\n•\nMelatih kedisiplinan dan tanggung jawab kerja\n•\nMenyiapkan siswa agar siap masuk dunia kerja\nBentuk Praktik dan Pelatihan di DKV\nDalam PKL DKV, siswa akan melakukan berbagai kegiatan seperti:\n•\nMendesain logo, poster, banner, dan konten media sosial\n•\nMengedit foto dan video untuk kebutuhan promosi\n•\nMembuat layout desain sesuai standar industri\n•\nMengikuti arahan atau brief dari pembimbing\n•\nMelakukan revisi desain berdasarkan masukan klien\n•\nBelajar penggunaan software desain secara langsung di tempat kerja\nProses Pelaksanaan Praktik dan Pelatihan\n1. Pengenalan lingkungan kerja\nSiswa dikenalkan dengan sistem kerja perusahaan dan alur kerja desain.\n2. Pemberian tugas (brief)\nSiswa menerima tugas desain dari pembimbing atau klien.\n3. Proses pengerjaan\nSiswa mulai membuat desain sesuai arahan menggunakan software.\n4. Review dan revisi\nHasil desain diperiksa dan diperbaiki jika diperlukan.\n5. Evaluasi\nPembimbing memberikan penilaian dan masukan untuk peningkatan kemampuan.\nContoh Praktik di Dunia PKL DKV\n•\nMembuat desain feed Instagram untuk promosi produk\n•\nMendesain logo untuk usaha kecil atau UMKM\n•\nMembuat poster event sekolah atau perusahaan\n•\nMengedit video promosi singkat\n•\nMenyiapkan file desain untuk percetakan\nManfaat Praktik dan Pelatihan\n•\nSiswa menjadi lebih terampil dalam desain\n•\nMemahami standar kerja industri kreatif\n•\nMeningkatkan kepercayaan diri dalam bekerja\n•\nMendapat pengalaman kerja nyata\n•\nMempercepat adaptasi di dunia kerja setelah lulus\nTantangan dalam Praktik dan Pelatihan\n•\nPerbedaan antara teori sekolah dan praktik industri\n•\nDeadline pekerjaan yang ketat\n•\nBanyaknya revisi dari klien\n•\nHarus cepat beradaptasi dengan software atau gaya kerja baru\n•\nTuntutan hasil kerja yang professional"
+        }
+      ]
+    },
+    {
+      "chapter": 2,
+      "code": "BAB II",
+      "title": "PERSONAL BRANDING DAN PORTOFOLIO DIGITAL",
+      "intro": "",
+      "sections": [
+        {
+          "id": "2.1",
+          "title": "Pengertian Personal Branding",
+          "printed_page": 63,
+          "pdf_page_start": 50,
+          "pdf_page_end": 54,
+          "content": "Personal branding adalah proses membangun dan membentuk identitas diri agar\ndikenal sebagai seseorang yang memiliki keahlian, karakter, dan nilai tertentu di bidang\ntertentu. Dalam dunia DKV, personal branding berarti bagaimana seorang desainer dikenal\nmelalui gaya karya, cara bekerja, dan sikap profesionalnya.\nPersonal branding bukan hanya tentang tampilan, tetapi juga tentang reputasi dan konsistensi\ndiri dalam jangka panjang.\nMengapa Personal Branding Penting\nDi era digital, banyak desainer dan kreator bermunculan. Tanpa personal branding yang jelas,\nseseorang akan sulit dikenal. Personal branding membantu seseorang untuk:\n•\nMenonjol di antara banyak desainer lain\n•\nMembangun kepercayaan industri\n•\nMendapat peluang kerja atau project lebih mudah\n•\nMenunjukkan keunikan diri\nProses Membentuk Personal Branding\nPersonal branding tidak terbentuk secara instan, tetapi melalui proses:\n1. Menentukan identitas diri\nMisalnya ingin dikenal sebagai desainer logo, ilustrator, atau UI/UX designer.\n2. Mengembangkan skill\nMenguasai software dan teknik desain yang sesuai bidang.\n3. Menentukan gaya (style)\nSeperti minimalis, modern, ilustratif, atau corporate design.\n4. Menunjukkan karya secara konsisten\nMengunggah hasil karya secara rutin di platform digital.\n5. Menjaga sikap profesional\nDisiplin, sopan, bertanggung jawab, dan komunikatif.\nContoh Personal Branding di DKV\n•\nSeorang siswa dikenal sebagai “desainer logo minimalis dan clean”\n•\nAktif membagikan proses desain di Instagram atau Behance\n•\nMemiliki gaya warna dan tipografi yang konsisten\n•\nDikenal karena cepat dalam mengerjakan revisi desain\n•\nSering mengikuti lomba desain atau project freelance\nKesalahan dalam Personal Branding\n•\nTidak konsisten dalam gaya karya\n•\nJarang mempublikasikan karya\n•\nTidak memiliki identitas visual pribadi\n•\nHanya meniru tanpa mengembangkan gaya sendiri\n•\nTidak menjaga sikap profesional di media sosial\n2. PORTOFOLIO DIGITAL (Penjabaran Lengkap)\nPengertian\nPortofolio digital adalah kumpulan karya terbaik seseorang yang ditampilkan dalam bentuk\ndigital untuk menunjukkan kemampuan, pengalaman, dan kualitas kerja.\nDalam DKV, portofolio adalah bukti nyata kemampuan desain yang dimiliki seseorang.\nFungsi Portofolio Digital\nPortofolio memiliki fungsi penting, yaitu:\n•\nSebagai bukti kemampuan desain\n•\nAlat untuk melamar pekerjaan atau magang\n•\nMedia untuk menarik klien freelance\n•\nSarana menunjukkan perkembangan skill\n•\nBagian penting dari personal branding\nIsi Portofolio Digital DKV\nPortofolio tidak hanya berisi gambar, tetapi juga penjelasan. Biasanya berisi:\n•\nLogo design\n•\nPoster / flyer / banner\n•\nBranding UMKM atau perusahaan\n•\nDesain media sosial\n•\nIlustrasi digital\n•\nUI/UX design\n•\nProyek PKL\n•\nProses desain (sketch, konsep, revisi)\nStruktur Portofolio yang Baik\n1. Cover / identitas diri\nNama, bidang, dan kontak.\n2. Profil singkat\nPenjelasan tentang diri dan keahlian.\n3. Karya terbaik\nDipilih yang paling kuat dan representatif.\n4. Penjelasan proyek\no Tujuan desain\no Proses pengerjaan\no Tools yang digunakan\n5. Kontak\nEmail, media sosial, atau website.\nPlatform Portofolio Digital\n•\nBehance (paling populer untuk desainer)\n•\nDribbble (untuk showcase desain)\n•\nInstagram (visual portfolio)\n•\nWebsite pribadi\n•\nCanva Portfolio\n•\nGoogle Drive (versi sederhana)\nCiri Portofolio yang Profesional\n•\nRapi dan mudah dipahami\n•\nTidak terlalu banyak karya (kualitas lebih penting dari kuantitas)\n•\nMenampilkan proses, bukan hanya hasil akhir\n•\nKonsisten secara visual\n•\nMemiliki penjelasan yang jelas\nKesalahan dalam Portofolio\n•\nMemasukkan semua karya tanpa seleksi\n•\nTidak ada penjelasan proyek\n•\nDesain berantakan dan tidak konsisten\n•\nTidak diperbarui secara berkala\n•\nTidak mencerminkan kemampuan terbaik\n3. HUBUNGAN PERSONAL BRANDING DAN PORTOFOLIO DIGITAL\nPersonal branding dan portofolio digital saling berhubungan erat:\n•\nPersonal branding = citra diri yang ingin ditampilkan\n•\nPortofolio digital = bukti nyata kemampuan\nContohnya:\nJika seseorang ingin dikenal sebagai desainer logo profesional (personal branding), maka\nportofolionya harus berisi karya logo berkualitas yang konsisten dan menunjukkan\nkemampuan tersebut."
+        },
+        {
+          "id": "2.2",
+          "title": "Pentingnya Personal Branding",
+          "printed_page": 66,
+          "pdf_page_start": 55,
+          "pdf_page_end": 56,
+          "content": "Personal branding sangat penting karena di era digital saat ini persaingan di dunia kerja dan\nindustri kreatif sangat tinggi. Banyak orang memiliki kemampuan yang mirip, sehingga yang\nmembedakan adalah citra diri dan keunikan masing-masing individu.\n1. Membuat Diri Lebih Mudah Dikenal\nDengan personal branding yang jelas, seseorang akan lebih mudah dikenali oleh orang lain,\nseperti:\n•\nGaya desain yang khas\n•\nNama atau identitas visual yang konsisten\n•\nCara komunikasi yang profesional\nContoh: seorang desainer dikenal karena sering membuat desain minimalis dan clean.\n2. Meningkatkan Kepercayaan (Trust)\nIndustri atau klien akan lebih percaya kepada seseorang yang memiliki:\n•\nPortofolio yang konsisten\n•\nSikap profesional\n•\nReputasi yang baik\nKepercayaan ini sangat penting untuk mendapatkan pekerjaan atau proyek.\n3. Membedakan dari Orang Lain\nDi dunia DKV, banyak desainer memiliki skill yang sama. Personal branding membantu\nseseorang:\n•\nMenonjol dari desainer lain\n•\nMenunjukkan keunikan diri\n•\nMemiliki “ciri khas” dalam karya\n4. Membuka Peluang Karier\nPersonal branding yang kuat dapat membuka banyak peluang seperti:\n•\nFreelance design\n•\nKerja di perusahaan kreatif\n•\nKolaborasi dengan brand\n•\nUndangan project desain\nSemakin dikenal, semakin besar peluang yang datang.\n5. Mendukung Portofolio Digital\nPersonal branding dan portofolio digital saling mendukung:\n•\nPersonal branding = citra diri\n•\nPortofolio = bukti karya\nJika keduanya kuat, maka nilai profesional seseorang akan meningkat.\n6. Membangun Reputasi Jangka Panjang\nPersonal branding bukan hanya untuk saat ini, tetapi untuk masa depan. Reputasi yang baik\nakan:\n•\nMembantu karier berkembang\n•\nMembuat nama lebih dipercaya di industri\n•\nMenjadi nilai tambah saat melamar kerja\nContoh Pentingnya Personal Branding di DKV\n•\nSeorang siswa dikenal aktif membagikan karya di Instagram\n•\nMemiliki gaya desain konsisten (misalnya flat design)\n•\nSering membantu proyek desain UMKM\n•\nDikenal karena komunikasi yang cepat dan profesional"
+        },
+        {
+          "id": "2.3",
+          "title": "Membangun Identitas Profesional",
+          "printed_page": 69,
+          "pdf_page_start": 57,
+          "pdf_page_end": 59,
+          "content": "Membangun identitas profesional tidak hanya soal kemampuan desain, tetapi juga\nbagaimana seseorang membentuk citra diri secara menyeluruh agar dipercaya di dunia kerja.\n1. Menentukan Arah Keahlian (Spesialisasi)\nLangkah awal adalah menentukan fokus kemampuan, seperti:\n•\nLogo designer\n•\nUI/UX designer\n•\nIllustrator\n•\nSocial media designer\n•\nMotion graphic designer\nDengan memiliki fokus, identitas profesional menjadi lebih jelas dan mudah dikenali.\n2. Mengembangkan Skill Secara Konsisten\nIdentitas profesional dibangun dari kemampuan yang terus berkembang, seperti:\n•\nMenguasai software desain (Photoshop, Illustrator, dll.)\n•\nMemahami prinsip desain (warna, layout, tipografi)\n•\nMengikuti tren desain terbaru\n•\nLatihan dan membuat karya secara rutin\nSemakin berkembang skill, semakin kuat identitas profesional seseorang.\n3. Menjaga Sikap dan Etika Kerja\nSikap juga bagian dari identitas profesional, seperti:\n•\nDisiplin waktu\n•\nBertanggung jawab\n•\nSopan dalam komunikasi\n•\nMenerima kritik dengan baik\n•\nJujur dalam pekerjaan\nDi dunia industri, sikap sering kali lebih penting daripada kemampuan teknis.\n4. Membangun Ciri Khas Karya\nCiri khas sangat penting untuk identitas profesional, misalnya:\n•\nGaya desain minimalis dan bersih\n•\nPenggunaan warna tertentu yang konsisten\n•\nTipografi yang khas\n•\nCara layout yang mudah dikenali\nCiri khas ini membuat karya mudah diingat orang lain.\n5. Aktif Membangun Portofolio\nIdentitas profesional diperkuat dengan portofolio, seperti:\n•\nMengumpulkan karya terbaik\n•\nMenampilkan proses desain\n•\nMengunggah karya di platform digital (Behance, Instagram)\n•\nMenunjukkan perkembangan skill\n6. Komunikasi Profesional\nCara berkomunikasi juga membentuk identitas profesional:\n•\nMenggunakan bahasa sopan dan jelas\n•\nResponsif terhadap pesan kerja\n•\nMampu menjelaskan ide desain dengan baik\n•\nTidak emosional saat menerima revisi\n7. Konsistensi di Dunia Digital\nDi era digital, identitas profesional juga terlihat dari:\n•\nAkun media sosial yang rapi dan profesional\n•\nNama akun yang konsisten\n•\nKonten yang sesuai bidang DKV\n•\nTidak mengunggah hal yang merusak citra diri\nContoh Identitas Profesional di DKV\n•\nSeorang siswa dikenal sebagai desainer logo minimalis yang rapi dan cepat\n•\nAktif membagikan karya desain di Instagram dengan gaya konsisten\n•\nMemiliki portofolio digital yang terstruktur\n•\nDikenal sopan dan responsif saat bekerja dengan pembimbing"
+        },
+        {
+          "id": "2.4",
+          "title": "Branding untuk Desainer",
+          "printed_page": 73,
+          "pdf_page_start": 59,
+          "pdf_page_end": 63,
+          "content": "Pengertian Branding\nBranding adalah proses membangun citra, identitas, dan reputasi seseorang atau sebuah\nproduk agar mudah dikenali oleh masyarakat. Bagi seorang desainer, branding bukan hanya\ntentang memiliki logo atau nama yang menarik, tetapi juga bagaimana orang lain mengenal\nkualitas karya, karakter, dan profesionalisme yang dimiliki.\nDi era digital, seorang desainer tidak hanya bersaing dengan orang di kota sendiri, tetapi juga\ndengan desainer dari seluruh Indonesia bahkan dunia. Oleh karena itu, personal branding\nmenjadi salah satu modal utama untuk mendapatkan klien, pekerjaan, maupun peluang\nbisnis.\nApa itu Personal Branding?\nPersonal Branding adalah cara seseorang memperkenalkan dirinya kepada dunia sehingga\ndikenal memiliki keahlian tertentu.\nContohnya:\n•\nDesainer Logo\n•\nDesainer UI/UX\n•\nIlustrator Digital\n•\nMotion Graphic Designer\n•\nEditor Video\n•\nFotografer\n•\nContent Creator\nMisalnya ketika orang mendengar nama seseorang, mereka langsung teringat dengan kualitas\ndesain yang dibuatnya.\nMengapa Branding Penting?\nBranding memiliki banyak manfaat, di antaranya:\n1. Mudah Diingat\nOrang lebih mudah mengingat desainer yang memiliki gaya khas.\nContoh:\n•\nSelalu menggunakan warna tertentu.\n•\nMemiliki logo pribadi.\n•\nMemiliki ciri desain minimalis.\n2. Menambah Kepercayaan\nKlien akan lebih percaya kepada desainer yang memiliki identitas profesional dibandingkan\nakun tanpa informasi yang jelas.\n3. Meningkatkan Nilai Jasa\nDesainer yang sudah memiliki branding biasanya dapat menentukan harga lebih tinggi karena\ndianggap profesional.\n4. Mempermudah Mendapatkan Klien\nBranding yang baik akan membuat calon klien lebih yakin menggunakan jasa kita.\nUnsur-unsur Branding\nBranding terdiri dari beberapa komponen.\nNama Brand\nContoh:\n•\nAndika Design\n•\nCreative Studio\n•\nPixel Lab\nNama harus:\n•\nmudah diingat\n•\nsingkat\n•\nunik\n•\ntidak sulit diucapkan\nLogo\nLogo menjadi simbol identitas.\nLogo yang baik:\n•\nsederhana\n•\nmudah dikenali\n•\nfleksibel\n•\ntetap jelas walaupun kecil\nWarna\nSetiap warna memiliki makna.\nWarna Makna\nBiru\nProfesional, terpercaya\nMerah Berani, semangat\nHijau Alam, pertumbuhan\nKuning Ceria\nHitam Elegan\nPutih Bersih\nUngu Kreatif\nFont\nJenis huruf juga menentukan karakter.\nContoh:\nSans Serif\nModern\nMinimalis\nProfessional\nSerif\nElegan\nFormal\nScript\nArtistik\nDekoratif\nGaya Desain\nSetiap desainer biasanya memiliki ciri khas.\nMisalnya:\n•\nFlat Design\n•\nMinimalis\n•\nVintage\n•\nFuturistik\n•\nDark Theme\nCara Membangun Branding\n1. Tentukan bidang spesialisasi\n2. Tentukan target audiens\n3. Buat identitas visual\n4. Bangun portofolio\n5. Aktif di media sosial\n6. Konsisten berkarya\n7. Bangun reputasi"
+        },
+        {
+          "id": "2.5",
+          "title": "Membangun Identitas Visual",
+          "printed_page": 77,
+          "pdf_page_start": 63,
+          "pdf_page_end": 65,
+          "content": "Pengertian\nIdentitas visual adalah seluruh tampilan visual yang digunakan seseorang atau perusahaan\nagar mudah dikenali.\nJika branding adalah \"siapa kita\", maka identitas visual adalah \"bagaimana kita terlihat\".\nKomponen Identitas Visual\nLogo\nLogo merupakan simbol utama.\nJenis logo:\n•\nWordmark\n•\nLettermark\n•\nEmblem\n•\nMascot\n•\nCombination Mark\nWarna Brand\nGunakan maksimal 3–5 warna utama.\nContoh:\nPrimary Color\nSecondary Color\nAccent Color\nTipografi\nGunakan font yang konsisten.\nMisalnya:\nJudul\nMontserrat Bold\nIsi\nPoppins\nHeading\nRoboto\nIkon\nGunakan ikon dengan gaya yang sama.\nMisalnya:\nOutline\nFilled\nMinimalis\nTemplate\nSemua desain sebaiknya memiliki template yang sama.\nMisalnya:\nInstagram\nPoster\nBanner\nCV\nPortofolio\nManfaat Identitas Visual\n•\nProfesional\n•\nKonsisten\n•\nMudah dikenali\n•\nMenambah kepercayaan\n•\nMeningkatkan nilai brand"
+        },
+        {
+          "id": "2.6",
+          "title": "Membuat CV Kreatif",
+          "printed_page": 81,
+          "pdf_page_start": 65,
+          "pdf_page_end": 68,
+          "content": "Pengertian CV\nCurriculum Vitae (CV) adalah dokumen yang menjelaskan riwayat pendidikan, pengalaman,\nkemampuan, dan prestasi seseorang.\nCV merupakan syarat utama ketika melamar pekerjaan.\nIsi CV\nIdentitas\n•\nNama\n•\nEmail\n•\nNomor HP\n•\nAlamat\nRingkasan Profil\nContoh:\nSaya merupakan lulusan SMK DKV yang memiliki minat pada desain grafis, branding, UI/UX,\ndan editing video.\nPendidikan\n•\nSD\n•\nSMP\n•\nSMK\nPengalaman\nPKL\nFreelance\nOrganisasi\nLomba\nSkill\nHard Skill\n•\nPhotoshop\n•\nIllustrator\n•\nFigma\n•\nCorelDRAW\nSoft Skill\n•\nKomunikasi\n•\nKerja Tim\n•\nProblem Solving\nSertifikat\n•\nAdobe\n•\nCanva\n•\nBNSP\n•\nDicoding\n•\nCoursera\nPortofolio\nCantumkan:\nBehance\nWebsite\nInstagram\nQR Code\nTips CV Kreatif\n•\nMaksimal dua halaman.\n•\nGunakan desain yang bersih dan mudah dibaca.\n•\nHindari dekorasi berlebihan.\n•\nGunakan foto profesional bila diperlukan.\n•\nSesuaikan isi CV dengan posisi yang dilamar."
+        },
+        {
+          "id": "2.7",
+          "title": "Menyusun Portofolio Profesional",
+          "printed_page": 85,
+          "pdf_page_start": 68,
+          "pdf_page_end": 69,
+          "content": "Apa itu Portofolio?\nPortofolio merupakan kumpulan hasil karya terbaik yang menunjukkan kemampuan seorang\ndesainer.\nPortofolio menjadi bukti nyata kompetensi, bukan hanya daftar pengalaman.\nIsi Portofolio\nSetiap proyek sebaiknya memuat:\n•\nJudul Proyek\n•\nKlien (jika ada)\n•\nTahun Pembuatan\n•\nTujuan Proyek\n•\nProses Desain\n•\nSoftware yang Digunakan\n•\nHasil Akhir\n•\nMockup\n•\nEvaluasi atau Hasil\nJenis Portofolio\n•\nLogo\n•\nBranding\n•\nPoster\n•\nUI/UX\n•\nWebsite\n•\nPackaging\n•\nMotion Graphic\n•\nFotografi\n•\nVideo Editing\nKesalahan yang Harus Dihindari\n•\nMemasukkan semua karya tanpa seleksi.\n•\nMenggunakan gambar berkualitas rendah.\n•\nTidak memberikan penjelasan proyek.\n•\nDesain tidak konsisten.\n•\nTidak mencantumkan kontak."
+        },
+        {
+          "id": "2.8",
+          "title": "Behance untuk Desainer",
+          "printed_page": 89,
+          "pdf_page_start": 69,
+          "pdf_page_end": 70,
+          "content": "Apa itu Behance?\nBehance adalah platform online yang digunakan desainer untuk mempublikasikan karya dan\nmembangun portofolio digital. Melalui Behance, karya dapat dilihat oleh perusahaan, agensi,\nmaupun klien dari berbagai negara.\nManfaat Behance\n•\nMenampilkan proyek secara profesional.\n•\nMemperluas jaringan.\n•\nMendapatkan inspirasi dari desainer lain.\n•\nBerpeluang direkrut perusahaan.\n•\nMenjadi media promosi diri.\nTips Menggunakan Behance\n•\nUnggah karya dengan kualitas tinggi.\n•\nCeritakan proses desain (case study).\n•\nGunakan thumbnail yang menarik.\n•\nBeri tag (keyword) yang relevan.\n•\nPerbarui portofolio secara rutin."
+        },
+        {
+          "id": "2.9",
+          "title": "LinkedIn untuk Karier Profesional",
+          "printed_page": 93,
+          "pdf_page_start": 70,
+          "pdf_page_end": 70,
+          "content": "Pengertian\nLinkedIn adalah media sosial profesional yang digunakan untuk membangun jaringan kerja,\nmencari lowongan, dan menampilkan pengalaman serta keterampilan.\nBagian Profil LinkedIn\n•\nFoto profil profesional.\n•\nHeadline (misalnya: Graphic Designer | UI/UX Enthusiast).\n•\nRingkasan diri (About).\n•\nPendidikan.\n•\nPengalaman kerja/PKL.\n•\nSertifikat.\n•\nKeterampilan (Skills).\n•\nPortofolio atau tautan karya.\nManfaat LinkedIn\n•\nMembangun koneksi profesional.\n•\nMendapatkan informasi lowongan kerja.\n•\nMenampilkan pencapaian.\n•\nMemperkuat citra profesional."
+        },
+        {
+          "id": "2.10",
+          "title": "Instagram Portfolio",
+          "printed_page": 97,
+          "pdf_page_start": 70,
+          "pdf_page_end": 71,
+          "content": "Fungsi Instagram sebagai Portofolio\nInstagram dapat digunakan untuk memamerkan karya secara visual sekaligus membangun\npersonal branding.\nTips Membuat Instagram Portofolio\n•\nGunakan akun khusus karya.\n•\nBuat bio yang jelas dan profesional.\n•\nGunakan foto profil/logo yang konsisten.\n•\nUnggah karya dengan kualitas tinggi.\n•\nTulis deskripsi singkat setiap proyek.\n•\nSusun feed agar rapi dan seragam.\n•\nManfaatkan fitur Highlight untuk mengelompokkan karya."
+        },
+        {
+          "id": "2.11",
+          "title": "Website Portofolio",
+          "printed_page": 101,
+          "pdf_page_start": 71,
+          "pdf_page_end": 71,
+          "content": "Pengertian\nWebsite portofolio adalah situs pribadi yang menampilkan profil, karya, pengalaman, dan\ninformasi kontak dalam satu tempat.\nStruktur Website\n1. Beranda (Home).\n2. Tentang Saya (About).\n3. Portofolio.\n4. Layanan (jika ada).\n5. Testimoni.\n6. Kontak.\nKeuntungan\n•\nTerlihat lebih profesional.\n•\nMudah dibagikan kepada klien.\n•\nDapat dioptimalkan melalui mesin pencari (SEO).\n•\nKendali penuh terhadap desain dan isi."
+        },
+        {
+          "id": "2.12",
+          "title": "Studi Kasus Branding Profesional",
+          "printed_page": 105,
+          "pdf_page_start": 72,
+          "pdf_page_end": 72,
+          "content": "Contoh Kasus\nSeorang siswa DKV membuat logo pribadi, menggunakan warna yang sama di CV, Instagram,\nBehance, dan website, serta selalu mengunggah hasil karya terbaik dengan gaya desain yang\nkonsisten.\nHasilnya\n•\nIdentitas lebih mudah dikenali.\n•\nKlien lebih percaya.\n•\nPortofolio terlihat profesional.\n•\nPeluang mendapatkan proyek meningkat.\nPelajaran yang Dapat Diambil\n•\nKonsistensi sangat penting.\n•\nBranding bukan hanya logo, tetapi juga perilaku dan kualitas karya.\n•\nPortofolio harus selalu diperbarui."
+        },
+        {
+          "id": "2.13",
+          "title": "Praktik Pembuatan Portofolio",
+          "printed_page": 109,
+          "pdf_page_start": 72,
+          "pdf_page_end": 73,
+          "content": "Langkah-Langkah\n1. Tentukan tujuan portofolio.\n2. Pilih 10–20 karya terbaik.\n3. Kelompokkan berdasarkan kategori.\n4. Tambahkan penjelasan setiap proyek.\n5. Sertakan proses pengerjaan bila memungkinkan.\n6. Tampilkan hasil akhir dengan mockup berkualitas.\n7. Cantumkan informasi kontak.\n8. Publikasikan melalui Behance, LinkedIn, Instagram, atau website pribadi.\nChecklist Sebelum Dipublikasikan\n•\nSemua gambar berkualitas tinggi.\n•\nTidak ada kesalahan penulisan.\n•\nTata letak rapi dan konsisten.\n•\nInformasi kontak lengkap.\n•\nTautan portofolio berfungsi dengan baik."
+        },
+        {
+          "id": "2.14",
+          "title": "Evaluasi Bab II",
+          "printed_page": 114,
+          "pdf_page_start": 73,
+          "pdf_page_end": 74,
+          "content": "Setelah mempelajari seluruh materi, peserta didik diharapkan mampu:\n•\nMenjelaskan konsep personal branding bagi desainer.\n•\nMerancang identitas visual yang konsisten.\n•\nMembuat CV kreatif yang profesional.\n•\nMenyusun portofolio digital yang menarik dan relevan.\n•\nMemanfaatkan Behance, LinkedIn, Instagram, dan website sebagai media promosi\nkarya.\n•\nMenganalisis contoh branding profesional melalui studi kasus.\n•\nMenghasilkan portofolio digital yang siap digunakan untuk melamar kerja, magang\n(PKL), atau menawarkan jasa kepada klien.\nCapaian Pembelajaran\nSetelah mempelajari bab ini, peserta didik diharapkan mampu:\n•\nMemahami konsep dasar Artificial Intelligence (AI).\n•\nMenjelaskan sejarah perkembangan AI dari awal hingga era Generative AI.\n•\nMengetahui penerapan AI dalam industri kreatif.\n•\nMenggunakan berbagai platform AI untuk meningkatkan produktivitas.\n•\nMenulis prompt yang efektif dan profesional.\n•\nMemanfaatkan AI secara etis dalam proses belajar dan bekerja.\n•\nMengembangkan proyek desain dan konten dengan bantuan AI."
+        }
+      ]
+    },
+    {
+      "chapter": 3,
+      "code": "BAB III",
+      "title": "ARTIFICIAL INTELLIGENCE UNTUK PRODUKTIVITAS",
+      "intro": "Capaian Pembelajaran\nSetelah mempelajari bab ini, peserta didik diharapkan mampu:\n•\nMemahami konsep dasar Artificial Intelligence (AI).\n•\nMenjelaskan sejarah perkembangan AI dari awal hingga era Generative AI.\n•\nMengetahui penerapan AI dalam industri kreatif.\n•\nMenggunakan berbagai platform AI untuk meningkatkan produktivitas.\n•\nMenulis prompt yang efektif dan profesional.\n•\nMemanfaatkan AI secara etis dalam proses belajar dan bekerja.\n•\nMengembangkan proyek desain dan konten dengan bantuan AI.",
+      "sections": [
+        {
+          "id": "3.1",
+          "title": "Pengertian Artificial Intelligence",
+          "printed_page": 117,
+          "pdf_page_start": 74,
+          "pdf_page_end": 75,
+          "content": "Apa itu Artificial Intelligence?\nArtificial Intelligence (AI) atau Kecerdasan Buatan adalah cabang ilmu komputer yang\nmengembangkan sistem atau mesin agar mampu melakukan tugas-tugas yang biasanya\nmembutuhkan kecerdasan manusia, seperti berpikir, belajar, menganalisis, memahami bahasa,\nmengenali gambar, hingga mengambil keputusan.\nAI tidak memiliki kesadaran seperti manusia, tetapi mampu memproses data dalam jumlah\nbesar dan menghasilkan prediksi atau jawaban berdasarkan pola yang telah dipelajari.\nDefinisi Sederhana\nAI adalah teknologi yang memungkinkan komputer \"belajar\" dari data sehingga dapat\nmembantu manusia menyelesaikan pekerjaan dengan lebih cepat dan efisien.\nTujuan AI\nTujuan utama AI adalah membantu manusia dalam menyelesaikan berbagai pekerjaan, antara\nlain:\n•\nMengotomatisasi pekerjaan yang berulang.\n•\nMeningkatkan efisiensi dan produktivitas.\n•\nMembantu pengambilan keputusan berbasis data.\n•\nMenghasilkan ide dan solusi kreatif.\n•\nMempermudah akses terhadap informasi.\nContoh Penerapan AI\n•\nAsisten virtual.\n•\nPenerjemah bahasa.\n•\nRekomendasi video atau musik.\n•\nChatbot layanan pelanggan.\n•\nPembuatan gambar dan desain.\n•\nPenulisan artikel dan konten.\n•\nAnalisis data bisnis."
+        },
+        {
+          "id": "3.2",
+          "title": "Sejarah Perkembangan AI",
+          "printed_page": 120,
+          "pdf_page_start": 75,
+          "pdf_page_end": 76,
+          "content": "Awal Mula AI\nKonsep AI mulai berkembang pada tahun 1950 ketika ilmuwan komputer mulai\nmempertanyakan apakah mesin dapat berpikir seperti manusia.\nTimeline Singkat\n1950\n•\nAlan Turing memperkenalkan Turing Test untuk menguji kecerdasan mesin.\n1956\n•\nIstilah Artificial Intelligence diperkenalkan oleh John McCarthy pada Dartmouth\nConference.\n1980-an\n•\nSistem pakar (Expert System) mulai digunakan di industri.\n1997\n•\nKomputer IBM Deep Blue mengalahkan juara catur dunia Garry Kasparov.\n2011\n•\nIBM Watson memenangkan kuis Jeopardy!.\n2022–Sekarang\n•\nMuncul Generative AI yang mampu membuat teks, gambar, musik, kode program, dan\nvideo.\nPerkembangan Generative AI\nGenerative AI adalah jenis AI yang dapat menciptakan konten baru berdasarkan perintah\npengguna (prompt).\nContohnya:\n•\nArtikel.\n•\nGambar.\n•\nMusik.\n•\nVideo.\n•\nPresentasi.\n•\nKode program."
+        },
+        {
+          "id": "3.3",
+          "title": "AI dalam Industri Kreatif",
+          "printed_page": 124,
+          "pdf_page_start": 76,
+          "pdf_page_end": 77,
+          "content": "AI telah mengubah cara kerja di berbagai bidang kreatif.\nBidang yang Memanfaatkan AI\nDesain Grafis\n•\nMembuat konsep logo.\n•\nMembuat ilustrasi.\n•\nMenghapus objek.\n•\nMengganti latar belakang.\nFotografi\n•\nMenghilangkan noise.\n•\nMemperbaiki warna.\n•\nMeningkatkan resolusi.\nVideo Editing\n•\nAuto subtitle.\n•\nVoice over.\n•\nMotion graphics.\nPenulisan Konten\n•\nArtikel.\n•\nCopywriting.\n•\nCaption media sosial.\n•\nNaskah video.\nMusik\n•\nMembuat komposisi.\n•\nMembuat efek suara.\nAnimasi\n•\nKarakter AI.\n•\nBackground otomatis.\n•\nStoryboard.\nManfaat AI di Industri Kreatif\n•\nMempercepat proses kerja.\n•\nMengurangi pekerjaan berulang.\n•\nMembantu eksplorasi ide.\n•\nMeningkatkan kualitas hasil.\n•\nMenghemat biaya produksi."
+        },
+        {
+          "id": "3.4",
+          "title": "ChatGPT untuk Produktivitas",
+          "printed_page": 128,
+          "pdf_page_start": 78,
+          "pdf_page_end": 79,
+          "content": "Pengertian\nChatGPT adalah model AI berbasis bahasa yang dapat memahami dan menghasilkan teks untuk\nmembantu berbagai pekerjaan.\nFungsi ChatGPT\n•\nMenjawab pertanyaan.\n•\nMenulis artikel.\n•\nMembuat proposal.\n•\nMenyusun laporan.\n•\nMembuat soal ujian.\n•\nMembantu coding.\n•\nMenyusun presentasi.\n•\nBrainstorming ide.\nContoh Penggunaan\nPerintah:\n\"Buatkan proposal kegiatan sekolah.\"\nHasil:\nAI menghasilkan proposal lengkap yang kemudian dapat disesuaikan oleh pengguna.\nKelebihan\n•\nCepat.\n•\nMudah digunakan.\n•\nMendukung banyak bahasa.\n•\nFleksibel untuk berbagai kebutuhan.\nKeterbatasan\n•\nDapat menghasilkan informasi yang kurang akurat.\n•\nTetap memerlukan verifikasi.\n•\nTidak menggantikan kemampuan berpikir kritis manusia."
+        },
+        {
+          "id": "3.5",
+          "title": "Gemini AI",
+          "printed_page": 132,
+          "pdf_page_start": 79,
+          "pdf_page_end": 79,
+          "content": "Gemini AI adalah model AI multimodal yang dapat memahami teks, gambar, dokumen, hingga\nkode program.\nKegunaan\n•\nAnalisis dokumen.\n•\nMenjawab pertanyaan.\n•\nMembuat ringkasan.\n•\nMembantu coding.\n•\nAnalisis gambar.\nKelebihan\n•\nIntegrasi dengan layanan Google.\n•\nMendukung berbagai jenis data (multimodal).\n•\nCocok untuk kebutuhan belajar dan produktivitas."
+        },
+        {
+          "id": "3.6",
+          "title": "Claude AI",
+          "printed_page": 136,
+          "pdf_page_start": 79,
+          "pdf_page_end": 80,
+          "content": "Claude AI adalah asisten AI yang dirancang untuk membantu penulisan, analisis dokumen, dan\npercakapan yang panjang.\nFungsi\n•\nMenganalisis dokumen.\n•\nMembuat ringkasan.\n•\nMenulis laporan.\n•\nMembantu brainstorming.\n•\nMenyusun dokumen panjang.\nKelebihan\n•\nMampu memahami konteks yang panjang.\n•\nFokus pada kualitas penalaran dan penyusunan dokumen.\n•\nCocok untuk pekerjaan administratif dan akademik."
+        },
+        {
+          "id": "3.7",
+          "title": "Adobe Firefly",
+          "printed_page": 140,
+          "pdf_page_start": 80,
+          "pdf_page_end": 80,
+          "content": "Adobe Firefly adalah AI generatif yang terintegrasi dengan ekosistem Adobe untuk membantu\nproses desain grafis.\nFitur\n•\nText to Image.\n•\nGenerative Fill.\n•\nGenerative Expand.\n•\nText Effects.\n•\nRecolor Vector.\nManfaat\n•\nMembuat ilustrasi.\n•\nMenghapus objek.\n•\nMenambah elemen gambar.\n•\nMengembangkan ide desain."
+        },
+        {
+          "id": "3.8",
+          "title": "Midjourney",
+          "printed_page": 144,
+          "pdf_page_start": 80,
+          "pdf_page_end": 81,
+          "content": "Midjourney adalah AI yang menghasilkan gambar dari deskripsi teks (prompt).\nContoh Prompt\n\"Modern minimalist coffee shop interior with warm lighting, wooden furniture, realistic style.\"\nPenggunaan\n•\nConcept art.\n•\nPoster.\n•\nIlustrasi.\n•\nDesain karakter.\n•\nMockup produk."
+        },
+        {
+          "id": "3.9",
+          "title": "Prompt Engineering",
+          "printed_page": 148,
+          "pdf_page_start": 81,
+          "pdf_page_end": 81,
+          "content": "Pengertian\nPrompt Engineering adalah teknik menyusun instruksi yang jelas, spesifik, dan terstruktur agar\nAI menghasilkan jawaban atau karya yang sesuai dengan kebutuhan.\nKomponen Prompt\n•\nTujuan.\n•\nPeran AI.\n•\nDetail pekerjaan.\n•\nFormat hasil.\n•\nGaya bahasa.\n•\nBatasan.\nContoh\nKurang efektif:\nBuat logo.\nLebih efektif:\nBuat konsep logo modern minimalis untuk usaha servis laptop dengan warna biru dan putih,\nmenggunakan ikon obeng dan chip komputer."
+        },
+        {
+          "id": "3.10",
+          "title": "Teknik Menulis Prompt Profesional",
+          "printed_page": 152,
+          "pdf_page_start": 81,
+          "pdf_page_end": 82,
+          "content": "Prinsip SMART\n•\nSpecific: Jelaskan kebutuhan secara rinci.\n•\nMeasurable: Tentukan hasil yang diinginkan.\n•\nAchievable: Sesuaikan dengan kemampuan AI.\n•\nRelevant: Tetap fokus pada tujuan.\n•\nTime-bound: Tambahkan batas waktu jika diperlukan.\nTips\n•\nGunakan bahasa yang jelas.\n•\nTentukan target audiens.\n•\nBerikan konteks.\n•\nMinta format keluaran (misalnya tabel, poin, atau paragraf).\n•\nLakukan revisi prompt jika hasil belum sesuai."
+        },
+        {
+          "id": "3.11",
+          "title": "AI untuk Pembuatan Konten",
+          "printed_page": 156,
+          "pdf_page_start": 82,
+          "pdf_page_end": 82,
+          "content": "AI dapat membantu membuat:\n•\nArtikel.\n•\nCaption media sosial.\n•\nNaskah video.\n•\nEmail.\n•\nPresentasi.\n•\nSkrip podcast.\n•\nIde konten.\nKeuntungan\n•\nMenghemat waktu.\n•\nMembantu mengatasi kebuntuan ide.\n•\nMempercepat proses produksi konten."
+        },
+        {
+          "id": "3.12",
+          "title": "AI untuk Desain Grafis",
+          "printed_page": 160,
+          "pdf_page_start": 82,
+          "pdf_page_end": 83,
+          "content": "AI mendukung berbagai tahap proses desain.\nContoh Penggunaan\n•\nMembuat moodboard.\n•\nMenghasilkan ilustrasi.\n•\nMenghapus latar belakang.\n•\nMembuat variasi logo.\n•\nMeningkatkan resolusi gambar.\n•\nMembuat mockup.\nPeran Desainer\nAI adalah alat bantu. Keputusan akhir mengenai konsep, estetika, dan kesesuaian dengan\nkebutuhan klien tetap berada di tangan desainer."
+        },
+        {
+          "id": "3.13",
+          "title": "AI untuk Pengembangan Aplikasi",
+          "printed_page": 164,
+          "pdf_page_start": 83,
+          "pdf_page_end": 83,
+          "content": "AI dapat membantu proses pengembangan aplikasi melalui:\n•\nPembuatan kode program.\n•\nPenjelasan algoritma.\n•\nPembuatan dokumentasi.\n•\nDebugging.\n•\nPembuatan antarmuka (UI).\n•\nPenyusunan database sederhana.\nAI mempercepat proses pengembangan, tetapi hasilnya tetap perlu diuji dan ditinjau oleh\npengembang."
+        },
+        {
+          "id": "3.14",
+          "title": "Etika Penggunaan AI",
+          "printed_page": 168,
+          "pdf_page_start": 83,
+          "pdf_page_end": 84,
+          "content": "Prinsip Etika\n•\nJujur dalam penggunaan AI.\n•\nMenghargai hak cipta.\n•\nTidak menyebarkan informasi palsu.\n•\nMenjaga privasi data.\n•\nMenghindari plagiarisme.\n•\nMelakukan verifikasi hasil AI.\nHal yang Harus Dihindari\n•\nMengaku karya AI sebagai hasil karya sendiri tanpa penyesuaian jika konteksnya\nmenuntut orisinalitas.\n•\nMengunggah data pribadi atau data rahasia ke layanan AI tanpa izin.\n•\nMenggunakan AI untuk penipuan, penyebaran hoaks, atau tindakan yang melanggar\nhukum."
+        },
+        {
+          "id": "3.15",
+          "title": "Studi Kasus AI dalam Dunia Kerja",
+          "printed_page": 172,
+          "pdf_page_start": 84,
+          "pdf_page_end": 84,
+          "content": "Kasus\nSebuah studio desain menerima permintaan membuat identitas visual untuk usaha kopi dalam\nwaktu tiga hari.\nLangkah Kerja\n1. Menggunakan AI untuk brainstorming nama dan konsep.\n2. Membuat beberapa alternatif logo dengan AI.\n3. Menyempurnakan desain secara manual menggunakan perangkat lunak desain.\n4. Menyusun presentasi dan mockup dengan bantuan AI.\n5. Menyerahkan hasil akhir setelah melalui proses evaluasi dan revisi.\nHasil\n•\nWaktu pengerjaan lebih singkat.\n•\nIde lebih beragam.\n•\nTetap diperlukan keahlian desainer untuk menyempurnakan hasil."
+        },
+        {
+          "id": "3.16",
+          "title": "Praktik AI untuk DKV",
+          "printed_page": 176,
+          "pdf_page_start": 84,
+          "pdf_page_end": 85,
+          "content": "Proyek Membuat Branding UMKM dengan Bantuan AI\nLangkah\n1. Tentukan jenis usaha.\n2. Susun prompt untuk menghasilkan konsep.\n3. Buat alternatif logo menggunakan AI.\n4. Kembangkan desain secara manual.\n5. Buat poster promosi.\n6. Susun presentasi proyek.\n7. Presentasikan hasil kepada guru atau teman sekelas."
+        },
+        {
+          "id": "3.17",
+          "title": "Evaluasi Bab III",
+          "printed_page": 181,
+          "pdf_page_start": 85,
+          "pdf_page_end": 86,
+          "content": "Indikator Keberhasilan\nPeserta didik mampu:\n•\nMenjelaskan konsep dasar AI.\n•\nMemahami sejarah perkembangan AI.\n•\nMengidentifikasi penerapan AI dalam industri kreatif.\n•\nMenggunakan ChatGPT, Gemini, Claude, Adobe Firefly, dan Midjourney sesuai\nkebutuhan.\n•\nMenulis prompt yang efektif.\n•\nMemanfaatkan AI untuk pembuatan konten, desain, dan pengembangan aplikasi.\n•\nMenerapkan etika penggunaan AI.\n•\nMenyelesaikan proyek DKV dengan memanfaatkan AI secara bertanggung jawab.\nCapaian Pembelajaran\nSetelah mempelajari bab ini, peserta didik diharapkan mampu:\n•\nMemahami konsep dasar User Interface (UI) dan User Experience (UX).\n•\nMenjelaskan perbedaan UI dan UX serta hubungan keduanya.\n•\nMenerapkan prinsip-prinsip desain antarmuka yang baik.\n•\nMerancang user journey dan user flow berdasarkan kebutuhan pengguna.\n•\nMembuat wireframe, mockup, dan prototype.\n•\nMenyusun design system sederhana.\n•\nMemilih tipografi dan warna yang sesuai untuk antarmuka digital.\n•\nMenghasilkan rancangan UI/UX yang fungsional dan mudah digunakan."
+        }
+      ]
+    },
+    {
+      "chapter": 4,
+      "code": "BAB IV",
+      "title": "DASAR UI/UX DESIGN",
+      "intro": "Capaian Pembelajaran\nSetelah mempelajari bab ini, peserta didik diharapkan mampu:\n•\nMemahami konsep dasar User Interface (UI) dan User Experience (UX).\n•\nMenjelaskan perbedaan UI dan UX serta hubungan keduanya.\n•\nMenerapkan prinsip-prinsip desain antarmuka yang baik.\n•\nMerancang user journey dan user flow berdasarkan kebutuhan pengguna.\n•\nMembuat wireframe, mockup, dan prototype.\n•\nMenyusun design system sederhana.\n•\nMemilih tipografi dan warna yang sesuai untuk antarmuka digital.\n•\nMenghasilkan rancangan UI/UX yang fungsional dan mudah digunakan.",
+      "sections": [
+        {
+          "id": "4.1",
+          "title": "Pengertian UI dan UX",
+          "printed_page": 184,
+          "pdf_page_start": 86,
+          "pdf_page_end": 87,
+          "content": "Apa itu UI (User Interface)?\nUser Interface (UI) adalah tampilan visual yang digunakan pengguna untuk berinteraksi\ndengan aplikasi, website, atau sistem digital. UI mencakup semua elemen yang terlihat di layar,\nseperti tombol, ikon, warna, tipografi, gambar, menu, dan tata letak.\nTujuan utama UI adalah membuat tampilan yang menarik, mudah dipahami, dan konsisten\nsehingga pengguna dapat berinteraksi dengan nyaman.\nContoh Elemen UI\n•\nTombol (Button)\n•\nIkon\n•\nMenu Navigasi\n•\nFormulir (Form)\n•\nKolom Pencarian\n•\nBanner\n•\nCard\n•\nSlider\n•\nTab\n•\nCheckbox\n•\nRadio Button\n•\nProgress Bar\nApa itu UX (User Experience)?\nUser Experience (UX) adalah pengalaman pengguna saat menggunakan suatu produk digital. UX\ntidak hanya membahas tampilan, tetapi juga kemudahan penggunaan, kenyamanan, efisiensi,\ndan kepuasan pengguna.\nContohnya, aplikasi dengan tampilan sederhana tetapi mudah digunakan sering kali memiliki UX\nyang baik.\nHubungan UI dan UX\nUI dan UX saling melengkapi. UI berfokus pada bagaimana produk terlihat, sedangkan UX\nberfokus pada bagaimana produk digunakan dan dirasakan."
+        },
+        {
+          "id": "4.2",
+          "title": "Perbedaan UI dan UX",
+          "printed_page": 188,
+          "pdf_page_start": 87,
+          "pdf_page_end": 88,
+          "content": "Aspek\nUI (User Interface)\nUX (User Experience)\nFokus\nTampilan visual\nPengalaman pengguna\nTujuan\nMenarik dan mudah dipahami\nMudah digunakan dan memuaskan\nElemen Warna, ikon, tombol, tipografi\nAlur penggunaan, kemudahan, efisiensi\nHasil\nAntarmuka yang estetis\nProduk yang efektif dan nyaman digunakan\nContoh\nPada aplikasi belanja:\n•\nUI mengatur warna tombol \"Beli Sekarang\", ikon keranjang, dan tata letak produk.\n•\nUX memastikan proses mencari barang, memasukkan ke keranjang, hingga pembayaran\nberlangsung mudah dan cepat."
+        },
+        {
+          "id": "4.3",
+          "title": "Prinsip UI Design",
+          "printed_page": 192,
+          "pdf_page_start": 88,
+          "pdf_page_end": 88,
+          "content": "UI yang baik mengikuti beberapa prinsip berikut:\n1. Konsistensi\nGunakan warna, ikon, dan gaya tombol yang sama di seluruh halaman agar pengguna tidak\nbingung.\n2. Kesederhanaan\nTampilan sebaiknya bersih dan tidak dipenuhi elemen yang tidak diperlukan.\n3. Hierarki Visual\nInformasi penting harus lebih menonjol melalui ukuran, warna, atau posisi.\n4. Keterbacaan\nGunakan tipografi yang mudah dibaca dengan ukuran huruf dan kontras yang cukup.\n5. Umpan Balik (Feedback)\nSetiap tindakan pengguna sebaiknya mendapatkan respons, misalnya tombol berubah warna\nsaat diklik atau muncul pesan \"Data berhasil disimpan\".\n6. Aksesibilitas\nDesain harus dapat digunakan oleh berbagai kalangan, termasuk pengguna dengan\nketerbatasan penglihatan atau motorik."
+        },
+        {
+          "id": "4.4",
+          "title": "Prinsip UX Design",
+          "printed_page": 196,
+          "pdf_page_start": 88,
+          "pdf_page_end": 89,
+          "content": "Prinsip UX berfokus pada kebutuhan pengguna.\nUser-Centered Design\nSemua keputusan desain dibuat berdasarkan kebutuhan dan tujuan pengguna.\nMudah Dipelajari\nPengguna baru dapat memahami cara menggunakan aplikasi tanpa perlu membaca banyak\npetunjuk.\nEfisiensi\nPengguna dapat menyelesaikan tugas dengan langkah sesedikit mungkin.\nPencegahan Kesalahan\nSistem membantu mencegah kesalahan, misalnya dengan validasi formulir atau konfirmasi\nsebelum menghapus data.\nKepuasan Pengguna\nProduk harus memberikan pengalaman yang menyenangkan sehingga pengguna ingin\nmenggunakannya kembali."
+        },
+        {
+          "id": "4.5",
+          "title": "User Journey",
+          "printed_page": 200,
+          "pdf_page_start": 89,
+          "pdf_page_end": 90,
+          "content": "Pengertian\nUser Journey adalah perjalanan pengguna sejak pertama kali mengenal suatu produk hingga\nmencapai tujuan tertentu.\nTahapan User Journey\n1. Mengetahui produk.\n2. Mengunjungi aplikasi atau website.\n3. Mencari informasi.\n4. Menggunakan fitur.\n5. Menyelesaikan tujuan (misalnya membeli produk atau mendaftar akun).\n6. Memberikan ulasan atau kembali menggunakan produk.\nContoh\nSeorang pelanggan ingin membeli laptop melalui aplikasi:\n•\nMelihat iklan.\n•\nMembuka aplikasi.\n•\nMencari laptop.\n•\nMembaca spesifikasi.\n•\nMemesan.\n•\nMembayar.\n•\nMelacak pengiriman.\n•\nMenerima barang.\nDengan memetakan user journey, desainer dapat mengetahui titik-titik yang perlu diperbaiki\nagar pengalaman pengguna semakin baik."
+        },
+        {
+          "id": "4.6",
+          "title": "User Flow",
+          "printed_page": 204,
+          "pdf_page_start": 90,
+          "pdf_page_end": 90,
+          "content": "Pengertian\nUser Flow adalah diagram yang menunjukkan langkah-langkah pengguna dalam menyelesaikan\nsuatu tugas di dalam aplikasi atau website.\nContoh User Flow Login\nBuka aplikasi → Klik \"Masuk\" → Isi email → Isi kata sandi → Verifikasi → Beranda.\nUser flow membantu tim memastikan alur penggunaan sederhana dan tidak membingungkan."
+        },
+        {
+          "id": "4.7",
+          "title": "Wireframe",
+          "printed_page": 208,
+          "pdf_page_start": 90,
+          "pdf_page_end": 90,
+          "content": "Pengertian\nWireframe adalah sketsa awal tampilan aplikasi atau website yang menggambarkan struktur\nhalaman tanpa detail visual seperti warna atau gambar.\nFungsi Wireframe\n•\nMenentukan tata letak.\n•\nMenyusun navigasi.\n•\nMempermudah diskusi dengan tim.\n•\nMenghemat waktu sebelum masuk tahap desain visual."
+        },
+        {
+          "id": "4.8",
+          "title": "Low Fidelity Wireframe",
+          "printed_page": 212,
+          "pdf_page_start": 91,
+          "pdf_page_end": 91,
+          "content": "Pengertian\nLow Fidelity Wireframe adalah rancangan awal dengan bentuk sederhana menggunakan kotak,\ngaris, dan teks sebagai penanda elemen.\nCiri-ciri\n•\nTanpa warna.\n•\nTanpa gambar.\n•\nFokus pada struktur.\n•\nCepat dibuat.\n•\nMudah direvisi.\nTahap ini cocok untuk mengeksplorasi berbagai ide sebelum memilih desain terbaik."
+        },
+        {
+          "id": "4.9",
+          "title": "High Fidelity Wireframe",
+          "printed_page": 216,
+          "pdf_page_start": 91,
+          "pdf_page_end": 91,
+          "content": "Pengertian\nHigh Fidelity Wireframe adalah rancangan yang lebih detail dan mendekati tampilan akhir.\nCiri-ciri\n•\nMenggunakan warna.\n•\nMenggunakan ikon.\n•\nMemuat tipografi yang dipilih.\n•\nMenampilkan gambar atau ilustrasi.\n•\nUkuran dan posisi elemen lebih akurat.\nHigh Fidelity Wireframe menjadi dasar sebelum membuat mockup."
+        },
+        {
+          "id": "4.10",
+          "title": "Mockup",
+          "printed_page": 220,
+          "pdf_page_start": 91,
+          "pdf_page_end": 92,
+          "content": "Pengertian\nMockup adalah representasi visual dari desain akhir yang sudah menggunakan warna, tipografi,\nikon, gambar, dan elemen grafis lengkap.\nFungsi\n•\nMenunjukkan tampilan produk kepada klien.\n•\nMemudahkan proses evaluasi desain.\n•\nMenjadi acuan sebelum tahap pengembangan (development).\nMockup bersifat statis dan belum dapat diklik."
+        },
+        {
+          "id": "4.11",
+          "title": "Prototype",
+          "printed_page": 224,
+          "pdf_page_start": 92,
+          "pdf_page_end": 92,
+          "content": "Pengertian\nPrototype adalah simulasi antarmuka yang dapat diinteraksikan sehingga pengguna dapat\nmencoba alur aplikasi seolah-olah aplikasi tersebut sudah selesai dibuat.\nManfaat\n•\nMenguji pengalaman pengguna.\n•\nMenemukan masalah sebelum proses pengembangan.\n•\nMemperoleh masukan dari calon pengguna.\n•\nMengurangi biaya revisi pada tahap implementasi."
+        },
+        {
+          "id": "4.12",
+          "title": "Design System",
+          "printed_page": 228,
+          "pdf_page_start": 92,
+          "pdf_page_end": 93,
+          "content": "Pengertian\nDesign System adalah kumpulan aturan, komponen, dan pedoman desain yang digunakan\nsecara konsisten dalam pengembangan produk digital.\nKomponen Design System\n•\nPalet warna.\n•\nTipografi.\n•\nIkon.\n•\nTombol.\n•\nFormulir.\n•\nGrid.\n•\nSpacing.\n•\nKomponen UI (card, modal, navbar, dsb.).\nManfaat\n•\nKonsistensi tampilan.\n•\nMempercepat proses desain.\n•\nMempermudah kolaborasi antara desainer dan pengembang."
+        },
+        {
+          "id": "4.13",
+          "title": "Typography untuk UI",
+          "printed_page": 232,
+          "pdf_page_start": 93,
+          "pdf_page_end": 93,
+          "content": "Pengertian\nTypography adalah seni memilih dan mengatur huruf agar mudah dibaca serta mendukung\nidentitas visual.\nPrinsip Tipografi\n•\nGunakan maksimal dua atau tiga jenis font.\n•\nBuat hierarki antara judul, subjudul, dan isi.\n•\nGunakan ukuran huruf yang nyaman dibaca.\n•\nAtur jarak antarbaris (line spacing) dan antarhuruf (letter spacing) dengan baik.\nContoh Font Populer\n•\nRoboto\n•\nInter\n•\nPoppins\n•\nMontserrat\n•\nOpen Sans\n•\nNunito"
+        },
+        {
+          "id": "4.14",
+          "title": "Warna dalam UI Design",
+          "printed_page": 236,
+          "pdf_page_start": 93,
+          "pdf_page_end": 94,
+          "content": "Peran Warna\nWarna membantu pengguna memahami informasi, membangun identitas merek, dan\nmengarahkan perhatian.\nPsikologi Warna\nWarna\nMakna Umum\nBiru\nProfesional, tepercaya, tenang\nHijau\nAlam, kesehatan, pertumbuhan\nMerah\nEnergi, perhatian, peringatan\nKuning\nCeria, optimis\nOranye\nSemangat, kreatif\nUngu\nKreatif, mewah\nHitam\nElegan, modern\nPutih\nBersih, sederhana\nPrinsip Penggunaan Warna\n•\nGunakan kontras yang cukup antara teks dan latar belakang.\n•\nPilih warna sesuai identitas merek.\n•\nBatasi jumlah warna utama agar tampilan tetap konsisten.\n•\nGunakan warna aksen untuk elemen penting seperti tombol aksi."
+        },
+        {
+          "id": "4.15",
+          "title": "Praktik UI/UX",
+          "printed_page": 240,
+          "pdf_page_start": 94,
+          "pdf_page_end": 95,
+          "content": "Studi Kasus\nRancang antarmuka aplikasi Peminjaman Buku Perpustakaan Sekolah.\nLangkah Pengerjaan\n1. Identifikasi kebutuhan pengguna (siswa dan petugas).\n2. Buat user journey.\n3. Susun user flow untuk proses pencarian dan peminjaman buku.\n4. Gambar low fidelity wireframe.\n5. Kembangkan menjadi high fidelity wireframe.\n6. Buat mockup lengkap.\n7. Rancang prototype interaktif.\n8. Presentasikan hasil dan lakukan evaluasi berdasarkan masukan pengguna."
+        },
+        {
+          "id": "4.16",
+          "title": "Evaluasi Bab IV",
+          "printed_page": 245,
+          "pdf_page_start": 95,
+          "pdf_page_end": 96,
+          "content": "Indikator Keberhasilan\nSetelah mempelajari bab ini, peserta didik mampu:\n•\nMenjelaskan pengertian UI dan UX.\n•\nMembedakan UI dengan UX beserta perannya.\n•\nMenerapkan prinsip UI dan UX dalam perancangan antarmuka.\n•\nMembuat user journey dan user flow.\n•\nMenyusun wireframe, mockup, dan prototype.\n•\nMengembangkan design system sederhana.\n•\nMemilih tipografi dan warna yang tepat.\n•\nMenghasilkan rancangan UI/UX yang mudah digunakan dan sesuai kebutuhan pengguna.\nCapaian Pembelajaran\nSetelah mempelajari bab ini, peserta didik mampu:\n•\nMemahami fungsi Adobe Photoshop dalam industri kreatif.\n•\nMengenal antarmuka (interface) dan workspace Photoshop secara menyeluruh.\n•\nMenggunakan Grid System, Ruler, Guide, dan Smart Guides untuk menyusun tata letak\nsecara presisi.\n•\nMengelola layer secara profesional agar file mudah diedit dan dikerjakan secara\nkolaboratif.\n•\nMengatur alignment, spacing, dan grouping layer dengan benar.\n•\nMendesain berbagai media promosi seperti feed Instagram, story Instagram, poster,\nbanner, dan company profile menggunakan prinsip layout profesional.\n•\nMenghasilkan desain yang rapi, konsisten, siap revisi, dan siap cetak sesuai standar\nindustri."
+        }
+      ]
+    },
+    {
+      "chapter": 5,
+      "code": "BAB V",
+      "title": "AUTO LAYOUT ADOBE PHOTOSHOP",
+      "intro": "Capaian Pembelajaran\nSetelah mempelajari bab ini, peserta didik mampu:\n•\nMemahami fungsi Adobe Photoshop dalam industri kreatif.\n•\nMengenal antarmuka (interface) dan workspace Photoshop secara menyeluruh.\n•\nMenggunakan Grid System, Ruler, Guide, dan Smart Guides untuk menyusun tata letak\nsecara presisi.\n•\nMengelola layer secara profesional agar file mudah diedit dan dikerjakan secara\nkolaboratif.\n•\nMengatur alignment, spacing, dan grouping layer dengan benar.\n•\nMendesain berbagai media promosi seperti feed Instagram, story Instagram, poster,\nbanner, dan company profile menggunakan prinsip layout profesional.\n•\nMenghasilkan desain yang rapi, konsisten, siap revisi, dan siap cetak sesuai standar\nindustri.",
+      "sections": [
+        {
+          "id": "5.1",
+          "title": "Mengenal Adobe Photoshop",
+          "printed_page": 248,
+          "pdf_page_start": 96,
+          "pdf_page_end": 98,
+          "content": "Pengertian Adobe Photoshop\nAdobe Photoshop adalah perangkat lunak pengolah gambar berbasis raster (bitmap)\nyang dikembangkan oleh Adobe Inc. Photoshop digunakan untuk mengedit foto, membuat\nilustrasi digital, mendesain materi promosi, membuat mockup, hingga menghasilkan aset visual\nuntuk media cetak maupun digital.\nDalam industri DKV, Photoshop menjadi salah satu perangkat lunak utama karena mampu\nmenggabungkan kemampuan editing foto dan desain grafis dalam satu aplikasi.\nFungsi Photoshop dalam Dunia Kerja\nPhotoshop banyak digunakan di berbagai bidang, antara lain:\n•\nDesain media sosial (Instagram, Facebook, TikTok)\n•\nPembuatan poster promosi\n•\nBanner dan spanduk\n•\nBrosur dan flyer\n•\nCompany profile\n•\nEditing foto produk\n•\nPembuatan mockup kemasan\n•\nDesain thumbnail YouTube\n•\nKonten marketplace\n•\nMateri presentasi\nRaster vs Vector\nPhotoshop menggunakan gambar raster yang tersusun dari piksel. Gambar raster sangat\ncocok untuk foto dan ilustrasi kompleks, tetapi jika diperbesar melebihi resolusinya akan pecah\n(pixelated).\nSebaliknya, gambar vektor (misalnya dari Adobe Illustrator) tersusun dari garis dan kurva\nmatematis sehingga dapat diperbesar tanpa kehilangan kualitas. Oleh karena itu, Photoshop\nlebih tepat digunakan untuk editing foto dan desain berbasis bitmap, sedangkan Illustrator lebih\ncocok untuk logo dan ilustrasi vektor.\nKeunggulan Photoshop\n•\nEditing foto sangat lengkap.\n•\nMendukung banyak format file.\n•\nIntegrasi dengan aplikasi Adobe lainnya.\n•\nBanyak plugin dan fitur AI.\n•\nDigunakan secara luas di industri kreatif.\nKekurangan Photoshop\n•\nMembutuhkan spesifikasi komputer yang cukup tinggi.\n•\nUkuran file dapat menjadi besar.\n•\nKurang ideal untuk pembuatan logo berbasis vektor."
+        },
+        {
+          "id": "5.2",
+          "title": "Interface Photoshop",
+          "printed_page": 252,
+          "pdf_page_start": 98,
+          "pdf_page_end": 99,
+          "content": "Pengertian Interface\nInterface adalah tampilan awal Photoshop yang berisi berbagai panel, menu, dan area\nkerja yang digunakan untuk membuat atau mengedit desain.\nMemahami interface akan membantu pengguna bekerja lebih cepat dan efisien.\nBagian-Bagian Interface\nMenu Bar\nBerisi seluruh menu utama seperti File, Edit, Image, Layer, Select, Filter, View, Window, dan\nHelp.\nOptions Bar\nMenampilkan pengaturan khusus sesuai tool yang sedang dipilih.\nToolbar\nBerisi alat-alat utama seperti:\n•\nMove Tool\n•\nMarquee Tool\n•\nLasso Tool\n•\nCrop Tool\n•\nBrush Tool\n•\nClone Stamp\n•\nEraser\n•\nGradient\n•\nText Tool\n•\nShape Tool\n•\nHand Tool\n•\nZoom Tool\nDocument Window\nArea tempat pengguna membuat dan mengedit desain.\nPanel Layers\nMenampilkan seluruh layer yang ada pada dokumen. Panel ini merupakan salah satu bagian\nterpenting dalam Photoshop karena semua objek dikelola melalui layer.\nPanel Properties\nDigunakan untuk mengatur properti objek, teks, bentuk, atau layer yang dipilih.\nPanel History\nMenyimpan riwayat langkah kerja sehingga pengguna dapat membatalkan atau mengulang\ntindakan.\nTips Industri\nDesainer profesional biasanya mengatur panel-panel penting seperti Layers, Properties,\nCharacter, Paragraph, Color, dan Libraries agar selalu mudah diakses."
+        },
+        {
+          "id": "5.3",
+          "title": "Workspace Photoshop",
+          "printed_page": 256,
+          "pdf_page_start": 99,
+          "pdf_page_end": 100,
+          "content": "Pengertian Workspace\nWorkspace adalah susunan panel dan tampilan kerja Photoshop yang dapat disesuaikan dengan\njenis pekerjaan.\nMisalnya:\n•\nPhotography\n•\nGraphic and Web\n•\nMotion\n•\nPainting\n•\nEssentials\nPengguna juga dapat membuat workspace sendiri sesuai kebutuhan.\nManfaat Workspace\n•\nMempercepat alur kerja.\n•\nMengurangi waktu mencari panel.\n•\nMembuat tampilan kerja lebih rapi.\n•\nMenyesuaikan kebutuhan proyek.\nTips\nSimpan workspace khusus untuk desain media sosial, percetakan, atau editing foto agar proses\nkerja lebih efisien."
+        },
+        {
+          "id": "5.4",
+          "title": "Grid System",
+          "printed_page": 260,
+          "pdf_page_start": 100,
+          "pdf_page_end": 101,
+          "content": "Pengertian\nGrid System adalah kumpulan garis bantu yang digunakan untuk menyusun elemen desain\nsecara teratur dan proporsional.\nGrid membantu menjaga konsistensi jarak, keseimbangan visual, dan keterbacaan.\nJenis Grid\n•\nGrid persegi\n•\nGrid kolom\n•\nGrid modular\n•\nBaseline grid\nFungsi Grid\n•\nMenjaga keseimbangan layout.\n•\nMempermudah penempatan objek.\n•\nMembantu membuat desain yang profesional.\n•\nMemastikan konsistensi antarhalaman.\nContoh Penggunaan\nPada desain feed Instagram, grid membantu menyelaraskan posisi foto, judul, logo, dan tombol\nsehingga tampilan lebih rapi."
+        },
+        {
+          "id": "5.5",
+          "title": "Smart Guides",
+          "printed_page": 264,
+          "pdf_page_start": 101,
+          "pdf_page_end": 101,
+          "content": "Pengertian\nSmart Guides adalah garis bantu otomatis yang muncul ketika objek dipindahkan.\nFungsi\n•\nMenyelaraskan objek secara otomatis.\n•\nMenampilkan titik tengah.\n•\nMenunjukkan jarak antarobjek.\n•\nMempercepat proses alignment.\nKeuntungan\nTanpa Smart Guides, penempatan objek dilakukan secara manual sehingga lebih lambat dan\nberisiko tidak presisi."
+        },
+        {
+          "id": "5.6",
+          "title": "Ruler dan Guide",
+          "printed_page": 268,
+          "pdf_page_start": 101,
+          "pdf_page_end": 102,
+          "content": "Ruler\nRuler berfungsi sebagai penggaris digital untuk mengukur posisi objek.\nSatuan dapat diubah menjadi:\n•\nPixel\n•\nInch\n•\nCentimeter\n•\nMillimeter\nGuide\nGuide adalah garis bantu yang dibuat dari ruler.\nGuide tidak ikut tercetak saat desain dicetak.\nManfaat Guide\n•\nMenentukan margin.\n•\nMembuat area aman (safe area).\n•\nMenjaga posisi logo.\n•\nMenentukan batas teks."
+        },
+        {
+          "id": "5.7",
+          "title": "Layer Management",
+          "printed_page": 272,
+          "pdf_page_start": 102,
+          "pdf_page_end": 103,
+          "content": "Pengertian\nLayer adalah lembar kerja transparan tempat setiap objek disusun secara terpisah.\nSetiap teks, gambar, ikon, dan bentuk sebaiknya berada pada layer yang berbeda agar mudah\ndiedit.\nJenis Layer\n•\nBackground Layer\n•\nImage Layer\n•\nText Layer\n•\nShape Layer\n•\nSmart Object\n•\nAdjustment Layer\n•\nFill Layer\nPenamaan Layer\nHindari nama seperti:\nLayer 1\nLayer 2\nLayer 3\nGunakan nama:\nLogo\nBackground\nJudul\nFoto Produk\nHarga\nButton\nMengapa Penting?\nDalam industri, file Photoshop sering dikerjakan oleh beberapa desainer. Penamaan layer yang\njelas mempercepat proses revisi dan kolaborasi."
+        },
+        {
+          "id": "5.8",
+          "title": "Grouping Layer",
+          "printed_page": 276,
+          "pdf_page_start": 103,
+          "pdf_page_end": 104,
+          "content": "Grouping Layer adalah proses mengelompokkan beberapa layer yang saling berkaitan ke dalam\nsatu folder.\nContoh struktur:\nFeed Promo\n├── Background\n├── Produk\n├── Teks\n├── Harga\n└── Logo\nManfaat:\n•\nFile lebih rapi.\n•\nMudah mencari elemen.\n•\nMempercepat revisi.\n•\nMengurangi risiko kesalahan."
+        },
+        {
+          "id": "5.9",
+          "title": "Alignment dan Spacing",
+          "printed_page": 280,
+          "pdf_page_start": 104,
+          "pdf_page_end": 105,
+          "content": "Alignment\nAlignment adalah proses menyelaraskan posisi objek.\nJenis alignment:\n•\nLeft\n•\nCenter\n•\nRight\n•\nTop\n•\nMiddle\n•\nBottom\nSpacing\nSpacing adalah jarak antarobjek.\nJenis spacing:\n•\nHorizontal spacing\n•\nVertical spacing\n•\nPadding\n•\nMargin\nDesain profesional selalu memiliki jarak yang konsisten."
+        },
+        {
+          "id": "5.10",
+          "title": "Layout Feed Instagram",
+          "printed_page": 284,
+          "pdf_page_start": 105,
+          "pdf_page_end": 105,
+          "content": "Materi ini membahas:\n•\nUkuran feed (1080 × 1080 piksel).\n•\nSafe area.\n•\nPenempatan logo.\n•\nHierarki informasi.\n•\nPenggunaan ruang kosong (white space).\n•\nKomposisi foto dan teks.\n•\nKonsistensi warna dan tipografi.\n•\nPembuatan carousel yang menarik."
+        },
+        {
+          "id": "5.11",
+          "title": "Layout Story Instagram",
+          "printed_page": 288,
+          "pdf_page_start": 105,
+          "pdf_page_end": 105,
+          "content": "Materi meliputi:\n•\nUkuran 1080 × 1920 piksel.\n•\nArea aman agar teks tidak tertutup elemen aplikasi.\n•\nPenempatan Call To Action (CTA).\n•\nPenggunaan animasi sederhana.\n•\nPemanfaatan ruang vertikal secara efektif."
+        },
+        {
+          "id": "5.12",
+          "title": "Layout Poster",
+          "printed_page": 292,
+          "pdf_page_start": 105,
+          "pdf_page_end": 106,
+          "content": "Pembahasan:\n•\nTujuan poster.\n•\nHierarki visual.\n•\nPenggunaan grid.\n•\nPenempatan judul, gambar, informasi utama, dan kontak.\n•\nKeseimbangan antara teks dan visual."
+        },
+        {
+          "id": "5.13",
+          "title": "Layout Banner",
+          "printed_page": 296,
+          "pdf_page_start": 106,
+          "pdf_page_end": 106,
+          "content": "Materi meliputi:\n•\nUkuran banner cetak.\n•\nResolusi 300 dpi.\n•\nBleed dan margin.\n•\nPenempatan logo dan informasi penting.\n•\nKeterbacaan dari jarak jauh.\n•\nPersiapan file untuk percetakan."
+        },
+        {
+          "id": "5.14",
+          "title": "Layout Company Profile",
+          "printed_page": 300,
+          "pdf_page_start": 106,
+          "pdf_page_end": 106,
+          "content": "Isi materi:\n•\nCover.\n•\nProfil perusahaan.\n•\nVisi dan misi.\n•\nProduk atau layanan.\n•\nPortofolio.\n•\nKontak.\nDijelaskan pula prinsip konsistensi warna, tipografi, dan tata letak antarhalaman."
+        },
+        {
+          "id": "5.15",
+          "title": "Praktik Auto Layout",
+          "printed_page": 304,
+          "pdf_page_start": 106,
+          "pdf_page_end": 107,
+          "content": "Siswa diminta membuat:\n•\n3 desain feed Instagram.\n•\n2 story Instagram.\n•\n1 poster promosi.\n•\n1 banner.\n•\n1 company profile sederhana.\nSeluruh desain harus menggunakan grid, guide, alignment, spacing, serta manajemen layer yang\nbaik."
+        },
+        {
+          "id": "5.16",
+          "title": "Studi Kasus Industri",
+          "printed_page": 309,
+          "pdf_page_start": 107,
+          "pdf_page_end": 107,
+          "content": "Studi Kasus\nSebuah UMKM meminta desain promosi untuk peluncuran produk baru.\nTahapan Kerja\n1. Analisis kebutuhan klien.\n2. Menentukan ukuran media.\n3. Menyusun grid.\n4. Membuat layout awal.\n5. Menata layer secara rapi.\n6. Menyusun mockup.\n7. Melakukan revisi berdasarkan masukan klien.\n8. Menyiapkan file akhir untuk media digital dan cetak.\nMelalui studi kasus ini, siswa belajar bahwa desain yang baik bukan hanya menarik, tetapi juga\nterorganisasi, mudah direvisi, dan sesuai kebutuhan klien."
+        },
+        {
+          "id": "5.17",
+          "title": "Evaluasi Bab V",
+          "printed_page": 314,
+          "pdf_page_start": 107,
+          "pdf_page_end": 109,
+          "content": "Indikator Keberhasilan\nPeserta didik mampu:\n•\nMenjelaskan fungsi Adobe Photoshop dalam industri kreatif.\n•\nMengenali interface dan workspace Photoshop.\n•\nMenggunakan Grid System, Smart Guides, Ruler, dan Guide.\n•\nMengelola layer secara profesional.\n•\nMengelompokkan layer dengan benar.\n•\nMengatur alignment dan spacing secara konsisten.\n•\nMendesain berbagai media promosi dengan layout yang rapi.\n•\nMenyiapkan file desain yang siap digunakan untuk kebutuhan digital maupun\npercetakan.\nCapaian Pembelajaran\nSetelah mempelajari bab ini, peserta didik mampu:\n•\nMemahami fungsi Adobe Illustrator dalam industri kreatif.\n•\nMengenal antarmuka (interface) dan workspace Adobe Illustrator.\n•\nMenggunakan artboard secara efektif untuk berbagai kebutuhan desain.\n•\nMengatur objek menggunakan Align Panel, Distribute, dan Smart Guides.\n•\nMemanfaatkan fitur Repeat untuk mempercepat proses desain.\n•\nMenyusun layout katalog produk, marketplace, media sosial, dan packaging.\n•\nMenyiapkan file yang siap dicetak maupun dipublikasikan secara digital.\n•\nMenghasilkan desain vektor yang rapi, mudah diedit, dan sesuai standar industri."
+        }
+      ]
+    },
+    {
+      "chapter": 6,
+      "code": "BAB VI",
+      "title": "AUTO LAYOUT ADOBE ILLUSTRATOR",
+      "intro": "Capaian Pembelajaran\nSetelah mempelajari bab ini, peserta didik mampu:\n•\nMemahami fungsi Adobe Illustrator dalam industri kreatif.\n•\nMengenal antarmuka (interface) dan workspace Adobe Illustrator.\n•\nMenggunakan artboard secara efektif untuk berbagai kebutuhan desain.\n•\nMengatur objek menggunakan Align Panel, Distribute, dan Smart Guides.\n•\nMemanfaatkan fitur Repeat untuk mempercepat proses desain.\n•\nMenyusun layout katalog produk, marketplace, media sosial, dan packaging.\n•\nMenyiapkan file yang siap dicetak maupun dipublikasikan secara digital.\n•\nMenghasilkan desain vektor yang rapi, mudah diedit, dan sesuai standar industri.",
+      "sections": [
+        {
+          "id": "6.1",
+          "title": "Mengenal Adobe Illustrator",
+          "printed_page": 317,
+          "pdf_page_start": 109,
+          "pdf_page_end": 110,
+          "content": "Pengertian Adobe Illustrator\nAdobe Illustrator adalah perangkat lunak desain grafis berbasis vektor yang\ndikembangkan oleh Adobe Inc. Berbeda dengan Adobe Photoshop yang menggunakan gambar\nberbasis piksel (raster), Illustrator menggunakan objek matematis berupa titik, garis, dan kurva\nsehingga hasil desain dapat diperbesar atau diperkecil tanpa kehilangan kualitas.\nIllustrator banyak digunakan untuk membuat logo, ikon, ilustrasi, kemasan produk, infografis,\nidentitas visual, hingga desain yang akan dicetak dalam ukuran besar seperti spanduk dan\nbillboard.\nPerbedaan Illustrator dan Photoshop\nAdobe Illustrator\nAdobe Photoshop\nBerbasis vektor\nBerbasis raster (bitmap)\nTidak pecah saat diperbesar\nBisa pecah jika resolusi tidak cukup\nAdobe Illustrator\nAdobe Photoshop\nCocok untuk logo dan ilustrasi\nCocok untuk foto dan manipulasi gambar\nUkuran file relatif kecil untuk objek vektor Ukuran file bergantung pada resolusi gambar\nPenggunaan Illustrator di Dunia Kerja\nIllustrator sering digunakan untuk membuat:\n•\nLogo perusahaan.\n•\nIkon aplikasi.\n•\nIlustrasi digital.\n•\nKemasan produk.\n•\nLabel makanan dan minuman.\n•\nBrosur.\n•\nBanner.\n•\nKatalog produk.\n•\nInfografis.\n•\nMerchandise.\n•\nCutting sticker.\n•\nDesain untuk mesin CNC, laser cutting, dan cutting plotter.\nKeunggulan Illustrator\n•\nHasil tetap tajam pada berbagai ukuran.\n•\nMudah diedit.\n•\nSangat baik untuk kebutuhan percetakan.\n•\nTerintegrasi dengan aplikasi Adobe lainnya.\n•\nMendukung ekspor ke berbagai format."
+        },
+        {
+          "id": "6.2",
+          "title": "Interface Illustrator",
+          "printed_page": 321,
+          "pdf_page_start": 111,
+          "pdf_page_end": 112,
+          "content": "Materi ini mengenalkan bagian-bagian utama antarmuka Adobe Illustrator.\nMenu Bar\nBerisi menu seperti File, Edit, Object, Type, Select, Effect, View, Window, dan Help.\nToolbar\nBerisi alat-alat utama, antara lain:\n•\nSelection Tool\n•\nDirect Selection Tool\n•\nPen Tool\n•\nCurvature Tool\n•\nShape Tool\n•\nBrush Tool\n•\nPencil Tool\n•\nType Tool\n•\nEyedropper Tool\n•\nRotate Tool\n•\nScale Tool\n•\nHand Tool\n•\nZoom Tool\nControl Panel / Properties\nMenampilkan pengaturan objek yang sedang dipilih, seperti ukuran, posisi, warna, stroke, dan\ntransformasi.\nPanel Penting\n•\nLayers\n•\nAlign\n•\nPathfinder\n•\nStroke\n•\nAppearance\n•\nColor\n•\nSwatches\n•\nCharacter\n•\nParagraph\nTips Industri\nAtur panel yang sering digunakan agar mudah diakses dan simpan sebagai workspace khusus,\nmisalnya untuk desain logo atau packaging."
+        },
+        {
+          "id": "6.3",
+          "title": "Artboard",
+          "printed_page": 325,
+          "pdf_page_start": 112,
+          "pdf_page_end": 112,
+          "content": "Pengertian\nArtboard adalah area kerja tempat desain dibuat. Satu dokumen Illustrator dapat\nmemiliki banyak artboard sehingga cocok untuk membuat berbagai versi desain dalam satu file.\nFungsi Artboard\n•\nMembuat beberapa ukuran desain dalam satu dokumen.\n•\nMenyusun halaman katalog.\n•\nMembuat berbagai ukuran media sosial.\n•\nMenyiapkan desain kemasan yang memiliki beberapa sisi.\nContoh\nDalam satu file dapat dibuat:\n•\nLogo.\n•\nKartu nama.\n•\nKop surat.\n•\nAmplop.\nSeluruhnya berada pada artboard yang berbeda."
+        },
+        {
+          "id": "6.4",
+          "title": "Align Panel",
+          "printed_page": 329,
+          "pdf_page_start": 113,
+          "pdf_page_end": 113,
+          "content": "Pengertian\nAlign Panel digunakan untuk menyelaraskan posisi objek secara presisi.\nJenis Alignment\n•\nAlign Left\n•\nAlign Center\n•\nAlign Right\n•\nAlign Top\n•\nAlign Middle\n•\nAlign Bottom\nManfaat\n•\nObjek tersusun rapi.\n•\nMenghemat waktu.\n•\nMenghasilkan desain yang konsisten."
+        },
+        {
+          "id": "6.5",
+          "title": "Distribute Object",
+          "printed_page": 333,
+          "pdf_page_start": 113,
+          "pdf_page_end": 113,
+          "content": "Pengertian\nFitur Distribute digunakan untuk memberikan jarak yang sama antarobjek.\nContoh\nJika terdapat lima ikon dalam satu baris, fitur ini memastikan semua ikon memiliki jarak yang\nseragam.\nJenis\n•\nHorizontal Distribute\n•\nVertical Distribute\n•\nDistribute Spacing"
+        },
+        {
+          "id": "6.6",
+          "title": "Repeat Object",
+          "printed_page": 337,
+          "pdf_page_start": 114,
+          "pdf_page_end": 114,
+          "content": "Pengertian\nRepeat Object adalah fitur untuk menggandakan objek secara otomatis dengan pola\ntertentu.\nJenis Repeat\n•\nGrid Repeat\n•\nRadial Repeat\n•\nMirror Repeat\nManfaat\n•\nMempercepat pembuatan pola.\n•\nMembuat ornamen.\n•\nMembuat motif kemasan.\n•\nMenghasilkan desain simetris."
+        },
+        {
+          "id": "6.7",
+          "title": "Smart Guides",
+          "printed_page": 341,
+          "pdf_page_start": 114,
+          "pdf_page_end": 114,
+          "content": "Pengertian\nSmart Guides adalah garis bantu otomatis yang membantu menyelaraskan objek saat\ndipindahkan.\nFungsi\n•\nMenampilkan titik tengah objek.\n•\nMembantu alignment.\n•\nMenampilkan jarak antarobjek.\n•\nMempermudah penyusunan layout."
+        },
+        {
+          "id": "6.8",
+          "title": "Layout Katalog Produk",
+          "printed_page": 345,
+          "pdf_page_start": 115,
+          "pdf_page_end": 115,
+          "content": "Tujuan Katalog\nKatalog digunakan untuk menampilkan produk secara sistematis sehingga mudah dipahami\ncalon pelanggan.\nStruktur Halaman\n•\nCover.\n•\nDaftar isi.\n•\nProfil perusahaan.\n•\nDaftar produk.\n•\nDetail spesifikasi.\n•\nHarga.\n•\nKontak.\nPrinsip Layout\n•\nGunakan grid.\n•\nJaga konsistensi margin.\n•\nGunakan foto berkualitas tinggi.\n•\nTerapkan hierarki visual yang jelas."
+        },
+        {
+          "id": "6.9",
+          "title": "Layout Marketplace",
+          "printed_page": 349,
+          "pdf_page_start": 115,
+          "pdf_page_end": 116,
+          "content": "Tujuan\nMembuat tampilan produk yang menarik untuk platform e-commerce.\nElemen Utama\n•\nFoto produk.\n•\nNama produk.\n•\nHarga.\n•\nDiskon.\n•\nKeunggulan produk.\n•\nRating.\n•\nCall to Action.\nTips\n•\nGunakan latar belakang bersih.\n•\nPastikan teks mudah dibaca.\n•\nSoroti informasi penting seperti promo atau garansi."
+        },
+        {
+          "id": "6.10",
+          "title": "Layout Media Sosial",
+          "printed_page": 353,
+          "pdf_page_start": 116,
+          "pdf_page_end": 116,
+          "content": "Materi ini membahas pembuatan desain untuk:\n•\nFeed Instagram.\n•\nCarousel Instagram.\n•\nStory Instagram.\n•\nFacebook Post.\n•\nLinkedIn Post.\n•\nBanner promosi digital.\nPrinsip\n•\nKonsistensi warna.\n•\nHierarki visual.\n•\nWhite space.\n•\nBranding yang kuat.\n•\nDesain responsif untuk berbagai ukuran layar."
+        },
+        {
+          "id": "6.11",
+          "title": "Layout Packaging",
+          "printed_page": 357,
+          "pdf_page_start": 116,
+          "pdf_page_end": 117,
+          "content": "Pengertian\nPackaging adalah desain kemasan produk yang berfungsi melindungi isi sekaligus menjadi media\npromosi.\nKomponen Packaging\n•\nLogo.\n•\nNama produk.\n•\nIlustrasi.\n•\nInformasi produk.\n•\nKomposisi.\n•\nTanggal kedaluwarsa (jika diperlukan).\n•\nBarcode atau QR Code.\n•\nInformasi produsen.\nPersiapan Cetak\n•\nBleed.\n•\nSafe Area.\n•\nCMYK.\n•\nOutline Font.\n•\nDie Line.\n•\nResolusi gambar pendukung."
+        },
+        {
+          "id": "6.12",
+          "title": "Praktik Auto Layout",
+          "printed_page": 361,
+          "pdf_page_start": 117,
+          "pdf_page_end": 118,
+          "content": "Peserta didik diminta membuat:\n•\nKatalog produk 4 halaman.\n•\nDesain marketplace.\n•\nFeed Instagram.\n•\nStory Instagram.\n•\nKemasan produk sederhana.\nSeluruh desain harus menggunakan fitur Align, Distribute, Smart Guides, dan Repeat."
+        },
+        {
+          "id": "6.13",
+          "title": "Studi Kasus",
+          "printed_page": 366,
+          "pdf_page_start": 118,
+          "pdf_page_end": 118,
+          "content": "Kasus\nSebuah UMKM kopi membutuhkan identitas visual lengkap.\nTahapan\n1. Mendesain logo.\n2. Membuat kartu nama.\n3. Mendesain katalog produk.\n4. Membuat feed Instagram.\n5. Mendesain kemasan kopi.\n6. Menyiapkan file cetak dan digital.\nTujuan\nMelatih siswa mengerjakan proyek secara menyeluruh seperti yang dilakukan di industri kreatif."
+        },
+        {
+          "id": "6.14",
+          "title": "Evaluasi Bab VI",
+          "printed_page": 371,
+          "pdf_page_start": 118,
+          "pdf_page_end": 118,
+          "content": "Indikator Keberhasilan\nPeserta didik mampu:\n•\nMenjelaskan fungsi Adobe Illustrator.\n•\nMenggunakan artboard secara efektif.\n•\nMengatur objek dengan Align Panel dan Distribute.\n•\nMemanfaatkan Repeat Object untuk mempercepat pekerjaan.\n•\nMenggunakan Smart Guides untuk penyusunan layout.\n•\nMendesain katalog, marketplace, media sosial, dan packaging.\n•\nMenyiapkan file desain yang siap dicetak maupun dipublikasikan secara digital."
+        }
+      ]
+    },
+    {
+      "chapter": 7,
+      "code": "BAB VII",
+      "title": "DASAR ADOBE AFTER EFFECTS",
+      "intro": "",
+      "sections": [
+        {
+          "id": "7.1",
+          "title": "Mengenal Adobe After Effects",
+          "printed_page": 374,
+          "pdf_page_start": 119,
+          "pdf_page_end": 120,
+          "content": "Pengertian Adobe After Effects\nAdobe After Effects adalah perangkat lunak yang digunakan untuk membuat motion\ngraphic, visual effects (VFX), animasi teks, animasi logo, compositing, dan berbagai efek visual\nlainnya.\nAfter Effects bukan editor video utama seperti Adobe Premiere Pro, melainkan aplikasi yang\nberfokus pada animasi dan efek visual.\nFungsi After Effects di Dunia Kerja\nAfter Effects banyak digunakan untuk:\n•\nMotion Graphic\n•\nAnimasi Logo\n•\nAnimasi Teks\n•\nOpening Video\n•\nClosing Video\n•\nVideo Promosi\n•\nVideo Company Profile\n•\nVideo Produk\n•\nVideo YouTube\n•\nKonten Instagram\n•\nKonten TikTok\n•\nVisual Effect (VFX)\n•\nGreen Screen (Keying)\n•\nTracking Objek\n•\nAnimasi UI/UX\n•\nExplainer Video\nBidang Industri yang Menggunakan After Effects\n•\nStasiun televisi\n•\nProduction House\n•\nAgensi Periklanan\n•\nStudio Motion Graphic\n•\nDigital Marketing\n•\nYouTube Creator\n•\nStartup\n•\nPerusahaan Multimedia\n•\nWedding Organizer\n•\nEvent Organizer\n•\nIndustri Film\nPerbedaan Premiere Pro dan After Effects\nAdobe Premiere Pro\nAdobe After Effects\nEditing video\nMotion graphic dan visual effect\nMenyusun urutan video\nMembuat animasi\nCutting dan trimming\nAnimasi objek\nAudio editing\nMotion typography\nColor correction\nVisual effect\nDalam industri, keduanya sering digunakan bersama."
+        },
+        {
+          "id": "7.2",
+          "title": "Interface After Effects",
+          "printed_page": 378,
+          "pdf_page_start": 121,
+          "pdf_page_end": 122,
+          "content": "Pengertian Interface\nInterface adalah tampilan utama Adobe After Effects yang terdiri atas berbagai panel kerja.\nBagian Interface\nMenu Bar\nBerisi menu:\n•\nFile\n•\nEdit\n•\nComposition\n•\nLayer\n•\nAnimation\n•\nView\n•\nWindow\n•\nHelp\nToolbar\nBerisi alat seperti:\n•\nSelection Tool\n•\nHand Tool\n•\nZoom Tool\n•\nRotation Tool\n•\nPen Tool\n•\nShape Tool\n•\nCamera Tool\n•\nText Tool\nProject Panel\nTempat seluruh aset proyek disimpan.\nComposition Viewer\nArea untuk melihat hasil animasi.\nTimeline\nTempat membuat animasi.\nEffects & Presets\nKumpulan efek bawaan.\nCharacter & Paragraph\nMengatur teks.\nAlign Panel\nMengatur posisi objek."
+        },
+        {
+          "id": "7.3",
+          "title": "Project Panel",
+          "printed_page": 382,
+          "pdf_page_start": 122,
+          "pdf_page_end": 123,
+          "content": "Pengertian\nProject Panel merupakan tempat seluruh aset proyek disimpan.\nMisalnya:\n•\nVideo\n•\nAudio\n•\nLogo\n•\nPNG\n•\nAI\n•\nPSD\n•\nFont\n•\nGambar\nTips Industri\nBuat folder:\nFootage\nAudio\nLogo\nImages\nPSD\nAI\nRender\nComposition\nHal ini memudahkan revisi dan kolaborasi."
+        },
+        {
+          "id": "7.4",
+          "title": "Composition",
+          "printed_page": 386,
+          "pdf_page_start": 123,
+          "pdf_page_end": 124,
+          "content": "Pengertian\nComposition adalah kanvas kerja tempat seluruh animasi dibuat.\nPengaturan Composition\n•\nWidth\n•\nHeight\n•\nFrame Rate\n•\nDuration\n•\nBackground Color\nContoh Ukuran\nInstagram Feed\n1080 × 1080\nStory\n1080 × 1920\nYouTube\n1920 × 1080\nTikTok\n1080 × 1920"
+        },
+        {
+          "id": "7.5",
+          "title": "Timeline",
+          "printed_page": 390,
+          "pdf_page_start": 124,
+          "pdf_page_end": 124,
+          "content": "Timeline adalah tempat seluruh animasi dibuat.\nTimeline berisi:\n•\nLayer\n•\nKeyframe\n•\nDurasi\n•\nMarker\n•\nPlayhead\nFungsi Timeline\n•\nMengatur waktu animasi\n•\nMengatur urutan layer\n•\nMenentukan awal dan akhir animasi\n•\nMengatur sinkronisasi audio dan video"
+        },
+        {
+          "id": "7.6",
+          "title": "Layer",
+          "printed_page": 394,
+          "pdf_page_start": 125,
+          "pdf_page_end": 125,
+          "content": "Layer bekerja seperti lembar transparan.\nJenis Layer:\n•\nSolid\n•\nShape\n•\nText\n•\nCamera\n•\nLight\n•\nNull Object\n•\nAdjustment Layer\n•\nPrecomposition\nPenamaan Layer\nJangan gunakan:\nLayer 1\nLayer 2\nLayer 3\nGunakan:\nLogo\nBackground\nJudul\nSubtitle\nIcon\nButton"
+        },
+        {
+          "id": "7.7",
+          "title": "Keyframe",
+          "printed_page": 398,
+          "pdf_page_start": 126,
+          "pdf_page_end": 126,
+          "content": "Pengertian\nKeyframe adalah titik yang menyimpan perubahan nilai suatu properti pada waktu tertentu.\nMisalnya:\nDetik 0\nLogo di kiri\nDetik 2\nLogo di tengah\nAfter Effects akan membuat gerakan secara otomatis di antara kedua titik tersebut (interpolasi).\nProperti yang Dapat Diberi Keyframe\n•\nPosition\n•\nScale\n•\nRotation\n•\nOpacity\n•\nAnchor Point\n•\nEffect"
+        },
+        {
+          "id": "7.8",
+          "title": "Position, Scale, Rotation, Opacity",
+          "printed_page": 402,
+          "pdf_page_start": 126,
+          "pdf_page_end": 127,
+          "content": "Position (P)\nMengatur posisi objek.\nScale (S)\nMengatur ukuran objek.\nRotation (R)\nMengatur sudut putaran.\nOpacity (T)\nMengatur tingkat transparansi.\nShortcut\nShortcut Fungsi\nP\nPosition\nS\nScale\nR\nRotation\nT\nOpacity\nA\nAnchor Point\nU\nMenampilkan keyframe\nUU\nMenampilkan semua properti yang diubah"
+        },
+        {
+          "id": "7.9",
+          "title": "Easy Ease",
+          "printed_page": 406,
+          "pdf_page_start": 127,
+          "pdf_page_end": 128,
+          "content": "Pengertian\nEasy Ease membuat gerakan lebih alami dengan memberikan percepatan dan perlambatan pada\nawal atau akhir animasi.\nTanpa Easy Ease, gerakan cenderung konstan dan terasa kaku.\nJenis Easy Ease\n•\nEasy Ease\n•\nEasy Ease In\n•\nEasy Ease Out\nManfaat\n•\nGerakan lebih halus.\n•\nAnimasi terasa profesional.\n•\nMengurangi kesan robotik."
+        },
+        {
+          "id": "7.10",
+          "title": "Graph Editor",
+          "printed_page": 410,
+          "pdf_page_start": 128,
+          "pdf_page_end": 128,
+          "content": "Pengertian\nGraph Editor digunakan untuk mengatur kurva kecepatan animasi.\nDengan Graph Editor, animator dapat mengontrol akselerasi dan deselerasi secara detail.\nFungsi\n•\nMembuat gerakan lebih realistis.\n•\nMengontrol kecepatan animasi.\n•\nMenghasilkan transisi yang lebih halus."
+        },
+        {
+          "id": "7.11",
+          "title": "Motion Graphic Dasar",
+          "printed_page": 414,
+          "pdf_page_start": 128,
+          "pdf_page_end": 129,
+          "content": "Pengertian\nMotion Graphic adalah desain grafis yang dianimasikan sehingga memiliki gerakan.\nContoh\n•\nLogo Reveal\n•\nLower Third\n•\nOpening Video\n•\nJudul Film\n•\nInfografis\n•\nAnimasi Ikon\n•\nVideo Promosi\nPrinsip Dasar Animasi\n•\nTiming\n•\nSpacing\n•\nAnticipation\n•\nFollow Through\n•\nSquash and Stretch (sesuai kebutuhan)\n•\nEase In dan Ease Out"
+        },
+        {
+          "id": "7.12",
+          "title": "Text Animation",
+          "printed_page": 418,
+          "pdf_page_start": 129,
+          "pdf_page_end": 129,
+          "content": "Materi meliputi:\n•\nFade In\n•\nFade Out\n•\nTypewriter\n•\nSlide\n•\nScale\n•\nBounce\n•\nBlur\n•\nTracking\nTips\nJangan menggunakan terlalu banyak efek dalam satu teks agar pesan tetap mudah dibaca."
+        },
+        {
+          "id": "7.13",
+          "title": "Shape Animation",
+          "printed_page": 422,
+          "pdf_page_start": 129,
+          "pdf_page_end": 130,
+          "content": "Animasi shape meliputi:\n•\nRectangle\n•\nCircle\n•\nPolygon\n•\nLine\nContoh\nLoading\nProgress Bar\nButton Animation\nInfographic\nIcon Animation\nTeknik\n•\nTrim Paths\n•\nRepeater\n•\nMerge Paths\n•\nOffset Path"
+        },
+        {
+          "id": "7.14",
+          "title": "Praktik Motion Graphic",
+          "printed_page": 426,
+          "pdf_page_start": 130,
+          "pdf_page_end": 131,
+          "content": "Studi Kasus\nBuat video promosi berdurasi 20–30 detik untuk sebuah UMKM.\nIsi video:\n•\nLogo.\n•\nNama usaha.\n•\nFoto produk.\n•\nKeunggulan.\n•\nHarga.\n•\nKontak.\n•\nPenutup.\nWorkflow\n1. Buat storyboard.\n2. Siapkan aset.\n3. Buat composition.\n4. Susun layer.\n5. Tambahkan keyframe.\n6. Gunakan Easy Ease.\n7. Atur Graph Editor.\n8. Tambahkan musik dan efek suara.\n9. Preview.\n10. Render hasil akhir."
+        },
+        {
+          "id": "7.15",
+          "title": "Evaluasi Bab VII",
+          "printed_page": 431,
+          "pdf_page_start": 131,
+          "pdf_page_end": 132,
+          "content": "Indikator Keberhasilan\nPeserta didik mampu:\n•\nMenjelaskan fungsi Adobe After Effects.\n•\nMengenali interface dan panel kerja.\n•\nMengelola Project Panel secara rapi.\n•\nMembuat composition sesuai kebutuhan.\n•\nMenggunakan timeline dan layer secara profesional.\n•\nMembuat animasi menggunakan keyframe.\n•\nMengatur Position, Scale, Rotation, dan Opacity.\n•\nMenerapkan Easy Ease dan Graph Editor untuk menghasilkan gerakan yang natural.\n•\nMembuat motion graphic sederhana.\n•\nMengekspor video sesuai kebutuhan media sosial atau presentasi."
+        }
+      ]
+    },
+    {
+      "chapter": 8,
+      "code": "BAB VIII",
+      "title": "EFEK MANIPULASI VISUAL ADOBE AFTER EFFECTS",
+      "intro": "",
+      "sections": [
+        {
+          "id": "8.1",
+          "title": "Pengertian Visual Effect",
+          "printed_page": 434,
+          "pdf_page_start": 132,
+          "pdf_page_end": 133,
+          "content": "Apa itu Visual Effect?\nVisual Effect (VFX) adalah proses menambahkan, mengubah, atau memanipulasi elemen\nvisual pada video sehingga menghasilkan adegan yang sulit, mahal, atau bahkan tidak\nmungkin direkam secara langsung menggunakan kamera.\nVFX menggabungkan rekaman nyata (live action) dengan elemen digital seperti animasi, efek\ncahaya, partikel, objek 3D, atau latar belakang virtual.\nContoh Penggunaan VFX\n•\nFilm aksi.\n•\nFilm fiksi ilmiah.\n•\nIklan televisi.\n•\nVideo promosi.\n•\nKonten YouTube.\n•\nVideo musik.\n•\nMotion graphic.\n•\nVideo edukasi.\nPerbedaan VFX dan Motion Graphic\nMotion Graphic\nVisual Effect\nMenghidupkan elemen grafis\nMemanipulasi rekaman video nyata\nFokus pada animasi desain\nFokus pada efek realistis\nUmumnya berbasis ilustrasi\nUmumnya berbasis video\nWorkflow VFX di Industri\n1. Pra-produksi (perencanaan, storyboard, shot list).\n2. Produksi (pengambilan gambar).\n3. Tracking.\n4. Compositing.\n5. Color grading.\n6. Rendering.\n7. Quality Control (QC)."
+        },
+        {
+          "id": "8.2",
+          "title": "Clone Effect",
+          "printed_page": 438,
+          "pdf_page_start": 133,
+          "pdf_page_end": 134,
+          "content": "Pengertian\nClone Effect adalah teknik membuat beberapa salinan (duplikat) dari orang atau objek\nyang sama dalam satu adegan.\nContoh Penggunaan\n•\nSatu orang tampak berbicara dengan dirinya sendiri.\n•\nEfek \"kembar\".\n•\nBanyak karakter identik dalam satu frame.\nLangkah Umum\n1. Rekam beberapa video dengan kamera yang tidak bergerak.\n2. Pastikan pencahayaan tetap sama.\n3. Gunakan masking untuk menggabungkan setiap pengambilan.\n4. Haluskan batas mask dengan feather.\nTips Industri\n•\nGunakan tripod.\n•\nKunci fokus dan exposure kamera.\n•\nHindari bayangan yang saling menutupi."
+        },
+        {
+          "id": "8.3",
+          "title": "Levitation Effect",
+          "printed_page": 442,
+          "pdf_page_start": 134,
+          "pdf_page_end": 134,
+          "content": "Pengertian\nLevitation Effect adalah efek yang membuat seseorang atau objek terlihat melayang di\nudara.\nTeknik\n•\nRekam subjek menggunakan kursi atau penyangga.\n•\nHapus penyangga dengan masking atau clone.\n•\nTambahkan bayangan agar terlihat realistis.\nPenerapan\n•\nVideo promosi.\n•\nFilm fantasi.\n•\nKonten media sosial."
+        },
+        {
+          "id": "8.4",
+          "title": "Hologram Effect",
+          "printed_page": 446,
+          "pdf_page_start": 134,
+          "pdf_page_end": 135,
+          "content": "Pengertian\nHologram Effect menampilkan objek atau karakter seolah-olah diproyeksikan sebagai cahaya\ntiga dimensi.\nElemen Efek\n•\nWarna biru atau cyan.\n•\nGlitch.\n•\nScan line.\n•\nOpacity rendah.\n•\nNoise.\n•\nFlicker.\nPenggunaan\n•\nFilm fiksi ilmiah.\n•\nVideo teknologi.\n•\nPresentasi produk."
+        },
+        {
+          "id": "8.5",
+          "title": "Portal Effect",
+          "printed_page": 450,
+          "pdf_page_start": 135,
+          "pdf_page_end": 135,
+          "content": "Pengertian\nPortal Effect menciptakan ilusi pintu dimensi yang dapat dilalui objek atau karakter.\nLangkah Dasar\n1. Buat lingkaran dengan Shape Layer.\n2. Tambahkan efek cahaya (Glow).\n3. Gunakan efek partikel untuk percikan.\n4. Animasikan rotasi dan skala.\n5. Tambahkan efek suara.\nTips\n•\nGunakan Motion Blur.\n•\nTambahkan cahaya yang memengaruhi lingkungan sekitar agar lebih realistis."
+        },
+        {
+          "id": "8.6",
+          "title": "Object Removal",
+          "printed_page": 454,
+          "pdf_page_start": 135,
+          "pdf_page_end": 136,
+          "content": "Pengertian\nObject Removal adalah teknik menghapus objek yang tidak diinginkan dari sebuah video.\nContoh\n•\nMenghilangkan mikrofon yang masuk frame.\n•\nMenghapus orang di latar belakang.\n•\nMenghilangkan kabel atau tiang.\nTeknik\n•\nContent-Aware Fill (jika tersedia).\n•\nClone Stamp.\n•\nMasking.\n•\nFrame-by-frame painting."
+        },
+        {
+          "id": "8.7",
+          "title": "Motion Tracking",
+          "printed_page": 458,
+          "pdf_page_start": 136,
+          "pdf_page_end": 136,
+          "content": "Pengertian\nMotion Tracking adalah teknik melacak pergerakan suatu objek dalam video sehingga\nelemen lain dapat mengikuti gerakan tersebut.\nContoh\n•\nMenempelkan teks pada mobil yang bergerak.\n•\nMenambahkan logo pada baju.\n•\nMenempelkan ikon pada objek.\nJenis\n•\nOne Point Tracking.\n•\nTwo Point Tracking.\n•\nFour Point Tracking."
+        },
+        {
+          "id": "8.8",
+          "title": "Camera Tracking",
+          "printed_page": 462,
+          "pdf_page_start": 136,
+          "pdf_page_end": 137,
+          "content": "Pengertian\nCamera Tracking digunakan untuk menganalisis pergerakan kamera sehingga objek\ndigital dapat ditempatkan secara realistis di dalam adegan.\nPenerapan\n•\nMenambahkan teks 3D.\n•\nMenambahkan bangunan virtual.\n•\nMenambahkan logo pada lantai atau dinding.\nTips\n•\nGunakan footage dengan banyak titik kontras.\n•\nHindari blur berlebihan."
+        },
+        {
+          "id": "8.9",
+          "title": "Green Screen",
+          "printed_page": 466,
+          "pdf_page_start": 137,
+          "pdf_page_end": 137,
+          "content": "Pengertian\nGreen Screen adalah teknik merekam subjek di depan latar berwarna hijau agar latar\ntersebut dapat diganti dengan gambar atau video lain.\nMengapa Hijau?\n•\nJauh dari warna kulit manusia.\n•\nSensor kamera lebih sensitif terhadap hijau.\n•\nMemudahkan proses keying.\nTips Pengambilan Gambar\n•\nCahaya merata.\n•\nHindari bayangan.\n•\nHindari pakaian hijau.\n•\nJaga jarak antara subjek dan layar hijau."
+        },
+        {
+          "id": "8.10",
+          "title": "Chroma Key",
+          "printed_page": 470,
+          "pdf_page_start": 137,
+          "pdf_page_end": 138,
+          "content": "Pengertian\nChroma Key adalah proses menghapus warna tertentu (biasanya hijau atau biru) dari\nvideo sehingga latar belakang menjadi transparan.\nLangkah\n1. Terapkan efek Keylight.\n2. Pilih warna hijau.\n3. Atur Screen Matte.\n4. Bersihkan tepi objek (spill suppression).\n5. Tambahkan latar baru.\nKesalahan Umum\n•\nGreen spill pada rambut.\n•\nTepi objek bergerigi.\n•\nCahaya tidak merata."
+        },
+        {
+          "id": "8.11",
+          "title": "Rotoscoping",
+          "printed_page": 474,
+          "pdf_page_start": 138,
+          "pdf_page_end": 138,
+          "content": "Pengertian\nRotoscoping adalah teknik memisahkan objek dari latar belakang secara manual atau\nsemi-otomatis ketika green screen tidak digunakan.\nKapan Digunakan?\n•\nTidak tersedia green screen.\n•\nObjek bergerak kompleks.\n•\nEditing film dan iklan.\nTeknik\n•\nMasking.\n•\nRoto Brush.\n•\nFrame-by-frame refinement."
+        },
+        {
+          "id": "8.12",
+          "title": "Particle Effect",
+          "printed_page": 478,
+          "pdf_page_start": 138,
+          "pdf_page_end": 139,
+          "content": "Pengertian\nParticle Effect menghasilkan simulasi ribuan partikel kecil untuk menciptakan efek visual.\nContoh\n•\nApi.\n•\nAsap.\n•\nSalju.\n•\nHujan.\n•\nDebu.\n•\nPercikan cahaya.\n•\nLedakan.\nPengaturan Utama\n•\nBirth Rate.\n•\nLongevity.\n•\nVelocity.\n•\nGravity.\n•\nColor.\n•\nOpacity."
+        },
+        {
+          "id": "8.13",
+          "title": "Color Grading",
+          "printed_page": 482,
+          "pdf_page_start": 139,
+          "pdf_page_end": 140,
+          "content": "Pengertian\nColor Grading adalah proses mengatur warna video untuk menciptakan suasana (mood)\ntertentu sekaligus menjaga konsistensi visual.\nTujuan\n•\nMenyamakan warna antar-shot.\n•\nMeningkatkan kualitas visual.\n•\nMendukung cerita.\nTahapan\n1. Color Correction.\n2. White Balance.\n3. Exposure.\n4. Contrast.\n5. Saturation.\n6. Color Grading.\nContoh Gaya\n•\nCinematic.\n•\nWarm Tone.\n•\nCool Tone.\n•\nHorror.\n•\nVintage.\n•\nTeal & Orange."
+        },
+        {
+          "id": "8.14",
+          "title": "Studi Kasus Industri",
+          "printed_page": 486,
+          "pdf_page_start": 140,
+          "pdf_page_end": 140,
+          "content": "Kasus\nSebuah perusahaan ingin membuat video promosi minuman energi dengan efek visual\nmodern.\nWorkflow\n1. Menyusun storyboard.\n2. Merekam produk di studio.\n3. Melakukan motion tracking.\n4. Menambahkan hologram informasi produk.\n5. Membuat efek partikel di sekitar produk.\n6. Melakukan color grading.\n7. Render dan quality control.\nHasil\nVideo promosi menjadi lebih menarik dan terlihat profesional."
+        },
+        {
+          "id": "8.15",
+          "title": "Proyek Praktik",
+          "printed_page": 490,
+          "pdf_page_start": 141,
+          "pdf_page_end": 141,
+          "content": "Proyek\nMembuat Video Promosi Produk Berdurasi 30–60 Detik\nMinimal menggunakan:\n•\nMotion Tracking.\n•\nGreen Screen atau Rotoscoping.\n•\nParticle Effect.\n•\nColor Grading.\n•\nText Animation.\n•\nSound Effect.\nLangkah\n1. Menentukan konsep.\n2. Membuat storyboard.\n3. Menyiapkan alat dan aset.\n4. Melakukan pengambilan gambar.\n5. Editing di After Effects.\n6. Menambahkan efek visual.\n7. Melakukan color grading.\n8. Render hasil akhir.\n9. Presentasi proyek."
+        },
+        {
+          "id": "8.16",
+          "title": "Evaluasi Bab VIII",
+          "printed_page": 495,
+          "pdf_page_start": 141,
+          "pdf_page_end": 142,
+          "content": "Indikator Keberhasilan\nPeserta didik mampu:\n•\nMenjelaskan konsep dasar Visual Effects.\n•\nMembuat Clone Effect dan Levitation Effect.\n•\nMembuat Hologram dan Portal Effect.\n•\nMenghapus objek dari video menggunakan Object Removal.\n•\nMelakukan Motion Tracking dan Camera Tracking.\n•\nMenggunakan Green Screen dan Chroma Key dengan benar.\n•\nMelakukan Rotoscoping pada objek bergerak.\n•\nMenambahkan Particle Effect sesuai kebutuhan.\n•\nMelakukan Color Grading untuk meningkatkan kualitas visual.\n•\nMenyelesaikan proyek VFX sederhana dengan alur kerja yang sistematis."
+        }
+      ]
+    },
+    {
+      "chapter": 9,
+      "code": "BAB IX",
+      "title": "PEMBUATAN APLIKASI MENGGUNAKAN CURSOR AI",
+      "intro": "",
+      "sections": [
+        {
+          "id": "9.1",
+          "title": "Mengenal Cursor AI",
+          "printed_page": 498,
+          "pdf_page_start": 142,
+          "pdf_page_end": 143,
+          "content": "Pengertian Cursor AI\nCursor AI adalah editor kode modern yang dibangun di atas Visual Studio Code dan\ndilengkapi dengan kemampuan kecerdasan buatan (AI). Cursor membantu pengembang menulis\nkode lebih cepat melalui fitur seperti pembuatan kode otomatis, penjelasan kode, pencarian\nbug, refactoring, hingga dokumentasi.\nCursor bukan pengganti programmer. AI berperan sebagai asisten yang mempercepat\npekerjaan, sedangkan keputusan desain, logika bisnis, dan pengujian tetap menjadi tanggung\njawab pengembang.\nFungsi Cursor AI\n•\nMenulis kode berdasarkan deskripsi.\n•\nMenjelaskan fungsi kode.\n•\nMemperbaiki bug.\n•\nMembuat dokumentasi.\n•\nMembantu refactoring.\n•\nMembuat unit test.\n•\nMembantu memahami proyek yang sudah ada.\nPerbedaan Cursor AI dan Visual Studio Code\nCursor AI\nVisual Studio Code\nMemiliki AI bawaan\nMengandalkan ekstensi\nAI Chat terintegrasi\nTidak tersedia secara bawaan\nAI Agent untuk membantu perubahan proyek\nTidak tersedia secara bawaan\nMembantu menghasilkan dan menjelaskan kode\nFokus sebagai editor kode"
+        },
+        {
+          "id": "9.2",
+          "title": "Sejarah dan Perkembangan Cursor AI",
+          "printed_page": 502,
+          "pdf_page_start": 143,
+          "pdf_page_end": 143,
+          "content": "Materi mencakup:\n•\nLatar belakang munculnya editor berbasis AI.\n•\nPerkembangan Large Language Model (LLM) untuk pemrograman.\n•\nEvolusi dari editor tradisional ke AI-assisted IDE.\n•\nDampak AI terhadap produktivitas pengembang.\nSelain sejarah, siswa perlu memahami bahwa AI terus berkembang sehingga mereka harus\nselalu memverifikasi hasil yang diberikan AI."
+        },
+        {
+          "id": "9.3",
+          "title": "Instalasi Cursor AI",
+          "printed_page": 506,
+          "pdf_page_start": 143,
+          "pdf_page_end": 144,
+          "content": "Persiapan\n•\nSistem operasi yang didukung.\n•\nSpesifikasi minimum komputer.\n•\nKoneksi internet.\n•\nAkun pengguna.\nLangkah Instalasi\n1. Mengunduh installer dari situs resmi.\n2. Melakukan instalasi.\n3. Login.\n4. Membuka proyek pertama.\n5. Menguji AI Chat.\nTips\n•\nSimpan proyek pada folder yang terstruktur.\n•\nAktifkan pembaruan aplikasi agar fitur AI selalu terbaru."
+        },
+        {
+          "id": "9.4",
+          "title": "Konfigurasi Awal Workspace",
+          "printed_page": 510,
+          "pdf_page_start": 144,
+          "pdf_page_end": 144,
+          "content": "Materi meliputi:\n•\nMembuka folder proyek.\n•\nStruktur folder.\n•\nPengaturan tema editor.\n•\nPengaturan font dan ukuran huruf.\n•\nPengaturan ekstensi pendukung.\n•\nPengaturan terminal.\n•\nPengaturan Git.\n•\nPengaturan format kode otomatis.\nTujuannya agar siswa memiliki lingkungan kerja yang rapi dan konsisten."
+        },
+        {
+          "id": "9.5",
+          "title": "Mengenal Interface Cursor",
+          "printed_page": 514,
+          "pdf_page_start": 145,
+          "pdf_page_end": 145,
+          "content": "Bagian yang dijelaskan:\n•\nActivity Bar.\n•\nExplorer.\n•\nSearch.\n•\nSource Control.\n•\nAI Chat.\n•\nAI Agent.\n•\nTerminal.\n•\nOutput.\n•\nProblems.\n•\nExtensions.\n•\nStatus Bar.\n•\nEditor.\nSetiap panel dijelaskan fungsi dan kapan digunakan."
+        },
+        {
+          "id": "9.6",
+          "title": "AI Chat dan AI Agent",
+          "printed_page": 518,
+          "pdf_page_start": 145,
+          "pdf_page_end": 146,
+          "content": "AI Chat\nDigunakan untuk:\n•\nBertanya konsep.\n•\nMeminta contoh kode.\n•\nMenjelaskan error.\n•\nMembuat dokumentasi.\nAI Agent\nDigunakan untuk:\n•\nMenganalisis banyak file.\n•\nMelakukan perubahan lintas file.\n•\nMembantu refactoring proyek.\n•\nMembuat fitur baru berdasarkan instruksi.\nMateri juga menjelaskan kapan lebih tepat menggunakan AI Chat dan kapan menggunakan AI\nAgent."
+        },
+        {
+          "id": "9.7",
+          "title": "Prompt Engineering untuk Pemrograman",
+          "printed_page": 522,
+          "pdf_page_start": 146,
+          "pdf_page_end": 146,
+          "content": "Materi membahas cara menyusun instruksi agar AI menghasilkan kode yang lebih akurat.\nKomponen prompt:\n•\nTujuan.\n•\nBahasa pemrograman.\n•\nFramework.\n•\nStruktur folder.\n•\nOutput yang diinginkan.\n•\nBatasan.\nContoh:\n\"Buat halaman login menggunakan HTML, CSS, dan JavaScript dengan validasi email dan kata\nsandi. Pisahkan file HTML, CSS, dan JS.\""
+        },
+        {
+          "id": "9.8",
+          "title": "Struktur Prompt yang Efektif",
+          "printed_page": 526,
+          "pdf_page_start": 146,
+          "pdf_page_end": 146,
+          "content": "Siswa belajar membuat prompt bertahap:\n1. Menjelaskan konteks proyek.\n2. Menjelaskan kebutuhan pengguna.\n3. Menentukan teknologi yang digunakan.\n4. Meminta hasil dalam format tertentu.\n5. Meminta penjelasan jika diperlukan.\nMateri juga membahas teknik memperbaiki prompt apabila hasil AI belum sesuai."
+        },
+        {
+          "id": "9.9",
+          "title": "Membuat Website Portfolio",
+          "printed_page": 530,
+          "pdf_page_start": 147,
+          "pdf_page_end": 147,
+          "content": "Proyek ini mengajarkan pembuatan website pribadi yang memuat:\n•\nBeranda.\n•\nTentang Saya.\n•\nKeahlian.\n•\nPortofolio.\n•\nKontak.\nSiswa belajar menyusun struktur halaman, navigasi, dan tampilan responsif."
+        },
+        {
+          "id": "9.10",
+          "title": "Membuat Landing Page",
+          "printed_page": 536,
+          "pdf_page_start": 147,
+          "pdf_page_end": 147,
+          "content": "Materi meliputi:\n•\nHero section.\n•\nCall to Action (CTA).\n•\nKeunggulan produk.\n•\nTestimoni.\n•\nFAQ.\n•\nFormulir kontak.\n•\nFooter.\nDitekankan pentingnya desain yang menarik sekaligus mudah dipahami."
+        },
+        {
+          "id": "9.11",
+          "title": "Membuat Company Profile",
+          "printed_page": 542,
+          "pdf_page_start": 147,
+          "pdf_page_end": 148,
+          "content": "Siswa membuat website company profile dengan bagian:\n•\nProfil perusahaan.\n•\nVisi dan misi.\n•\nLayanan.\n•\nPortofolio.\n•\nTim.\n•\nKontak."
+        },
+        {
+          "id": "9.12",
+          "title": "Membuat Sistem POS (Point of Sale)",
+          "printed_page": 548,
+          "pdf_page_start": 148,
+          "pdf_page_end": 148,
+          "content": "Materi memperkenalkan fitur dasar POS:\n•\nLogin.\n•\nDashboard.\n•\nData produk.\n•\nKategori.\n•\nTransaksi.\n•\nKeranjang.\n•\nPembayaran.\n•\nStruk.\n•\nRiwayat transaksi.\nSiswa belajar menyusun alur transaksi sederhana."
+        },
+        {
+          "id": "9.13",
+          "title": "Membuat Sistem Inventaris",
+          "printed_page": 554,
+          "pdf_page_start": 148,
+          "pdf_page_end": 148,
+          "content": "Fitur yang dikembangkan:\n•\nData barang.\n•\nKategori.\n•\nSupplier.\n•\nStok masuk.\n•\nStok keluar.\n•\nMutasi stok.\n•\nLaporan stok.\nMateri juga menjelaskan konsep stok minimum dan pencatatan pergerakan barang."
+        },
+        {
+          "id": "9.14",
+          "title": "Membuat Sistem Absensi",
+          "printed_page": 560,
+          "pdf_page_start": 149,
+          "pdf_page_end": 149,
+          "content": "Fitur:\n•\nLogin.\n•\nData karyawan.\n•\nCheck-in.\n•\nCheck-out.\n•\nRiwayat kehadiran.\n•\nRekap bulanan.\nPengembangan lanjutan dapat mencakup QR Code atau lokasi (GPS) jika proyek memungkinkan."
+        },
+        {
+          "id": "9.15",
+          "title": "Membuat Sistem Reservasi",
+          "printed_page": 566,
+          "pdf_page_start": 149,
+          "pdf_page_end": 149,
+          "content": "Contoh penggunaan:\n•\nReservasi restoran.\n•\nReservasi ruang rapat.\n•\nReservasi servis komputer.\nFitur:\n•\nPilih tanggal.\n•\nPilih jam.\n•\nFormulir data pelanggan.\n•\nKonfirmasi.\n•\nRiwayat reservasi."
+        },
+        {
+          "id": "9.16",
+          "title": "Membuat Dashboard Admin",
+          "printed_page": 572,
+          "pdf_page_start": 149,
+          "pdf_page_end": 150,
+          "content": "Dashboard menampilkan ringkasan informasi seperti:\n•\nJumlah pengguna.\n•\nJumlah transaksi.\n•\nGrafik penjualan.\n•\nProduk terlaris.\n•\nNotifikasi.\n•\nAktivitas terbaru.\nSiswa belajar menyajikan data secara visual."
+        },
+        {
+          "id": "9.17",
+          "title": "Integrasi Database",
+          "printed_page": 578,
+          "pdf_page_start": 150,
+          "pdf_page_end": 150,
+          "content": "Materi meliputi:\n•\nKonsep database relasional.\n•\nTabel.\n•\nRelasi.\n•\nCRUD (Create, Read, Update, Delete).\n•\nKoneksi aplikasi dengan database.\n•\nValidasi data.\nDitekankan pentingnya menjaga integritas dan keamanan data."
+        },
+        {
+          "id": "9.18",
+          "title": "Debugging dan Perbaikan Error",
+          "printed_page": 584,
+          "pdf_page_start": 150,
+          "pdf_page_end": 150,
+          "content": "Siswa belajar:\n•\nMembaca pesan error.\n•\nMengidentifikasi sumber masalah.\n•\nMenggunakan AI untuk membantu analisis.\n•\nMenguji kembali setelah perbaikan.\nMateri juga mengajarkan bahwa solusi AI perlu diuji dan dipahami, bukan langsung dipercaya."
+        },
+        {
+          "id": "9.19",
+          "title": "Testing dan Quality Assurance",
+          "printed_page": 590,
+          "pdf_page_start": 151,
+          "pdf_page_end": 151,
+          "content": "Jenis pengujian:\n•\nFunctional Testing.\n•\nUI Testing.\n•\nInput Validation.\n•\nResponsiveness.\n•\nCross-browser Testing.\nSiswa juga diperkenalkan pada konsep Quality Assurance (QA) dan pentingnya dokumentasi\nhasil pengujian."
+        },
+        {
+          "id": "9.20",
+          "title": "Deploy ke Hosting",
+          "printed_page": 596,
+          "pdf_page_start": 151,
+          "pdf_page_end": 151,
+          "content": "Materi mencakup:\n•\nPersiapan build.\n•\nMemilih hosting.\n•\nUpload aplikasi.\n•\nKonfigurasi domain.\n•\nPengujian setelah deploy.\nTujuannya agar aplikasi dapat diakses oleh pengguna melalui internet."
+        },
+        {
+          "id": "9.21",
+          "title": "Studi Kasus Industri",
+          "printed_page": 602,
+          "pdf_page_start": 151,
+          "pdf_page_end": 152,
+          "content": "Kasus\nSebuah UMKM membutuhkan sistem kasir berbasis web.\nTahapan\n1. Analisis kebutuhan pengguna.\n2. Menyusun daftar fitur.\n3. Mendesain antarmuka.\n4. Mengembangkan aplikasi dengan bantuan Cursor AI.\n5. Mengintegrasikan database.\n6. Melakukan testing.\n7. Deploy.\n8. Pelatihan pengguna.\nMelalui studi kasus ini, siswa memahami alur kerja proyek perangkat lunak dari awal hingga\nselesai."
+        },
+        {
+          "id": "9.22",
+          "title": "Proyek Praktik Cursor AI",
+          "printed_page": 608,
+          "pdf_page_start": 152,
+          "pdf_page_end": 152,
+          "content": "Setiap siswa diminta membuat satu aplikasi lengkap, misalnya:\n•\nWebsite Portofolio.\n•\nCompany Profile.\n•\nSistem POS.\n•\nSistem Inventaris.\n•\nSistem Reservasi.\n•\nSistem Absensi.\nProyek harus melalui tahapan:\n1. Perencanaan.\n2. Desain.\n3. Pengembangan.\n4. Pengujian.\n5. Dokumentasi.\n6. Presentasi."
+        },
+        {
+          "id": "9.23",
+          "title": "Evaluasi Bab IX",
+          "printed_page": 614,
+          "pdf_page_start": 152,
+          "pdf_page_end": 153,
+          "content": "Indikator Keberhasilan\nPeserta didik mampu:\n•\nMenjelaskan konsep Cursor AI.\n•\nMenggunakan AI Chat dan AI Agent secara efektif.\n•\nMenulis prompt pemrograman yang baik.\n•\nMengembangkan aplikasi web sederhana.\n•\nMengintegrasikan database.\n•\nMelakukan debugging dan pengujian.\n•\nMelakukan deployment.\n•\nMenyelesaikan proyek perangkat lunak dengan workflow yang terstruktur."
+        }
+      ]
+    },
+    {
+      "chapter": 10,
+      "code": "BAB X",
+      "title": "PEMBUATAN APLIKASI MENGGUNAKAN ANTIGRAVITY",
+      "intro": "",
+      "sections": [
+        {
+          "id": "10.1",
+          "title": "Mengenal Antigravity",
+          "printed_page": 617,
+          "pdf_page_start": 153,
+          "pdf_page_end": 154,
+          "content": "Pengertian Antigravity\nAntigravity adalah platform pengembangan aplikasi berbasis AI dengan pendekatan no-\ncode/low-code, yang memungkinkan pengguna membuat aplikasi bisnis tanpa harus menulis\nbanyak kode program.\nPlatform ini menyediakan komponen visual seperti tabel, formulir, dashboard, laporan, dan\notomatisasi yang dapat disusun menjadi sebuah aplikasi.\nSiapa yang Cocok Menggunakan Antigravity?\n•\nPemula yang baru belajar membuat aplikasi.\n•\nDesainer UI/UX yang ingin membuat prototipe fungsional.\n•\nPelaku UMKM yang membutuhkan aplikasi internal.\n•\nGuru dan siswa untuk proyek pembelajaran.\n•\nTim administrasi yang ingin mendigitalisasi proses kerja.\nKonsep No-Code dan Low-Code\n•\nNo-Code: Aplikasi dibuat melalui antarmuka visual tanpa menulis kode.\n•\nLow-Code: Sebagian besar dibuat secara visual, tetapi dapat ditambahkan kode bila\ndiperlukan.\nKeduanya bertujuan mempercepat proses pengembangan dan memudahkan kolaborasi."
+        },
+        {
+          "id": "10.2",
+          "title": "Fungsi dan Manfaat Antigravity",
+          "printed_page": 621,
+          "pdf_page_start": 154,
+          "pdf_page_end": 154,
+          "content": "Fungsi Utama\n•\nMembangun aplikasi berbasis web.\n•\nMengelola data.\n•\nMembuat dashboard.\n•\nMenyusun laporan.\n•\nMengotomatiskan alur kerja.\n•\nBerkolaborasi dalam tim.\nManfaat\n•\nMempercepat pembuatan aplikasi.\n•\nMengurangi kesalahan penulisan kode.\n•\nMemudahkan revisi.\n•\nMemungkinkan pembuatan prototipe dengan cepat.\n•\nMenghemat biaya pengembangan untuk kebutuhan sederhana."
+        },
+        {
+          "id": "10.3",
+          "title": "Instalasi dan Registrasi Akun",
+          "printed_page": 625,
+          "pdf_page_start": 154,
+          "pdf_page_end": 155,
+          "content": "Persiapan\n•\nPerangkat yang memenuhi spesifikasi minimum.\n•\nKoneksi internet yang stabil.\n•\nAlamat email untuk pendaftaran.\nLangkah-Langkah\n1. Membuat akun.\n2. Melakukan verifikasi.\n3. Login.\n4. Membuat workspace pertama.\n5. Mengenal menu utama.\nTips\n•\nGunakan nama workspace yang sesuai dengan proyek.\n•\nPisahkan workspace latihan dan workspace proyek akhir."
+        },
+        {
+          "id": "10.4",
+          "title": "Mengenal Dashboard Antigravity",
+          "printed_page": 629,
+          "pdf_page_start": 155,
+          "pdf_page_end": 155,
+          "content": "Dashboard adalah halaman utama yang menampilkan ringkasan proyek.\nBagian Dashboard\n•\nDaftar proyek.\n•\nWorkspace.\n•\nNavigasi modul.\n•\nStatistik data.\n•\nAktivitas terbaru.\n•\nMenu pengaturan.\nTujuan Dashboard\n•\nMemantau perkembangan aplikasi.\n•\nMemudahkan akses ke fitur yang sering digunakan."
+        },
+        {
+          "id": "10.5",
+          "title": "Struktur Workspace",
+          "printed_page": 633,
+          "pdf_page_start": 155,
+          "pdf_page_end": 156,
+          "content": "Workspace adalah ruang kerja tempat seluruh komponen aplikasi dikelola.\nStruktur yang Disarankan\nWorkspace\n├── Database\n├── Tabel\n├── Form\n├── Dashboard\n├── Laporan\n├── Automasi\n├── Pengguna\n└── Pengaturan\nPengelompokan yang rapi akan memudahkan pengembangan dan pemeliharaan aplikasi."
+        },
+        {
+          "id": "10.6",
+          "title": "Pembuatan Database",
+          "printed_page": 637,
+          "pdf_page_start": 156,
+          "pdf_page_end": 157,
+          "content": "Pengertian Database\nDatabase adalah tempat penyimpanan data yang terstruktur sehingga mudah dicari, diubah,\ndan dikelola.\nLangkah Perancangan\n1. Menentukan tujuan aplikasi.\n2. Mengidentifikasi data yang diperlukan.\n3. Menentukan tabel.\n4. Menentukan hubungan antar tabel.\n5. Menentukan tipe data setiap kolom.\nContoh\nAplikasi inventaris dapat memiliki tabel:\n•\nBarang.\n•\nKategori.\n•\nSupplier.\n•\nStok Masuk.\n•\nStok Keluar."
+        },
+        {
+          "id": "10.7",
+          "title": "Pembuatan Tabel Data",
+          "printed_page": 643,
+          "pdf_page_start": 157,
+          "pdf_page_end": 157,
+          "content": "Setiap tabel terdiri atas kolom (field) dan baris (record).\nContoh Tabel Barang\nNama Kolom Tipe Data\nID Barang\nNumber\nNama Barang Text\nKategori\nRelation\nHarga\nNumber\nStok\nNumber\nSatuan\nText\nTips\n•\nGunakan nama kolom yang jelas.\n•\nHindari data yang berulang.\n•\nTentukan kolom kunci (primary key)."
+        },
+        {
+          "id": "10.8",
+          "title": "Pembuatan Form Input",
+          "printed_page": 649,
+          "pdf_page_start": 157,
+          "pdf_page_end": 158,
+          "content": "Form digunakan untuk memasukkan data ke dalam database.\nKomponen Form\n•\nText Field.\n•\nNumber Field.\n•\nDate Picker.\n•\nDropdown.\n•\nCheckbox.\n•\nRadio Button.\n•\nUpload File.\n•\nTombol Simpan.\nPrinsip Desain Form\n•\nSederhana.\n•\nMudah dipahami.\n•\nValidasi input.\n•\nPesan kesalahan yang jelas."
+        },
+        {
+          "id": "10.9",
+          "title": "Pengelolaan Relasi Data",
+          "printed_page": 655,
+          "pdf_page_start": 158,
+          "pdf_page_end": 158,
+          "content": "Relasi data menghubungkan tabel agar informasi dapat digunakan bersama tanpa duplikasi.\nJenis Relasi\n•\nOne-to-One.\n•\nOne-to-Many.\n•\nMany-to-Many.\nContoh\nSatu supplier dapat memasok banyak barang (One-to-Many)."
+        },
+        {
+          "id": "10.10",
+          "title": "Pembuatan Dashboard",
+          "printed_page": 661,
+          "pdf_page_start": 158,
+          "pdf_page_end": 159,
+          "content": "Dashboard menyajikan informasi penting dalam bentuk visual.\nKomponen\n•\nGrafik.\n•\nKartu statistik.\n•\nTabel ringkasan.\n•\nFilter.\n•\nNotifikasi.\nContoh\nDashboard inventaris menampilkan:\n•\nTotal barang.\n•\nBarang hampir habis.\n•\nBarang masuk hari ini.\n•\nBarang keluar hari ini."
+        },
+        {
+          "id": "10.11",
+          "title": "Pembuatan Laporan",
+          "printed_page": 667,
+          "pdf_page_start": 159,
+          "pdf_page_end": 159,
+          "content": "Laporan digunakan untuk menyajikan data dalam bentuk yang mudah dibaca atau dicetak.\nJenis Laporan\n•\nLaporan penjualan.\n•\nLaporan stok.\n•\nLaporan absensi.\n•\nLaporan keuangan.\nFitur\n•\nFilter tanggal.\n•\nExport PDF.\n•\nExport Excel.\n•\nRingkasan statistik."
+        },
+        {
+          "id": "10.12",
+          "title": "Membuat Aplikasi Keuangan",
+          "printed_page": 673,
+          "pdf_page_start": 159,
+          "pdf_page_end": 160,
+          "content": "Fitur\n•\nPencatatan pemasukan.\n•\nPencatatan pengeluaran.\n•\nKategori transaksi.\n•\nSaldo.\n•\nGrafik keuangan.\n•\nLaporan bulanan.\nSiswa juga diperkenalkan pada konsep arus kas (cash flow)."
+        },
+        {
+          "id": "10.13",
+          "title": "Membuat Aplikasi Kasir",
+          "printed_page": 679,
+          "pdf_page_start": 160,
+          "pdf_page_end": 160,
+          "content": "Fitur\n•\nLogin.\n•\nData produk.\n•\nKeranjang belanja.\n•\nTransaksi.\n•\nPembayaran.\n•\nCetak struk.\n•\nRiwayat transaksi.\nFokus pembelajaran adalah memahami alur transaksi dari awal hingga selesai."
+        },
+        {
+          "id": "10.14",
+          "title": "Membuat Aplikasi Inventory",
+          "printed_page": 685,
+          "pdf_page_start": 160,
+          "pdf_page_end": 160,
+          "content": "Fitur\n•\nData barang.\n•\nSupplier.\n•\nGudang.\n•\nStok masuk.\n•\nStok keluar.\n•\nMutasi stok.\n•\nPeringatan stok minimum.\nSiswa belajar pentingnya akurasi data inventaris."
+        },
+        {
+          "id": "10.15",
+          "title": "Membuat Aplikasi Absensi",
+          "printed_page": 691,
+          "pdf_page_start": 161,
+          "pdf_page_end": 161,
+          "content": "Fitur\n•\nData pegawai.\n•\nJadwal kerja.\n•\nCheck-in.\n•\nCheck-out.\n•\nRekap kehadiran.\n•\nLaporan bulanan.\nPengembangan lanjutan dapat menggunakan QR Code atau lokasi (GPS) bila platform\nmendukung."
+        },
+        {
+          "id": "10.16",
+          "title": "Hak Akses Pengguna",
+          "printed_page": 697,
+          "pdf_page_start": 161,
+          "pdf_page_end": 161,
+          "content": "Pengertian\nHak akses menentukan apa yang boleh dilakukan oleh setiap pengguna.\nContoh Peran\n•\nAdministrator.\n•\nManajer.\n•\nKasir.\n•\nGudang.\n•\nKaryawan.\nPrinsip\nBerikan hak akses sesuai kebutuhan agar keamanan data tetap terjaga."
+        },
+        {
+          "id": "10.17",
+          "title": "Integrasi AI pada Antigravity",
+          "printed_page": 703,
+          "pdf_page_start": 161,
+          "pdf_page_end": 162,
+          "content": "AI dapat dimanfaatkan untuk:\n•\nMembuat struktur aplikasi awal.\n•\nMenyusun database.\n•\nMenghasilkan formulir.\n•\nMenyusun laporan.\n•\nMembantu analisis data.\n•\nMemberikan saran pengembangan.\nSiswa juga diajarkan untuk selalu memeriksa hasil AI sebelum digunakan."
+        },
+        {
+          "id": "10.18",
+          "title": "Publikasi dan Deployment",
+          "printed_page": 709,
+          "pdf_page_start": 162,
+          "pdf_page_end": 162,
+          "content": "Materi meliputi:\n•\nPersiapan sebelum publikasi.\n•\nPengujian akhir.\n•\nPengaturan domain atau URL.\n•\nPengaturan pengguna.\n•\nDistribusi aplikasi.\nDitekankan pentingnya memastikan aplikasi telah diuji sebelum digunakan oleh pengguna."
+        },
+        {
+          "id": "10.19",
+          "title": "Studi Kasus Industri",
+          "printed_page": 715,
+          "pdf_page_start": 162,
+          "pdf_page_end": 163,
+          "content": "Kasus\nSebuah toko komputer membutuhkan aplikasi untuk mengelola stok dan transaksi.\nTahapan\n1. Wawancara kebutuhan pengguna.\n2. Menentukan fitur.\n3. Merancang database.\n4. Membuat formulir.\n5. Menyusun dashboard.\n6. Melakukan pengujian.\n7. Pelatihan pengguna.\n8. Evaluasi.\nStudi kasus ini menunjukkan bahwa pengembangan aplikasi selalu diawali dengan analisis\nkebutuhan, bukan langsung membuat tampilan."
+        },
+        {
+          "id": "10.20",
+          "title": "Proyek Praktik Antigravity",
+          "printed_page": 721,
+          "pdf_page_start": 163,
+          "pdf_page_end": 163,
+          "content": "Peserta didik diminta memilih salah satu proyek:\n•\nAplikasi Inventaris.\n•\nAplikasi Kasir.\n•\nAplikasi Keuangan.\n•\nAplikasi Absensi.\n•\nAplikasi Reservasi.\nTahapan proyek:\n1. Analisis kebutuhan.\n2. Perancangan database.\n3. Pembuatan tabel.\n4. Pembuatan formulir.\n5. Dashboard.\n6. Laporan.\n7. Pengujian.\n8. Presentasi."
+        },
+        {
+          "id": "10.21",
+          "title": "Evaluasi Bab X",
+          "printed_page": 727,
+          "pdf_page_start": 163,
+          "pdf_page_end": 164,
+          "content": "Indikator Keberhasilan\nPeserta didik mampu:\n•\nMenjelaskan konsep no-code/low-code dan peran Antigravity.\n•\nMembuat workspace dan database.\n•\nMerancang tabel dan relasi data.\n•\nMenyusun formulir input.\n•\nMembuat dashboard dan laporan.\n•\nMengembangkan aplikasi bisnis sederhana.\n•\nMengatur hak akses pengguna.\n•\nMemanfaatkan AI secara bertanggung jawab.\n•\nMelakukan pengujian dan publikasi aplikasi."
+        }
+      ]
+    },
+    {
+      "chapter": 11,
+      "code": "BAB XI",
+      "title": "PEMBUATAN APLIKASI MENGGUNAKAN WINDSURF",
+      "intro": "",
+      "sections": [
+        {
+          "id": "11.1",
+          "title": "Mengenal Windsurf",
+          "printed_page": 730,
+          "pdf_page_start": 164,
+          "pdf_page_end": 165,
+          "content": "Pengertian Windsurf\nWindsurf adalah AI Integrated Development Environment (AI IDE) yang dirancang untuk\nmembantu pengembang perangkat lunak menulis, memahami, memperbaiki, dan\nmengembangkan kode melalui bantuan kecerdasan buatan. AI di dalam Windsurf mampu\nmemahami konteks proyek, memberikan saran, serta membantu menyelesaikan pekerjaan yang\nberulang sehingga produktivitas meningkat.\nWindsurf tetap membutuhkan pemahaman dasar mengenai logika pemrograman karena AI\nberfungsi sebagai asisten pengembang, bukan sebagai pengganti kemampuan berpikir dan\nanalisis.\nFungsi Windsurf\n•\nMenulis kode secara otomatis.\n•\nMenjelaskan kode yang sudah ada.\n•\nMembantu menemukan bug.\n•\nMelakukan refactoring.\n•\nMembuat dokumentasi.\n•\nMembantu membuat fitur baru.\n•\nMembantu memahami struktur proyek.\nKelebihan Windsurf\n•\nMemahami konteks seluruh proyek.\n•\nKolaborasi dengan AI secara interaktif.\n•\nMempercepat proses pengembangan.\n•\nMembantu dokumentasi.\n•\nMemudahkan proses debugging."
+        },
+        {
+          "id": "11.2",
+          "title": "Sejarah dan Perkembangan Windsurf",
+          "printed_page": 734,
+          "pdf_page_start": 165,
+          "pdf_page_end": 165,
+          "content": "Materi membahas:\n•\nPerkembangan editor kode modern.\n•\nMunculnya AI sebagai asisten pemrogram.\n•\nEvolusi dari editor tradisional menuju AI IDE.\n•\nPeran AI dalam meningkatkan produktivitas pengembang.\nSelain sejarah, siswa diajak memahami bahwa AI berkembang sangat cepat sehingga\nkemampuan belajar mandiri tetap menjadi kompetensi utama."
+        },
+        {
+          "id": "11.3",
+          "title": "Instalasi Windsurf",
+          "printed_page": 738,
+          "pdf_page_start": 165,
+          "pdf_page_end": 166,
+          "content": "Persiapan\n•\nSistem operasi yang didukung.\n•\nKoneksi internet.\n•\nAkun pengguna.\n•\nRuang penyimpanan yang cukup.\nLangkah Instalasi\n1. Mengunduh installer dari sumber resmi.\n2. Melakukan instalasi.\n3. Login.\n4. Membuka proyek pertama.\n5. Menguji fitur AI.\nTips\n•\nBuat folder proyek yang terstruktur.\n•\nPerbarui aplikasi secara berkala."
+        },
+        {
+          "id": "11.4",
+          "title": "Workspace dan Project Management",
+          "printed_page": 742,
+          "pdf_page_start": 166,
+          "pdf_page_end": 166,
+          "content": "Workspace adalah lingkungan kerja tempat seluruh file proyek dikelola.\nStruktur Folder yang Disarankan\nProject\n├── src\n├── public\n├── assets\n├── components\n├── pages\n├── database\n├── api\n├── documentation\n└── tests\nMateri juga membahas pentingnya penamaan file yang konsisten dan pengelompokan aset agar\nproyek mudah dipelihara."
+        },
+        {
+          "id": "11.5",
+          "title": "Mengenal Cascade AI",
+          "printed_page": 746,
+          "pdf_page_start": 167,
+          "pdf_page_end": 167,
+          "content": "Pengertian\nCascade AI adalah fitur yang membantu memahami konteks proyek dan memberikan saran yang\nlebih relevan berdasarkan keseluruhan struktur aplikasi.\nFungsi\n•\nMenjelaskan kode.\n•\nMembuat fitur baru.\n•\nMenyarankan perbaikan.\n•\nMembantu refactoring.\n•\nMembuat dokumentasi.\nSiswa juga diajarkan untuk selalu meninjau kembali hasil yang diberikan AI."
+        },
+        {
+          "id": "11.6",
+          "title": "Agent Mode",
+          "printed_page": 750,
+          "pdf_page_start": 167,
+          "pdf_page_end": 167,
+          "content": "Pengertian\nAgent Mode memungkinkan AI melakukan serangkaian tugas yang saling berkaitan, misalnya\nmembuat beberapa file, memperbarui konfigurasi, atau memperbaiki struktur proyek\nberdasarkan instruksi pengguna.\nContoh Penggunaan\n•\nMenambahkan modul login.\n•\nMembuat halaman dashboard.\n•\nMenyusun struktur folder.\n•\nMemperbaiki kode di beberapa file sekaligus."
+        },
+        {
+          "id": "11.7",
+          "title": "Prompt Engineering untuk Windsurf",
+          "printed_page": 754,
+          "pdf_page_start": 167,
+          "pdf_page_end": 168,
+          "content": "Materi menjelaskan cara memberikan instruksi yang jelas kepada AI.\nKomponen prompt yang baik:\n•\nTujuan aplikasi.\n•\nTeknologi yang digunakan.\n•\nFitur yang diinginkan.\n•\nStruktur folder.\n•\nFormat hasil.\n•\nBatasan atau aturan tambahan.\nContoh:\n\"Buat halaman dashboard inventaris menggunakan HTML, CSS, dan JavaScript dengan desain\nresponsif serta pisahkan setiap file sesuai fungsinya.\""
+        },
+        {
+          "id": "11.8",
+          "title": "AI Coding Assistant",
+          "printed_page": 758,
+          "pdf_page_start": 168,
+          "pdf_page_end": 168,
+          "content": "AI Coding Assistant dapat digunakan untuk:\n•\nMenulis kode.\n•\nMenjelaskan fungsi kode.\n•\nMengoptimalkan kode.\n•\nMembuat komentar.\n•\nMenghasilkan dokumentasi.\n•\nMembuat contoh penggunaan.\nMateri juga membahas etika penggunaan AI, yaitu tidak menyalin hasil tanpa memahami logika\nyang dihasilkan."
+        },
+        {
+          "id": "11.9",
+          "title": "Pembuatan Website Modern",
+          "printed_page": 764,
+          "pdf_page_start": 168,
+          "pdf_page_end": 169,
+          "content": "Siswa belajar membangun website modern dengan struktur yang rapi.\nKomponen:\n•\nHeader.\n•\nHero Section.\n•\nLayanan.\n•\nPortofolio.\n•\nTestimoni.\n•\nKontak.\n•\nFooter.\nFokus diberikan pada desain responsif dan pengalaman pengguna (UX)."
+        },
+        {
+          "id": "11.10",
+          "title": "Pembuatan Website Company Profile",
+          "printed_page": 770,
+          "pdf_page_start": 169,
+          "pdf_page_end": 169,
+          "content": "Fitur:\n•\nProfil perusahaan.\n•\nVisi dan misi.\n•\nLayanan.\n•\nPortofolio.\n•\nTim.\n•\nKontak.\n•\nFormulir komunikasi.\nSiswa belajar menyusun informasi perusahaan secara profesional."
+        },
+        {
+          "id": "11.11",
+          "title": "Pembuatan Sistem POS",
+          "printed_page": 776,
+          "pdf_page_start": 169,
+          "pdf_page_end": 170,
+          "content": "Materi mencakup:\n•\nLogin.\n•\nDashboard.\n•\nData produk.\n•\nKategori.\n•\nTransaksi.\n•\nKeranjang.\n•\nPembayaran.\n•\nRiwayat transaksi.\n•\nLaporan sederhana.\nSiswa memahami alur transaksi dari awal hingga selesai."
+        },
+        {
+          "id": "11.12",
+          "title": "Pembuatan Sistem Inventory",
+          "printed_page": 782,
+          "pdf_page_start": 170,
+          "pdf_page_end": 170,
+          "content": "Fitur:\n•\nData barang.\n•\nSupplier.\n•\nGudang.\n•\nStok masuk.\n•\nStok keluar.\n•\nMutasi stok.\n•\nLaporan stok.\nMateri juga menjelaskan pentingnya pencatatan stok yang akurat."
+        },
+        {
+          "id": "11.13",
+          "title": "Pembuatan Sistem CRM",
+          "printed_page": 788,
+          "pdf_page_start": 170,
+          "pdf_page_end": 170,
+          "content": "Pengertian CRM\nCustomer Relationship Management (CRM) adalah sistem yang digunakan untuk mengelola\nhubungan dengan pelanggan.\nFitur\n•\nData pelanggan.\n•\nRiwayat komunikasi.\n•\nJadwal tindak lanjut.\n•\nCatatan transaksi.\n•\nStatus pelanggan.\nSiswa memahami bagaimana perusahaan mengelola data pelanggan secara terstruktur."
+        },
+        {
+          "id": "11.14",
+          "title": "Integrasi API",
+          "printed_page": 794,
+          "pdf_page_start": 171,
+          "pdf_page_end": 171,
+          "content": "Pengertian API\nApplication Programming Interface (API) memungkinkan aplikasi saling bertukar data.\nContoh\n•\nMengambil data cuaca.\n•\nMenampilkan peta.\n•\nMengirim notifikasi.\n•\nMemproses pembayaran.\nMateri menjelaskan konsep dasar request, response, dan format data JSON."
+        },
+        {
+          "id": "11.15",
+          "title": "Debugging dan Error Handling",
+          "printed_page": 800,
+          "pdf_page_start": 171,
+          "pdf_page_end": 171,
+          "content": "Siswa belajar:\n•\nMembaca pesan kesalahan.\n•\nMenelusuri sumber masalah.\n•\nMemperbaiki bug.\n•\nMenangani kesalahan input.\n•\nMenggunakan AI untuk membantu analisis.\nDitekankan bahwa hasil analisis AI harus selalu diuji sebelum diterapkan."
+        },
+        {
+          "id": "11.16",
+          "title": "Testing dan Validasi Sistem",
+          "printed_page": 806,
+          "pdf_page_start": 171,
+          "pdf_page_end": 172,
+          "content": "Jenis pengujian:\n•\nFunctional Testing.\n•\nUI Testing.\n•\nResponsive Testing.\n•\nInput Validation.\n•\nCross-browser Testing.\n•\nUser Acceptance Testing (UAT).\nMateri juga membahas pentingnya dokumentasi hasil pengujian."
+        },
+        {
+          "id": "11.17",
+          "title": "Deployment Website",
+          "printed_page": 812,
+          "pdf_page_start": 172,
+          "pdf_page_end": 172,
+          "content": "Materi meliputi:\n•\nPersiapan build.\n•\nPengaturan domain.\n•\nUpload aplikasi.\n•\nPengujian setelah deployment.\n•\nPemantauan performa awal.\nSiswa memahami bahwa deployment merupakan tahap akhir sebelum aplikasi digunakan oleh\npengguna."
+        },
+        {
+          "id": "11.18",
+          "title": "Studi Kasus Industri",
+          "printed_page": 818,
+          "pdf_page_start": 172,
+          "pdf_page_end": 172,
+          "content": "Kasus\nSebuah perusahaan jasa membutuhkan sistem CRM berbasis web untuk mengelola pelanggan\ndan layanan.\nTahapan\n1. Analisis kebutuhan.\n2. Menyusun fitur.\n3. Mendesain antarmuka.\n4. Mengembangkan aplikasi dengan bantuan Windsurf.\n5. Integrasi database.\n6. Pengujian.\n7. Deployment.\n8. Pelatihan pengguna.\nStudi kasus ini memperlihatkan bagaimana proyek perangkat lunak dikerjakan secara bertahap."
+        },
+        {
+          "id": "11.19",
+          "title": "Proyek Praktik Windsurf",
+          "printed_page": 824,
+          "pdf_page_start": 173,
+          "pdf_page_end": 173,
+          "content": "Peserta didik diminta membuat salah satu proyek berikut:\n•\nWebsite Company Profile.\n•\nSistem POS.\n•\nSistem Inventory.\n•\nSistem CRM.\n•\nWebsite Portofolio.\nTahapan proyek:\n1. Analisis kebutuhan.\n2. Perancangan.\n3. Pengembangan.\n4. Pengujian.\n5. Dokumentasi.\n6. Presentasi."
+        },
+        {
+          "id": "11.20",
+          "title": "Evaluasi Bab XI",
+          "printed_page": 830,
+          "pdf_page_start": 173,
+          "pdf_page_end": 173,
+          "content": "Indikator Keberhasilan\nPeserta didik mampu:\n•\nMenjelaskan konsep Windsurf sebagai AI IDE.\n•\nMenggunakan Cascade AI dan Agent Mode.\n•\nMenulis prompt pemrograman yang efektif.\n•\nMengembangkan aplikasi web sederhana.\n•\nMengintegrasikan API dan database.\n•\nMelakukan debugging dan pengujian.\n•\nMelakukan deployment aplikasi.\n•\nMenyelesaikan proyek sesuai workflow pengembangan perangkat lunak."
+        }
+      ]
+    },
+    {
+      "chapter": 12,
+      "code": "BAB XII",
+      "title": "PROYEK AKHIR PRAKTIK KERJA LAPANGAN (PKL)",
+      "intro": "",
+      "sections": [
+        {
+          "id": "12.1",
+          "title": "Pengertian Proyek Akhir PKL",
+          "printed_page": 833,
+          "pdf_page_start": 174,
+          "pdf_page_end": 174,
+          "content": "Pengertian\nProyek Akhir PKL adalah tugas komprehensif yang dikerjakan peserta didik pada akhir masa\nPraktik Kerja Lapangan sebagai bukti penerapan kompetensi yang telah diperoleh selama proses\nPKL.\nProyek ini menggabungkan pengetahuan, keterampilan teknis, kreativitas, kemampuan\nkomunikasi, dan penyelesaian masalah dalam sebuah hasil kerja yang dapat\ndipertanggungjawabkan.\nFungsi Proyek Akhir\n•\nMengukur kompetensi peserta didik.\n•\nMenjadi bukti pengalaman praktik.\n•\nMenambah portofolio profesional.\n•\nMelatih tanggung jawab terhadap proyek.\n•\nMenunjukkan kesiapan memasuki dunia kerja."
+        },
+        {
+          "id": "12.2",
+          "title": "Tujuan Proyek Akhir",
+          "printed_page": 837,
+          "pdf_page_start": 174,
+          "pdf_page_end": 174,
+          "content": "Tujuan utama proyek akhir adalah agar peserta didik mampu:\n•\nMengidentifikasi kebutuhan pengguna.\n•\nMenyusun solusi yang sesuai.\n•\nMenghasilkan karya yang memiliki nilai guna.\n•\nMenyelesaikan proyek secara mandiri maupun dalam tim.\n•\nMendokumentasikan seluruh proses kerja.\nSelain itu, proyek akhir bertujuan membiasakan siswa bekerja dengan target, tenggat waktu,\ndan standar kualitas seperti di dunia industri."
+        },
+        {
+          "id": "12.3",
+          "title": "Ketentuan Proyek",
+          "printed_page": 841,
+          "pdf_page_start": 175,
+          "pdf_page_end": 175,
+          "content": "Persyaratan Umum\n•\nProyek dikerjakan selama masa PKL atau sesuai jadwal yang ditetapkan.\n•\nTema sesuai dengan kompetensi keahlian.\n•\nMemiliki tujuan yang jelas.\n•\nDapat diuji dan dipresentasikan.\n•\nMemiliki dokumentasi lengkap.\nKriteria Proyek\n•\nOrisinal.\n•\nBermanfaat.\n•\nLayak diselesaikan dalam waktu yang tersedia.\n•\nSesuai kemampuan peserta didik.\n•\nMemiliki ruang untuk pengembangan lebih lanjut."
+        },
+        {
+          "id": "12.4",
+          "title": "Penyusunan Proposal Proyek",
+          "printed_page": 845,
+          "pdf_page_start": 175,
+          "pdf_page_end": 176,
+          "content": "Proposal merupakan dokumen awal yang menjelaskan rencana pelaksanaan proyek.\nStruktur Proposal\n1. Judul proyek.\n2. Latar belakang.\n3. Rumusan masalah.\n4. Tujuan.\n5. Manfaat.\n6. Ruang lingkup.\n7. Metode pelaksanaan.\n8. Jadwal.\n9. Kebutuhan alat dan bahan.\n10. Hasil yang diharapkan.\nProposal menjadi dasar persetujuan pembimbing sebelum proyek dimulai."
+        },
+        {
+          "id": "12.5",
+          "title": "Penentuan Tema Proyek",
+          "printed_page": 849,
+          "pdf_page_start": 176,
+          "pdf_page_end": 177,
+          "content": "Tema dipilih berdasarkan kebutuhan nyata dan kompetensi yang telah dipelajari.\nContoh Tema\nDesain Grafis\n•\nBranding UMKM.\n•\nCompany Profile.\n•\nDesain Kemasan.\n•\nKampanye Media Sosial.\nMotion Graphic\n•\nVideo Promosi.\n•\nAnimasi Edukasi.\n•\nOpening Video.\n•\nCompany Profile Motion.\nUI/UX\n•\nDesain Aplikasi Mobile.\n•\nDashboard Admin.\n•\nWebsite Portofolio.\nPengembangan Aplikasi\n•\nSistem POS.\n•\nSistem Inventaris.\n•\nSistem Reservasi.\n•\nSistem Absensi.\n•\nWebsite Company Profile.\nTema sebaiknya memiliki manfaat nyata bagi pengguna atau mitra PKL."
+        },
+        {
+          "id": "12.6",
+          "title": "Penyusunan Timeline",
+          "printed_page": 853,
+          "pdf_page_start": 177,
+          "pdf_page_end": 177,
+          "content": "Timeline membantu memastikan proyek selesai tepat waktu.\nContoh Tahapan\n1. Analisis kebutuhan.\n2. Penyusunan proposal.\n3. Pengumpulan data.\n4. Perancangan.\n5. Produksi.\n6. Revisi.\n7. Pengujian.\n8. Dokumentasi.\n9. Presentasi.\nSiswa belajar mengelola waktu dan menentukan prioritas pekerjaan."
+        },
+        {
+          "id": "12.7",
+          "title": "Perencanaan Kebutuhan Proyek",
+          "printed_page": 857,
+          "pdf_page_start": 177,
+          "pdf_page_end": 178,
+          "content": "Materi ini membahas identifikasi seluruh sumber daya yang dibutuhkan.\nContoh\n•\nPerangkat keras.\n•\nPerangkat lunak.\n•\nKamera.\n•\nMikrofon.\n•\nKomputer.\n•\nLisensi aplikasi.\n•\nReferensi.\n•\nWaktu.\n•\nAnggaran.\nPerencanaan yang baik membantu mengurangi hambatan selama pelaksanaan."
+        },
+        {
+          "id": "12.8",
+          "title": "Pelaksanaan Proyek",
+          "printed_page": 861,
+          "pdf_page_start": 178,
+          "pdf_page_end": 178,
+          "content": "Tahapan pelaksanaan mengikuti rencana yang telah disusun.\nLangkah\n1. Persiapan.\n2. Produksi.\n3. Monitoring.\n4. Revisi.\n5. Penyempurnaan.\n6. Pengujian.\nPeserta didik juga belajar pentingnya mencatat setiap perubahan selama proyek berlangsung."
+        },
+        {
+          "id": "12.9",
+          "title": "Dokumentasi Kegiatan",
+          "printed_page": 867,
+          "pdf_page_start": 178,
+          "pdf_page_end": 178,
+          "content": "Dokumentasi mencatat seluruh proses kerja sebagai bukti pelaksanaan proyek.\nBentuk Dokumentasi\n•\nFoto.\n•\nVideo.\n•\nTangkapan layar.\n•\nCatatan harian.\n•\nDaftar revisi.\n•\nHasil diskusi.\nDokumentasi memudahkan penyusunan laporan dan evaluasi."
+        },
+        {
+          "id": "12.10",
+          "title": "Penyusunan Laporan Akhir",
+          "printed_page": 873,
+          "pdf_page_start": 179,
+          "pdf_page_end": 179,
+          "content": "Laporan disusun secara sistematis.\nStruktur\n•\nSampul.\n•\nLembar pengesahan.\n•\nKata pengantar.\n•\nDaftar isi.\n•\nPendahuluan.\n•\nLandasan teori.\n•\nMetode.\n•\nHasil dan pembahasan.\n•\nKesimpulan.\n•\nSaran.\n•\nDaftar pustaka.\n•\nLampiran.\nMateri juga membahas teknik penulisan ilmiah sederhana."
+        },
+        {
+          "id": "12.11",
+          "title": "Teknik Presentasi Profesional",
+          "printed_page": 879,
+          "pdf_page_start": 179,
+          "pdf_page_end": 180,
+          "content": "Materi meliputi:\n•\nKomunikasi verbal.\n•\nKomunikasi nonverbal.\n•\nPenguasaan materi.\n•\nPengelolaan waktu.\n•\nMenjawab pertanyaan.\n•\nEtika presentasi.\nSiswa dilatih berbicara dengan percaya diri dan menyampaikan ide secara runtut."
+        },
+        {
+          "id": "12.12",
+          "title": "Penyusunan Slide Presentasi",
+          "printed_page": 885,
+          "pdf_page_start": 180,
+          "pdf_page_end": 180,
+          "content": "Slide harus:\n•\nSederhana.\n•\nKonsisten.\n•\nMudah dibaca.\n•\nMenggunakan gambar berkualitas.\n•\nMenampilkan poin utama.\nStruktur slide:\n1. Judul.\n2. Latar belakang.\n3. Permasalahan.\n4. Solusi.\n5. Proses pengerjaan.\n6. Hasil.\n7. Kesimpulan.\n8. Tanya jawab."
+        },
+        {
+          "id": "12.13",
+          "title": "Seminar Hasil PKL",
+          "printed_page": 891,
+          "pdf_page_start": 180,
+          "pdf_page_end": 181,
+          "content": "Seminar merupakan tahap penyampaian hasil proyek kepada pembimbing, guru, dan peserta\nlain.\nAlur Seminar\n1. Pembukaan.\n2. Presentasi.\n3. Demonstrasi produk.\n4. Tanya jawab.\n5. Penilaian.\n6. Penutup.\nSiswa belajar menerima masukan dan mempertanggungjawabkan hasil kerjanya."
+        },
+        {
+          "id": "12.14",
+          "title": "Penilaian Proyek",
+          "printed_page": 897,
+          "pdf_page_start": 181,
+          "pdf_page_end": 181,
+          "content": "Penilaian sebaiknya menggunakan rubrik yang jelas.\nAspek Penilaian\nAspek\nBobot (%)\nAnalisis kebutuhan\n10\nPerencanaan\n10\nKualitas proses\n20\nHasil proyek\n25\nDokumentasi\n10\nLaporan akhir\n10\nPresentasi\n10\nSikap profesional\n5\nRubrik dapat dilengkapi dengan indikator pencapaian untuk setiap aspek."
+        },
+        {
+          "id": "12.15",
+          "title": "Refleksi dan Evaluasi Proyek",
+          "printed_page": 903,
+          "pdf_page_start": 181,
+          "pdf_page_end": 182,
+          "content": "Refleksi membantu siswa mengevaluasi pengalaman belajar.\nPertanyaan refleksi dapat meliputi:\n•\nApa tantangan terbesar selama proyek?\n•\nBagaimana cara mengatasinya?\n•\nKompetensi apa yang paling berkembang?\n•\nApa yang akan diperbaiki jika proyek diulang?\nRefleksi mendorong kebiasaan belajar berkelanjutan."
+        },
+        {
+          "id": "12.16",
+          "title": "Evaluasi Bab XII",
+          "printed_page": 909,
+          "pdf_page_start": 182,
+          "pdf_page_end": 182,
+          "content": "Indikator Keberhasilan\nPeserta didik mampu:\n•\nMenjelaskan konsep proyek akhir PKL.\n•\nMenyusun proposal proyek.\n•\nMenentukan tema yang relevan.\n•\nMenyusun timeline dan kebutuhan proyek.\n•\nMelaksanakan proyek secara sistematis.\n•\nMendokumentasikan proses kerja.\n•\nMenyusun laporan akhir.\n•\nMenyampaikan presentasi profesional.\n•\nMelakukan refleksi terhadap hasil proyek."
+        }
+      ]
+    }
+  ]
+}
