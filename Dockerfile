@@ -2,7 +2,7 @@ FROM python:3.11-slim
 
 ENV PYTHONDONTWRITEBYTECODE=1 \
     PYTHONUNBUFFERED=1 \
-    PORT=10000
+    PORT=7860
 
 WORKDIR /app
 
@@ -22,9 +22,6 @@ ENV HOME=/home/user \
 WORKDIR /app
 COPY --chown=user:user . /app
 
-# Expose port (Render uses 10000 or dynamic $PORT)
-EXPOSE 10000
-EXPOSE 8000
+EXPOSE 7860
 
-# Run FastAPI dynamically using $PORT
-CMD uvicorn backend.app:app --host 0.0.0.0 --port ${PORT:-10000}
+CMD ["uvicorn", "backend.app:app", "--host", "0.0.0.0", "--port", "7860"]
