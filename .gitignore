@@ -29,3 +29,6 @@ uploads/
 # IDE
 .vscode/
 .idea/
+
+# Binaries
+*.exe
